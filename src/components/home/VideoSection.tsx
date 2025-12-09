@@ -29,7 +29,7 @@ const VideoSection = () => {
             <video
               className="w-full h-full object-cover"
               src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/artkitchen-optimized.mp4"
-              poster="/placeholder.svg"
+              poster="/coverphoto.png"
               controls
               playsInline
               preload="metadata"

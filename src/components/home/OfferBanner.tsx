@@ -10,7 +10,7 @@ const OfferBanner = () => {
           <img
             src="/aok/offer.png.webp"
             alt="Special offer"
-            className="w-full h-auto object-contain"
+            className="w-full h-auto object-contain max-w-md mx-auto"
           />
         </AnimatedSection>
         <AnimatedSection delay={0.1} className="space-y-4">

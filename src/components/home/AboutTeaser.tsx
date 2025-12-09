@@ -13,7 +13,7 @@ const AboutTeaser = () => {
           <AnimatedSection animation="fade-in-left" className="order-2 lg:order-1">
             <div className="relative">
               <ParallaxImage
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop"
+                src="/aok/project2/DSC_2515-scaled.jpg"
                 alt="Kitchen craftsmanship"
                 className="aspect-[4/5] w-full"
               />
