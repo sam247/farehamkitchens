@@ -26,12 +26,13 @@ const VideoSection = () => {
         {/* Video Container */}
         <AnimatedSection delay={0.3}>
           <div className="relative aspect-video bg-secondary overflow-hidden group">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/DQAUbbnnzOI?rel=0&modestbranding=1&controls=0&showinfo=0"
-              title="The Art of Kitchen Making"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
+            <video
+              className="w-full h-full object-cover"
+              src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/artkitchen.mp4"
+              poster="/placeholder.svg"
+              controls
+              playsInline
+              preload="metadata"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-background/40 to-background/60 pointer-events-none" />
             <div className="absolute bottom-6 left-6">
