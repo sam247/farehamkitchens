@@ -1,3 +1,4 @@
+import Image from "next/image";
 import AnimatedSection from "../ui/AnimatedSection";
 import { Star } from "lucide-react";
 
@@ -20,9 +21,25 @@ const TrustSignals = () => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-6 lg:px-12">
-        <AnimatedSection className="text-center mb-12">
+        <AnimatedSection className="text-center mb-12 space-y-4">
           <span className="label-uppercase text-primary mb-4 block">Trust & Reputation</span>
           <h2 className="heading-large text-foreground">Loved by homeowners</h2>
+          <div className="flex justify-center">
+            <a
+              href="https://uk.trustpilot.com/review/aokitchens.co.uk"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-3 px-4 py-3 bg-background border border-border hover:border-primary transition-colors duration-300"
+            >
+              <Image src="/trustpilot-white.webp" alt="Trustpilot" width={120} height={30} />
+              <div className="flex items-center gap-2 text-primary">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} size={16} fill="currentColor" strokeWidth={0} />
+                ))}
+              </div>
+              <span className="label-uppercase text-xs text-foreground/80">5.0 rating</span>
+            </a>
+          </div>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

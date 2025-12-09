@@ -161,7 +161,7 @@ const Services = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.3}>
                   <div className="grid grid-cols-2 gap-6">
-                    {['Gaggenau', 'Miele', 'Sub-Zero', 'Wolf', 'Bora', 'Siemens'].map((brand) => (
+                    {['AEG', 'NEFF', 'Fisher & Paykal', 'Siemens', 'Quooker', 'Premium Appliances'].map((brand) => (
                       <div
                         key={brand}
                         className="p-4 border border-border text-center hover:border-primary transition-colors duration-300"

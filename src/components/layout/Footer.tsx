@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Linkedin, ArrowUpRight } from "lucide-react";
 
 const Footer = () => {
@@ -38,6 +39,14 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/blog"
+                  className="body-elegant text-muted-foreground hover:text-foreground transition-colors duration-300 link-elegant"
+                >
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -99,9 +108,20 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} Fareham Kitchens. All rights reserved.
-          </p>
+          <div className="flex items-center gap-6">
+            <p className="text-sm text-muted-foreground">
+              © {currentYear} Fareham Kitchens. All rights reserved.
+            </p>
+            <a
+              href="https://uk.trustpilot.com/review/aokitchens.co.uk"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
+            >
+              <Image src="/trustpilot-white.webp" alt="Trustpilot" width={100} height={24} />
+              <span className="label-uppercase text-xs text-foreground/80">5.0</span>
+            </a>
+          </div>
 
           {/* Social Links */}
           <div className="flex items-center gap-6">
