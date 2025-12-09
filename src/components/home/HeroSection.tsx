@@ -26,10 +26,12 @@ const HeroSection = () => {
           muted
           loop
           playsInline
+          preload="metadata"
+          poster="/placeholder.svg"
           className="w-full h-full object-cover"
         >
           <source
-            src="https://videos.pexels.com/video-files/6585770/6585770-uhd_2732_1440_25fps.mp4"
+            src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/video.mp4"
             type="video/mp4"
           />
         </video>
