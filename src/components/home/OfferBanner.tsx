@@ -24,7 +24,7 @@ const OfferBanner = () => {
             <MagneticButton to="/contact" variant="outline">
               Claim the Offer
             </MagneticButton>
-            <MagneticButton to="tel:+441329123456" variant="ghost">
+            <MagneticButton to="tel:+441489788617" variant="ghost">
               Call Us
             </MagneticButton>
           </div>

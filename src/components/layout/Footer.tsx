@@ -47,27 +47,33 @@ const Footer = () => {
             <ul className="space-y-4 body-elegant text-muted-foreground">
               <li>
                 <a
-                  href="tel:+441329123456"
+                  href="tel:+441489788617"
                   className="hover:text-foreground transition-colors duration-300"
                 >
-                  +44 (0) 1329 123 456
+                  01489 788617
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hello@farehamkitchens.co.uk"
+                  href="mailto:info@aokitchens.co.uk"
                   className="hover:text-foreground transition-colors duration-300"
                 >
-                  hello@farehamkitchens.co.uk
+                  info@aokitchens.co.uk
                 </a>
               </li>
               <li className="pt-4">
                 <address className="not-italic">
-                  Design Studio<br />
-                  123 High Street<br />
-                  Fareham, Hampshire<br />
-                  PO16 7AZ
+                  491-493 Bitterne Road East<br />
+                  Southampton<br />
+                  SO18 5EQ
                 </address>
+              </li>
+              <li>
+                <p className="not-italic">
+                  Monday to Friday: 9:30am – 5:00am<br />
+                  Saturday: 10:00am – 4:00am<br />
+                  Sunday: Closed
+                </p>
               </li>
             </ul>
           </div>
@@ -130,18 +136,7 @@ const Footer = () => {
 
           {/* Legal */}
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <Link href="/privacy" className="hover:text-foreground transition-colors duration-300">
-              Privacy
-            </Link>
-            <Link href="/terms" className="hover:text-foreground transition-colors duration-300">
-              Terms
-            </Link>
-            <a
-              href="tel:+441329123456"
-              className="hover:text-foreground transition-colors duration-300"
-            >
-              Call Us
-            </a>
+            <span>Copyright © 2025 | Andrew Osbourne Kitchens T/A Fareham Kitchens | Powered by Better Ranking</span>
           </div>
         </div>
       </div>

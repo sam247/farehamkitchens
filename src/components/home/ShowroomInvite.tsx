@@ -22,15 +22,15 @@ const ShowroomInvite = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.3}>
             <div className="space-y-2 body-elegant text-foreground">
-              <p><strong>Address:</strong> 123 High Street, Fareham, Hampshire, PO16 7AZ</p>
-              <p><strong>Opening Hours:</strong> Monday – Saturday: 9am – 6pm · Sunday: By Appointment</p>
-              <p><strong>Call:</strong> <a href="tel:+441329123456" className="hover:text-primary transition-colors">+44 (0) 1329 123 456</a></p>
+              <p><strong>Address:</strong> 491-493 Bitterne Road East, Southampton, SO18 5EQ</p>
+              <p><strong>Opening Hours:</strong> Monday to Friday: 9:30am – 5:00am · Saturday: 10:00am – 4:00am · Sunday: Closed</p>
+              <p><strong>Call:</strong> <a href="tel:+441489788617" className="hover:text-primary transition-colors">01489 788617</a></p>
             </div>
           </AnimatedSection>
           <AnimatedSection delay={0.4}>
             <div className="flex flex-wrap gap-4">
               <MagneticButton to="/contact" variant="outline">Book a Visit</MagneticButton>
-              <MagneticButton to="tel:+441329123456" variant="ghost">Call Us</MagneticButton>
+              <MagneticButton to="tel:+441489788617" variant="ghost">Call Us</MagneticButton>
             </div>
           </AnimatedSection>
         </div>

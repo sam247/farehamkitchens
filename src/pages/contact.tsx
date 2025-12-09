@@ -46,24 +46,24 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Visit Our Showroom',
-      details: ['123 High Street', 'Fareham, Hampshire', 'PO16 7AZ'],
+      details: ['491-493 Bitterne Road East', 'Southampton', 'SO18 5EQ'],
     },
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+44 (0) 1329 123 456'],
-      link: 'tel:+441329123456',
+      details: ['01489 788617'],
+      link: 'tel:+441489788617',
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['hello@farehamkitchens.co.uk'],
-      link: 'mailto:hello@farehamkitchens.co.uk',
+      details: ['info@aokitchens.co.uk'],
+      link: 'mailto:info@aokitchens.co.uk',
     },
     {
       icon: Clock,
       title: 'Opening Hours',
-      details: ['Mon – Sat: 9am – 6pm', 'Sunday: By Appointment'],
+      details: ['Monday to Friday: 9:30am – 5:00am', 'Saturday: 10:00am – 4:00am', 'Sunday: Closed'],
     },
   ];
 
@@ -267,8 +267,8 @@ const Contact = () => {
                   <div className="aspect-[4/3] bg-secondary border border-border relative overflow-hidden group">
                     <img
                     src="/aok/AOK-showroom.jpg.webp"
-                      alt="Map location"
-                      className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
+                    alt="Map location"
+                    className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">
