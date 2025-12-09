@@ -1,0 +1,25 @@
+# Node / Next
+node_modules
+.next
+.vercel
+out
+dist
+
+# Env / logs
+.env
+.env.local
+.env.production
+.env.development
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.DS_Store
+.idea
+.vscode
+
+# Local backups
+BACKUP
+
