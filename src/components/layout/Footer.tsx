@@ -120,7 +120,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-6">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Fareham Kitchens. All rights reserved.
+              Copyright © 2025 | Andrew Osbourne Kitchens T/A Fareham Kitchens
             </p>
           </div>
 
