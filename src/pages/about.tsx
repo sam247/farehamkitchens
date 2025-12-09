@@ -72,9 +72,7 @@ const About = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  For over 25 years, Fareham Kitchens has been at the forefront of
-                  bespoke kitchen design in Hampshire, transforming homes with
-                  uncompromising quality and timeless elegance.
+                  Every kitchen we create is made to order, balancing beauty and functionality. With over 40 years of expertise, premium materials, and state-of-the-art production, we craft kitchens that stand the test of time for homeowners, designers, and developers alike.
                 </p>
               </AnimatedSection>
             </div>
@@ -87,7 +85,7 @@ const About = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
               <AnimatedSection animation="fade-in-left">
               <ParallaxImage
-                src="/aok/28057-Vinyl-Matfen-DustGreyOak-Wide1.jpg.webp"
+                src="/aok/project2/DSC_2521-scaled.jpg"
                 alt="Our workshop"
                 className="aspect-[4/5]"
               />
@@ -103,27 +101,19 @@ const About = () => {
 
                 <AnimatedSection delay={0.3}>
                   <p className="body-elegant text-muted-foreground mb-6 leading-relaxed">
-                    Founded by Richard Fareham in 1998, what began as a small workshop
-                    has grown into one of Hampshire&apos;s most respected kitchen design
-                    studios. Our journey has been defined by an unwavering commitment
-                    to excellence and a deep respect for the art of kitchen making.
+                    Our family has been in the KBB sector for over 40 years, starting with an appliance store in Woolston, Hampshire. Three generations on, we still lead with customer service and attention to detail, specializing in both German and British kitchens across modern and traditional styles.
                   </p>
                 </AnimatedSection>
 
                 <AnimatedSection delay={0.4}>
                   <p className="body-elegant text-muted-foreground mb-6 leading-relaxed">
-                    Today, our team of designers, craftsmen, and installation experts
-                    work together to create kitchens that are not just functional
-                    spaces, but the heart of the home – where families gather,
-                    memories are made, and life happens.
+                    We build lasting relationships with homeowners, designers, and developers, delivering personalised service and meticulous craftsmanship. Glowing reviews reflect our commitment to quality, functionality, and style.
                   </p>
                 </AnimatedSection>
 
                 <AnimatedSection delay={0.5}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Every Fareham Kitchen tells a story – your story. We take immense
-                    pride in understanding your unique needs and translating them into
-                    a bespoke design that will bring joy for generations to come.
+                    Visit our 2,500 sq ft showroom to explore multiple ranges and leading appliances. With expert designers and end-to-end project care led by Matt, we ensure a seamless journey from design to completion—and a kitchen that’s truly yours.
                   </p>
                 </AnimatedSection>
               </div>
