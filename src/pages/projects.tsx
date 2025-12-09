@@ -39,9 +39,9 @@ const projects = [
     id: 4,
     title: 'Oak Shaker Kitchen, West Wellow',
     category: 'Shaker',
-    image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
+    image: '/aok/project4/image00012-1-scaled-2.jpeg',
     description:
-      'Oak shaker cabinetry with modern lines, generous storage, and a calm neutral palette tailored for daily living.',
+      "Milford shaker in natural oak stained with Osmo Raw, large larder storage with internal drawers, statement Smeg range under a custom mantle, and a re-used oak beam to preserve character.",
   },
 ];
 

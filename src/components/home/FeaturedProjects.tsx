@@ -23,6 +23,12 @@ const projects = [
     category: 'Classic',
     image: '/aok/project3/image00024-scaled.jpeg',
   },
+  {
+    id: 4,
+    title: 'Oak Shaker, West Wellow',
+    category: 'Shaker',
+    image: '/aok/project4/image00012-1-scaled-2.jpeg',
+  },
 ];
 
 const FeaturedProjects = () => {
