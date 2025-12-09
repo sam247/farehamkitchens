@@ -10,24 +10,28 @@ const projects = [
     title: 'Handleless Blue Kitchen, Botley',
     category: 'Handleless',
     image: '/aok/project1/Cinney-Ray-4-scaled.jpg',
+    slug: 'botley-kitchen-project',
   },
   {
     id: 2,
     title: 'Contemporary Shaker, Southampton',
     category: 'Shaker',
     image: '/aok/project2/DSC_2513-scaled.jpg',
+    slug: 'southampton-kitchen-project',
   },
   {
     id: 3,
     title: 'Taupe & Oak, Totton',
     category: 'Classic',
     image: '/aok/project3/image00024-scaled.jpeg',
+    slug: 'totton-kitchen-project',
   },
   {
     id: 4,
     title: 'Oak Shaker, West Wellow',
     category: 'Shaker',
     image: '/aok/project4/image00012-1-scaled-2.jpeg',
+    slug: 'west-wellow-kitchen-project',
   },
 ];
 
@@ -74,7 +78,7 @@ const FeaturedProjects = () => {
               className="group"
             >
               <Link
-                href={`/projects/${project.id}`}
+                href={`/projects/${project.slug}`}
                 className="block relative overflow-hidden"
                 onMouseEnter={() => setHoveredProject(project.id)}
                 onMouseLeave={() => setHoveredProject(null)}

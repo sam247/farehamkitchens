@@ -13,6 +13,7 @@ const categories = ['All', 'Contemporary', 'Classic', 'Handleless', 'Shaker'];
 const projects = [
   {
     id: 1,
+    slug: 'botley-kitchen-project',
     title: 'Handleless Blue Kitchen, Botley',
     category: 'Handleless',
     image: '/aok/project1/Cinney-Ray-4-scaled.jpg',
@@ -21,6 +22,7 @@ const projects = [
   },
   {
     id: 2,
+    slug: 'southampton-kitchen-project',
     title: 'Contemporary Shaker Kitchen, Southampton',
     category: 'Shaker',
     image: '/aok/project2/DSC_2513-scaled.jpg',
@@ -29,6 +31,7 @@ const projects = [
   },
   {
     id: 3,
+    slug: 'totton-kitchen-project',
     title: 'Taupe & Oak Kitchen, Totton',
     category: 'Classic',
     image: '/aok/project3/image00024-scaled.jpeg',
@@ -37,6 +40,7 @@ const projects = [
   },
   {
     id: 4,
+    slug: 'west-wellow-kitchen-project',
     title: 'Oak Shaker Kitchen, West Wellow',
     category: 'Shaker',
     image: '/aok/project4/image00012-1-scaled-2.jpeg',
@@ -123,7 +127,7 @@ const Projects = () => {
                   className="group"
                 >
                   <Link
-                    href={`/projects/${project.id}`}
+                    href={`/projects/${project.slug}`}
                     className="block relative overflow-hidden"
                     onMouseEnter={() => setHoveredProject(project.id)}
                     onMouseLeave={() => setHoveredProject(null)}
