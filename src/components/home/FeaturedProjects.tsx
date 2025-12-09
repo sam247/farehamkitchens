@@ -9,19 +9,19 @@ const projects = [
     id: 1,
     title: 'The Southsea Residence',
     category: 'Contemporary',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
   },
   {
     id: 2,
     title: 'Winchester Manor',
     category: 'Classic',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
   },
   {
     id: 3,
     title: 'The Hampshire Estate',
     category: 'Handleless',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp',
   },
 ];
 

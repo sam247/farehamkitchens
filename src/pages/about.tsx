@@ -86,11 +86,11 @@ const About = () => {
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
               <AnimatedSection animation="fade-in-left">
-                <ParallaxImage
-                  src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop"
-                  alt="Our workshop"
-                  className="aspect-[4/5]"
-                />
+              <ParallaxImage
+                src="/aok/28057-Vinyl-Matfen-DustGreyOak-Wide1.jpg.webp"
+                alt="Our workshop"
+                className="aspect-[4/5]"
+              />
               </AnimatedSection>
 
               <div>
@@ -238,11 +238,11 @@ const About = () => {
               </div>
 
               <AnimatedSection animation="fade-in-right" delay={0.2}>
-                <ParallaxImage
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop"
-                  alt="Our showroom"
-                  className="aspect-square"
-                />
+              <ParallaxImage
+                src="/aok/AOK-showroom.jpg.webp"
+                alt="Our showroom"
+                className="aspect-square"
+              />
               </AnimatedSection>
             </div>
           </div>

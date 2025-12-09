@@ -19,7 +19,7 @@ const processSteps = [
       'Discuss budget considerations and timeline',
       'Take initial measurements and photographs',
     ],
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp',
     duration: '1-2 hours',
   },
   {
@@ -33,7 +33,7 @@ const processSteps = [
       'Appliance specification and integration',
       'Lighting and electrical planning',
     ],
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/Bali_Nussbaum_M_Querformat_1700x1200.jpg.webp',
     duration: '2-4 weeks',
   },
   {
@@ -47,7 +47,7 @@ const processSteps = [
       'Quality control at every stage',
       'Coordination with suppliers and specialists',
     ],
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
     duration: '6-10 weeks',
   },
   {
@@ -61,7 +61,7 @@ const processSteps = [
       'Appliance installation and testing',
       'Comprehensive handover and aftercare',
     ],
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop',
+    image: '/aok/AOK-showroom.jpg.webp',
     duration: '1-2 weeks',
   },
 ];

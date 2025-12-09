@@ -266,7 +266,7 @@ const Contact = () => {
                 <AnimatedSection delay={0.5}>
                   <div className="aspect-[4/3] bg-secondary border border-border relative overflow-hidden group">
                     <img
-                      src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop"
+                    src="/aok/AOK-showroom.jpg.webp"
                       alt="Map location"
                       className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
                     />

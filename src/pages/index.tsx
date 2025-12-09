@@ -10,6 +10,7 @@ import Testimonials from "@/components/home/Testimonials";
 import CTASection from "@/components/home/CTASection";
 import KitchenRanges from "@/components/home/KitchenRanges";
 import ShowroomInvite from "@/components/home/ShowroomInvite";
+import OfferBanner from "@/components/home/OfferBanner";
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <main className="min-h-screen bg-background">
         <Navigation />
         <HeroSection />
+        <OfferBanner />
         <KitchenRanges />
         <AboutTeaser />
         <FeaturedProjects />

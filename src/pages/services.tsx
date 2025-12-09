@@ -93,7 +93,7 @@ const Services = () => {
 
               <AnimatedSection animation="fade-in-right" delay={0.4}>
                 <ParallaxImage
-                  src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop"
+                src="/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp"
                   alt="Kitchen design consultation"
                   className="aspect-square"
                 />
@@ -175,7 +175,7 @@ const Services = () => {
 
               <AnimatedSection animation="fade-in-right" delay={0.2}>
                 <ParallaxImage
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+                src="/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp"
                   alt="Premium kitchen appliances"
                   className="aspect-[4/5]"
                 />
