@@ -28,7 +28,7 @@ const VideoSection = () => {
           <div className="relative aspect-video bg-secondary overflow-hidden group">
             <video
               className="w-full h-full object-cover"
-              src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/artkitchen.mp4"
+              src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/artkitchen-optimized.mp4"
               poster="/placeholder.svg"
               controls
               playsInline
