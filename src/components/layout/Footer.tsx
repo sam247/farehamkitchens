@@ -136,6 +136,12 @@ const Footer = () => {
             <Link href="/terms" className="hover:text-foreground transition-colors duration-300">
               Terms
             </Link>
+            <a
+              href="tel:+441329123456"
+              className="hover:text-foreground transition-colors duration-300"
+            >
+              Call Us
+            </a>
           </div>
         </div>
       </div>

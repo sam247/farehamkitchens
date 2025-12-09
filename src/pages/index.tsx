@@ -8,6 +8,8 @@ import VideoSection from "@/components/home/VideoSection";
 import ProcessPreview from "@/components/home/ProcessPreview";
 import Testimonials from "@/components/home/Testimonials";
 import CTASection from "@/components/home/CTASection";
+import KitchenRanges from "@/components/home/KitchenRanges";
+import ShowroomInvite from "@/components/home/ShowroomInvite";
 
 const Index = () => {
   return (
@@ -22,10 +24,12 @@ const Index = () => {
       <main className="min-h-screen bg-background">
         <Navigation />
         <HeroSection />
+        <KitchenRanges />
         <AboutTeaser />
         <FeaturedProjects />
         <VideoSection />
         <ProcessPreview />
+        <ShowroomInvite />
         <Testimonials />
         <CTASection />
         <Footer />

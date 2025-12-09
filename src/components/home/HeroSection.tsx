@@ -31,7 +31,7 @@ const HeroSection = () => {
           className="w-full h-full object-cover"
         >
           <source
-            src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/video.mp4"
+            src="https://qwsbn0lr4mojvbjy.public.blob.vercel-storage.com/video-optimized.mp4"
             type="video/mp4"
           />
         </video>
@@ -72,12 +72,15 @@ const HeroSection = () => {
 
         {/* CTA */}
         <div
-          className={`transition-all duration-1000 delay-[1200ms] ${
+          className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-[1200ms] ${
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}
         >
           <MagneticButton to="/contact" variant="outline">
             Book a Consultation
+          </MagneticButton>
+          <MagneticButton to="/contact?type=brochure" variant="ghost">
+            Download Brochure
           </MagneticButton>
         </div>
       </div>

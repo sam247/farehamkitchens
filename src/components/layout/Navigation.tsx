@@ -62,6 +62,12 @@ const Navigation = () => {
                 </Link>
               ))}
               <Link
+                href="tel:+441329123456"
+                className="label-uppercase text-foreground/80 hover:text-foreground transition-colors duration-300"
+              >
+                Call
+              </Link>
+              <Link
                 href="/contact"
                 className="label-uppercase px-8 py-3 border border-foreground text-foreground hover:bg-foreground hover:text-background transition-all duration-500"
               >
