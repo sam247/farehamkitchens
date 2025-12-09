@@ -7,21 +7,21 @@ import AnimatedSection from "../ui/AnimatedSection";
 const projects = [
   {
     id: 1,
-    title: 'The Southsea Residence',
-    category: 'Contemporary',
-    image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
+    title: 'Handleless Blue Kitchen, Botley',
+    category: 'Handleless',
+    image: '/aok/project1/Cinney-Ray-4-scaled.jpg',
   },
   {
     id: 2,
-    title: 'Winchester Manor',
-    category: 'Classic',
-    image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
+    title: 'Contemporary Shaker, Southampton',
+    category: 'Shaker',
+    image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
   },
   {
     id: 3,
-    title: 'The Hampshire Estate',
-    category: 'Handleless',
-    image: '/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp',
+    title: 'Taupe & Oak, Totton',
+    category: 'Classic',
+    image: '/aok/Montreal_Feineiche_hell_M_Querformat_1700x1200.jpg.webp',
   },
 ];
 

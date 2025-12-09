@@ -13,59 +13,35 @@ const categories = ['All', 'Contemporary', 'Classic', 'Handleless', 'Shaker'];
 const projects = [
   {
     id: 1,
-    title: 'The Southsea Residence',
-    category: 'Contemporary',
-    image: '/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp',
-    description: 'A stunning open-plan kitchen with sleek handleless cabinetry and integrated appliances.',
+    title: 'Handleless Blue Kitchen, Botley',
+    category: 'Handleless',
+    image: '/aok/project1/Cinney-Ray-4-scaled.jpg',
+    description:
+      'Systemat AV6000 true handleless in a bespoke blue, bronze mirror splashback, Dekton island, AEG + Bora appliances, Quooker boiling tap, and tall cabinetry for concealed storage.',
   },
   {
     id: 2,
-    title: 'Winchester Manor',
-    category: 'Classic',
+    title: 'Contemporary Shaker Kitchen, Southampton',
+    category: 'Shaker',
     image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
-    description: 'Traditional craftsmanship meets modern functionality in this elegant country kitchen.',
+    description:
+      'Contemporary shaker reconfiguration with peninsula seating, oak accents, full-height storage, and solid timber doors for durability.',
   },
   {
     id: 3,
-    title: 'The Hampshire Estate',
-    category: 'Handleless',
-    image: '/aok/28057-Vinyl-Matfen-DustGreyOak-Wide1.jpg.webp',
-    description: 'Minimalist design with maximum impact, featuring custom bronze accents.',
+    title: 'Taupe & Oak Kitchen, Totton',
+    category: 'Classic',
+    image: '/aok/Montreal_Feineiche_hell_M_Querformat_1700x1200.jpg.webp',
+    description:
+      'Warm taupe and oak palette with generous prep space, integrated lighting, and balanced storage for family living.',
   },
   {
     id: 4,
-    title: 'Petersfield Farmhouse',
+    title: 'Oak Shaker Kitchen, West Wellow',
     category: 'Shaker',
     image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
-    description: 'A warm and inviting shaker-style kitchen with natural oak finishes.',
-  },
-  {
-    id: 5,
-    title: 'The Chichester Project',
-    category: 'Contemporary',
-    image: '/aok/Bali_Nussbaum_M_Querformat_1700x1200.jpg.webp',
-    description: 'Bold colour choices and innovative storage solutions define this modern space.',
-  },
-  {
-    id: 6,
-    title: 'Lymington Coastal Home',
-    category: 'Classic',
-    image: '/aok/Bali_Nussbaum_M_Querformat_1700x1200.jpg-2.webp',
-    description: 'Coastal-inspired elegance with hand-painted cabinetry and marble worktops.',
-  },
-  {
-    id: 7,
-    title: 'The New Forest Retreat',
-    category: 'Handleless',
-    image: '/aok/Scala_Olivgruen_Kochstelle_Hochformat_1200x1700-r67vupekuuidnwqpyz99jp8gjcxpjyjlfcb1jf6c0u.jpg',
-    description: 'Seamless integration with nature through floor-to-ceiling glazing and organic materials.',
-  },
-  {
-    id: 8,
-    title: 'Emsworth Victorian',
-    category: 'Shaker',
-    image: '/aok/Montreal_Feineiche_hell_M_Querformat_1700x1200.jpg.webp',
-    description: 'Period charm preserved with modern conveniences in this Victorian renovation.',
+    description:
+      'Oak shaker cabinetry with modern lines, generous storage, and a calm neutral palette tailored for daily living.',
   },
 ];
 
