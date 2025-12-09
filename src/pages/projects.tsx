@@ -23,9 +23,9 @@ const projects = [
     id: 2,
     title: 'Contemporary Shaker Kitchen, Southampton',
     category: 'Shaker',
-    image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
+    image: '/aok/project2/DSC_2513-scaled.jpg',
     description:
-      'Contemporary shaker reconfiguration with peninsula seating, oak accents, full-height storage, and solid timber doors for durability.',
+      'Full kitchen remodel with building works and reconfiguration. Contemporary shaker cabinetry, peninsula seating, oak shelves with integrated lighting, full-height storage, and solid timber doors for lasting durability.',
   },
   {
     id: 3,

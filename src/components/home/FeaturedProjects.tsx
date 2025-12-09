@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: 'Contemporary Shaker, Southampton',
     category: 'Shaker',
-    image: '/aok/28164-Painted-Milford-Oak-LightGrey-Wide.jpg.webp',
+    image: '/aok/project2/DSC_2513-scaled.jpg',
   },
   {
     id: 3,
