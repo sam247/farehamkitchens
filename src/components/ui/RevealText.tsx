@@ -22,13 +22,14 @@ const RevealText = ({ text, className = '', delay = 0, stagger = 0.03 }: RevealT
       { threshold: 0.1 }
     );
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    const current = ref.current;
+    if (current) {
+      observer.observe(current);
     }
 
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
+      if (current) {
+        observer.unobserve(current);
       }
     };
   }, []);

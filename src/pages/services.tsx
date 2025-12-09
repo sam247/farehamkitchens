@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import { Compass, Palette, Hammer, Sparkles, Shield, HeartHandshake } from "lucide-react";
 import Navigation from "@/components/layout/Navigation";
@@ -152,7 +153,7 @@ const Services = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground mb-8 leading-relaxed">
-                    We partner with the world's finest appliance manufacturers to
+                    We partner with the world&apos;s finest appliance manufacturers to
                     ensure your kitchen is equipped with the very best. From German
                     engineering excellence to American innovation, we source and
                     integrate appliances that match the quality of our cabinetry.

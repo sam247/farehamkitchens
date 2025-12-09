@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Head from "next/head";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";

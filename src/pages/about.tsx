@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -103,7 +104,7 @@ const About = () => {
                 <AnimatedSection delay={0.3}>
                   <p className="body-elegant text-muted-foreground mb-6 leading-relaxed">
                     Founded by Richard Fareham in 1998, what began as a small workshop
-                    has grown into one of Hampshire's most respected kitchen design
+                    has grown into one of Hampshire&apos;s most respected kitchen design
                     studios. Our journey has been defined by an unwavering commitment
                     to excellence and a deep respect for the art of kitchen making.
                   </p>

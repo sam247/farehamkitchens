@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import AnimatedSection from "../ui/AnimatedSection";
@@ -45,13 +46,13 @@ const AboutTeaser = () => {
                 For over two decades, Fareham Kitchens has been crafting bespoke kitchens 
                 that transform the way families live. Our dedication to excellence, 
                 attention to detail, and passion for innovative design has established 
-                us as Hampshire's premier kitchen design studio.
+                us as Hampshire&apos;s premier kitchen design studio.
               </p>
             </AnimatedSection>
 
             <AnimatedSection delay={0.5}>
               <p className="body-elegant text-muted-foreground mb-10 leading-relaxed">
-                Every kitchen we create is a unique expression of our clients' lifestyle, 
+                Every kitchen we create is a unique expression of our clients&apos; lifestyle, 
                 meticulously designed and handcrafted to the highest standards of quality 
                 and craftsmanship.
               </p>

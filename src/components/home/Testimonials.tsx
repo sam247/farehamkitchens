@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import AnimatedSection from '../ui/AnimatedSection';
@@ -75,7 +76,7 @@ const Testimonials = () => {
                 }`}
               >
                 <blockquote className="heading-medium text-foreground mb-10 leading-relaxed">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </blockquote>
                 <cite className="not-italic">
                   <span className="body-elegant text-foreground block mb-1">
