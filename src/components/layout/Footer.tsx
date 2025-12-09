@@ -23,6 +23,16 @@ const Footer = () => {
             <p className="body-elegant text-muted-foreground max-w-xs">
               Crafting bespoke luxury kitchens for discerning homeowners across Hampshire and beyond.
             </p>
+            <div className="mt-4">
+              <a
+                href="https://uk.trustpilot.com/review/aokitchens.co.uk"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
+              >
+                <Image src="/trustpilot-white.webp" alt="Trustpilot" width={90} height={22} />
+              </a>
+            </div>
           </div>
 
           {/* Navigation */}
@@ -112,15 +122,6 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground">
               © {currentYear} Fareham Kitchens. All rights reserved.
             </p>
-            <a
-              href="https://uk.trustpilot.com/review/aokitchens.co.uk"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
-            >
-              <Image src="/trustpilot-white.webp" alt="Trustpilot" width={100} height={24} />
-              <span className="label-uppercase text-xs text-foreground/80">5.0</span>
-            </a>
           </div>
 
           {/* Social Links */}
