@@ -11,6 +11,7 @@ import CTASection from "@/components/home/CTASection";
 import KitchenRanges from "@/components/home/KitchenRanges";
 import ShowroomInvite from "@/components/home/ShowroomInvite";
 import OfferBanner from "@/components/home/OfferBanner";
+import TrustSignals from "@/components/home/TrustSignals";
 
 const Index = () => {
   return (
@@ -31,6 +32,7 @@ const Index = () => {
         <FeaturedProjects />
         <VideoSection />
         <ProcessPreview />
+        <TrustSignals />
         <ShowroomInvite />
         <Testimonials />
         <CTASection />
