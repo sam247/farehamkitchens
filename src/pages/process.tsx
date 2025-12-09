@@ -94,10 +94,10 @@ const Process = () => {
   return (
     <>
       <Head>
-        <title>Process | Fareham Kitchens</title>
+        <title>Kitchen Design Process | Fareham Kitchens Hampshire</title>
         <meta
           name="description"
-          content="See how Fareham Kitchens guides you from consultation and design to craftsmanship, installation, and aftercare for bespoke kitchens."
+          content="Our Fareham kitchen showroom guides you from consultation and design through installation: handleless, Shaker, granite worktops, and bespoke cabinetry."
         />
       </Head>
       <main className="min-h-screen bg-background">

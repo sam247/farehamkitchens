@@ -70,10 +70,10 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact | Fareham Kitchens</title>
+        <title>Contact Fareham Kitchen Showroom | Book a Consultation</title>
         <meta
           name="description"
-          content="Contact Fareham Kitchens to book a complimentary design consultation or enquire about bespoke luxury kitchens in Hampshire."
+          content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation."
         />
       </Head>
       <main className="min-h-screen bg-background">

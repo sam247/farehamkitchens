@@ -10,10 +10,10 @@ const WhatIsAShakerKitchen = () => {
   return (
     <>
       <Head>
-        <title>What Is a Shaker Kitchen? | Fareham Kitchens</title>
+        <title>What Is a Shaker Kitchen? | Shaker Kitchens in Hampshire</title>
         <meta
           name="description"
-          content="Learn the history, design principles, and ways to personalise a Shaker kitchen, from colours and materials to layout tips."
+          content="Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips."
         />
       </Head>
       <main className="min-h-screen bg-background">

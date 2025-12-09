@@ -8,7 +8,7 @@ const ShakerKitchens = () => {
   return (
     <>
       <Head>
-        <title>Shaker Kitchens | Fareham Kitchens</title>
+        <title>Shaker Kitchens Hampshire | Fareham Kitchen Showroom</title>
         <meta name="description" content="Bespoke Shaker kitchens by Fareham Kitchens. Detailed craftsmanship, timeless frames, modern function." />
       </Head>
       <main className="min-h-screen bg-background">

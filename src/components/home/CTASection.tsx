@@ -57,22 +57,23 @@ const CTASection = () => {
               <div>
                 <span className="label-uppercase text-foreground/60 text-xs block mb-2">Location</span>
                 <p className="body-elegant text-foreground">
-                  123 High Street<br />
-                  Fareham, Hampshire
+                  491-493 Bitterne Road East<br />
+                  Southampton, SO18 5EQ
                 </p>
               </div>
               <div>
                 <span className="label-uppercase text-foreground/60 text-xs block mb-2">Hours</span>
                 <p className="body-elegant text-foreground">
-                  Mon - Sat: 9am - 6pm<br />
-                  Sunday: By Appointment
+                  Monday to Friday: 9:30am – 5:00am<br />
+                  Saturday: 10:00am – 4:00am<br />
+                  Sunday: Closed
                 </p>
               </div>
               <div>
                 <span className="label-uppercase text-foreground/60 text-xs block mb-2">Contact</span>
                 <p className="body-elegant text-foreground">
-                  +44 (0) 1329 123 456<br />
-                  hello@farehamkitchens.co.uk
+                  01489 788617<br />
+                  info@aokitchens.co.uk
                 </p>
               </div>
             </div>

@@ -8,7 +8,7 @@ const ModernKitchens = () => {
   return (
     <>
       <Head>
-        <title>Modern Kitchens | Fareham Kitchens</title>
+        <title>Modern Kitchens Hampshire | Fareham Kitchen Showroom</title>
         <meta name="description" content="Sleek, handleless, and contemporary kitchens tailored to your space." />
       </Head>
       <main className="min-h-screen bg-background">

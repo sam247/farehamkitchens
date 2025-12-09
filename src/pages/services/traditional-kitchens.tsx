@@ -8,7 +8,7 @@ const TraditionalKitchens = () => {
   return (
     <>
       <Head>
-        <title>Traditional Kitchens | Fareham Kitchens</title>
+        <title>Traditional Kitchens Hampshire | Fareham Kitchen Showroom</title>
         <meta name="description" content="Classic kitchens with bespoke detailing, premium materials, and modern function." />
       </Head>
       <main className="min-h-screen bg-background">

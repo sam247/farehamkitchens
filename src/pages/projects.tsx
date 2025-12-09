@@ -60,10 +60,10 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>Projects | Fareham Kitchens</title>
+        <title>Kitchen Projects in Hampshire | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Explore bespoke kitchen projects crafted by Fareham Kitchens across contemporary, classic, handleless, and shaker styles."
+          content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations."
         />
       </Head>
       <main className="min-h-screen bg-background">

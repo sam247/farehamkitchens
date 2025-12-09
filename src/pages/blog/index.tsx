@@ -19,10 +19,10 @@ const BlogIndex = () => {
   return (
     <>
       <Head>
-        <title>Blog | Fareham Kitchens</title>
+        <title>Kitchen Design Blog | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Kitchen design insights, case studies, and guides from Fareham Kitchens by AOK."
+          content="Kitchen design insights, case studies, and guides from our Fareham kitchen showroom team."
         />
       </Head>
       <main className="min-h-screen bg-background">

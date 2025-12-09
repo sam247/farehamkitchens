@@ -47,10 +47,10 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About | Fareham Kitchens</title>
+        <title>About Fareham Kitchens | Hampshire Kitchen Showroom</title>
         <meta
           name="description"
-          content="Learn about the Fareham Kitchens story, our values, and the artisans crafting bespoke luxury kitchens since 1998."
+          content="About Fareham Kitchens by AOK: Hampshire kitchen showroom for bespoke luxury, Shaker and handleless kitchens, granite worktops, and full design-to-install service."
         />
       </Head>
       <main className="min-h-screen bg-background">

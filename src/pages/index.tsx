@@ -17,10 +17,10 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Fareham Kitchens | Bespoke Luxury Kitchens in Hampshire</title>
+        <title>Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire</title>
         <meta
           name="description"
-          content="Bespoke luxury kitchens crafted with timeless design, artisanal craftsmanship, and meticulous attention to detail by Fareham Kitchens."
+          content="Fareham kitchen showroom crafting bespoke luxury kitchens in Hampshire. Handleless and Shaker kitchens, granite worktops, and full design-to-installation by expert kitchen fitters."
         />
       </Head>
       <main className="min-h-screen bg-background">

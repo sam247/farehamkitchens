@@ -53,10 +53,10 @@ const HeroSection = () => {
 
         {/* Main Heading */}
         <h1 className="heading-display text-foreground mb-8">
-          <RevealText text="Where Craftsmanship" delay={0.5} />
+          <RevealText text="Fareham Kitchen" delay={0.5} />
           <br />
           <span className="text-foreground">
-            <RevealText text="Meets Elegance" delay={0.8} />
+            <RevealText text="Showroom" delay={0.8} />
           </span>
         </h1>
 
