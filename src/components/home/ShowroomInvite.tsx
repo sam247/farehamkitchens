@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import AnimatedSection from "../ui/AnimatedSection";
 import MagneticButton from "../ui/MagneticButton";
 

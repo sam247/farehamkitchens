@@ -1,5 +1,6 @@
 import AnimatedSection from '../ui/AnimatedSection';
 
+const VideoSection = () => {
   return (
     <section className="py-32 bg-background">
       <div className="container mx-auto px-6 lg:px-12">

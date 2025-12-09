@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
