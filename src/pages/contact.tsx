@@ -30,16 +30,32 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+      if (!response.ok) {
+        throw new Error("Request failed");
+      }
 
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    toast({
-      title: 'Message Sent',
-      description: 'Thank you for your enquiry. We\'ll be in touch within 24 hours.',
-    });
+      setIsSubmitted(true);
+      toast({
+        title: 'Message Sent',
+        description: 'Thank you for your enquiry. We\'ll be in touch within 24 hours.',
+      });
+    } catch (error) {
+      console.error(error);
+      toast({
+        title: 'Something went wrong',
+        description: 'Please try again or call us on 01489 788617.',
+        variant: 'destructive',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
