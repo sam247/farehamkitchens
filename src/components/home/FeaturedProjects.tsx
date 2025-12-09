@@ -21,7 +21,7 @@ const projects = [
     id: 3,
     title: 'Taupe & Oak, Totton',
     category: 'Classic',
-    image: '/aok/Montreal_Feineiche_hell_M_Querformat_1700x1200.jpg.webp',
+    image: '/aok/project3/image00024-scaled.jpeg',
   },
 ];
 

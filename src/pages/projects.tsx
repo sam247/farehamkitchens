@@ -31,9 +31,9 @@ const projects = [
     id: 3,
     title: 'Taupe & Oak Kitchen, Totton',
     category: 'Classic',
-    image: '/aok/Montreal_Feineiche_hell_M_Querformat_1700x1200.jpg.webp',
+    image: '/aok/project3/image00024-scaled.jpeg',
     description:
-      'Warm taupe and oak palette with generous prep space, integrated lighting, and balanced storage for family living.',
+      'Supply of bespoke kitchen furniture, quartz worktops, accessories, and appliances. Top Soft taupe with Toronto natural vintage oak fascias and worktops, breakfast bar with wine chiller, bespoke larder and appliance housing for organized, clutter-free living.',
   },
   {
     id: 4,
