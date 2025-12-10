@@ -45,8 +45,7 @@ const ProcessPreview = () => {
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <p className="body-elegant text-muted-foreground">
-              Every Fareham Kitchen is the result of a meticulous journey, 
-              where your dreams are transformed into a masterpiece of design and craftsmanship.
+              Every Fareham Kitchen follows a meticulous journey—turning your ideas into bespoke Shaker or handleless kitchens with smart storage, granite or quartz worktops, and premium appliances installed by our Hampshire fitters.
             </p>
           </AnimatedSection>
         </div>
