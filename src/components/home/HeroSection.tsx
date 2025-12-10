@@ -78,7 +78,7 @@ const HeroSection = () => {
           <MagneticButton to="/contact" variant="outline">
             Book a Consultation
           </MagneticButton>
-          <MagneticButton href="/Andrew-Osborne-Brochure.pdf" variant="ghost">
+                      <MagneticButton to="/brochures" variant="ghost">
             Download Brochure
           </MagneticButton>
         </div>

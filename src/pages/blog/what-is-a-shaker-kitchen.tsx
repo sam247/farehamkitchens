@@ -38,7 +38,7 @@ const WhatIsAShakerKitchen = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
                 <MagneticButton to="/contact" variant="outline">Book a Consultation</MagneticButton>
-                <MagneticButton href="/Andrew-Osborne-Brochure.pdf" variant="ghost">Download Brochure</MagneticButton>
+                <MagneticButton to="/brochures" variant="ghost">Download Brochure</MagneticButton>
               </AnimatedSection>
             </div>
             <AnimatedSection delay={0.2} animation="fade-in-right">
@@ -112,7 +112,7 @@ const WhatIsAShakerKitchen = () => {
                 </p>
                 <div className="flex flex-col gap-3">
                   <MagneticButton to="/contact" variant="outline">Book Consultation</MagneticButton>
-                  <MagneticButton href="/Andrew-Osborne-Brochure.pdf" variant="ghost">Download Brochure</MagneticButton>
+                  <MagneticButton to="/brochures" variant="ghost">Download Brochure</MagneticButton>
                 </div>
               </div>
               <div className="p-6 bg-background border border-border space-y-3">
