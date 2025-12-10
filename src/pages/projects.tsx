@@ -85,8 +85,7 @@ const Projects = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Explore our collection of bespoke kitchens, each one a unique
-                  testament to our commitment to exceptional design and craftsmanship.
+                  Explore bespoke handleless and Shaker kitchens installed across Fareham, Southampton, and Hampshire—complete with granite or quartz worktops, premium appliances, and meticulous fitting.
                 </p>
               </AnimatedSection>
             </div>

@@ -110,11 +110,9 @@ const Contact = () => {
                 </span>
               </h1>
               <AnimatedSection delay={0.8}>
-                <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Ready to begin your kitchen journey? Contact us to arrange a
-                  complimentary design consultation at our Fareham showroom or
-                  in your home.
-                </p>
+              <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
+                Ready to begin your kitchen journey? Contact our Fareham kitchen showroom for a complimentary design consultation at your home or in our Hampshire studio.
+              </p>
               </AnimatedSection>
             </div>
           </div>

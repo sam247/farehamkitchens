@@ -28,7 +28,6 @@ const Navigation = () => {
     { path: "/blog", label: "Blog" },
     { path: "/services", label: "Services" },
     { path: "/process", label: "Process" },
-    { path: "/contact", label: "Contact" },
   ];
 
   return (

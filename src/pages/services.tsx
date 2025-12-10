@@ -84,9 +84,7 @@ const Services = () => {
                 </h1>
                 <AnimatedSection delay={0.8}>
                   <p className="body-elegant text-muted-foreground text-lg max-w-xl">
-                    From initial inspiration to final installation, we provide a
-                    comprehensive, end-to-end service that ensures your bespoke
-                    kitchen exceeds every expectation.
+                  From initial inspiration to final installation, we provide a comprehensive, end-to-end service for handleless kitchens, Shaker kitchens, and granite worktops in Hampshire—designed, supplied, and installed by our Fareham team.
                   </p>
                 </AnimatedSection>
               </div>

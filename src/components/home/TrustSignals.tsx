@@ -71,6 +71,16 @@ const TrustSignals = () => {
                 </a>
               </div>
               <p className="body-elegant text-muted-foreground">{item.blurb}</p>
+              {item.label === "Google Reviews" && (
+                <div className="mt-4">
+                  <Image src="/google_reviews_logo.png" alt="Google Reviews" width={120} height={30} />
+                </div>
+              )}
+              {item.label === "Trustpilot" && (
+                <div className="mt-4">
+                  <Image src="/trustpilot-white.webp" alt="Trustpilot" width={120} height={30} />
+                </div>
+              )}
             </AnimatedSection>
           ))}
         </div>

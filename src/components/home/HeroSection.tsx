@@ -66,8 +66,7 @@ const HeroSection = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}
         >
-          Creating timeless kitchens that become the heart of your home. 
-          Handcrafted in Hampshire, designed for life.
+          Creating timeless kitchens that become the heart of your home. Our Fareham kitchen showroom designs and installs bespoke handleless and Shaker kitchens with granite or quartz worktops across Hampshire.
         </p>
 
         {/* CTA */}
