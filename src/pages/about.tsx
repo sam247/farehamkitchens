@@ -25,24 +25,6 @@ const values = [
   },
 ];
 
-const team = [
-  {
-    name: 'Richard Fareham',
-    role: 'Founder & Creative Director',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop',
-  },
-  {
-    name: 'Eleanor Hughes',
-    role: 'Head of Design',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop',
-  },
-  {
-    name: 'James Morrison',
-    role: 'Master Craftsman',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop',
-  },
-];
-
 const About = () => {
   return (
     <>
@@ -151,44 +133,6 @@ const About = () => {
           </div>
         </section>
 
-        {/* Team Section */}
-        <section className="py-32 bg-background">
-          <div className="container mx-auto px-6 lg:px-12">
-            <AnimatedSection className="text-center mb-20">
-              <span className="label-uppercase text-primary mb-6 block">The Team</span>
-              <h2 className="heading-large text-foreground">
-                Meet the<br />
-                <span className="text-primary">Artisans</span>
-              </h2>
-            </AnimatedSection>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {team.map((member, index) => (
-                <AnimatedSection
-                  key={member.name}
-                  delay={0.1 * (index + 1)}
-                  className="group"
-                >
-                  <div className="relative overflow-hidden aspect-[3/4] mb-6">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />
-                  </div>
-                  <h3 className="heading-medium text-foreground group-hover:text-primary transition-colors duration-300">
-                    {member.name}
-                  </h3>
-                  <p className="label-uppercase text-muted-foreground text-xs mt-2">
-                    {member.role}
-                  </p>
-                </AnimatedSection>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Showroom Section */}
         <section className="py-32 bg-secondary">
           <div className="container mx-auto px-6 lg:px-12">
@@ -206,22 +150,29 @@ const About = () => {
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground mb-8 leading-relaxed">
                     Experience the quality and craftsmanship of Fareham Kitchens
-                    firsthand at our beautifully appointed showroom in the heart
-                    of Fareham. Browse our full range of kitchen styles, materials,
-                    and finishes, and let our expert designers guide you through
-                    the possibilities.
+                    firsthand at our Southampton showroom. Browse our full range of
+                    kitchen styles, materials, and finishes, and let our expert designers
+                    guide you through the possibilities.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3}>
                   <div className="space-y-4">
                     <p className="body-elegant text-foreground">
                       <strong>Address:</strong><br />
-                      123 High Street, Fareham, Hampshire, PO16 7AZ
+                      491-493 Bitterne Road East<br />
+                      Southampton<br />
+                      SO18 5EQ
                     </p>
                     <p className="body-elegant text-foreground">
                       <strong>Opening Hours:</strong><br />
-                      Monday – Saturday: 9am – 6pm<br />
-                      Sunday: By Appointment Only
+                      Monday to Friday: 9:30am – 5:00am<br />
+                      Saturday: 10:00am – 4:00am<br />
+                      Sunday: Closed
+                    </p>
+                    <p className="body-elegant text-foreground">
+                      <strong>Contact:</strong><br />
+                      01489 788617<br />
+                      info@aokitchens.co.uk
                     </p>
                   </div>
                 </AnimatedSection>
@@ -235,6 +186,54 @@ const About = () => {
               />
               </AnimatedSection>
             </div>
+          </div>
+        </section>
+
+        {/* Trust Section */}
+        <section className="py-24 bg-background">
+          <div className="container mx-auto px-6 lg:px-12">
+            <AnimatedSection className="text-center mb-12">
+              <span className="label-uppercase text-primary mb-4 block">Trust & Reviews</span>
+              <h2 className="heading-large text-foreground">
+                5-Star Reputation<br />
+                <span className="text-primary">Across Trustpilot & Google</span>
+              </h2>
+            </AnimatedSection>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+              <AnimatedSection delay={0.05} className="p-4 bg-background border border-border flex items-center justify-between gap-4 hover:border-primary transition-colors duration-300">
+                <div className="flex items-center gap-3">
+                  <img src="/trustpilot-white.webp" alt="Trustpilot" className="h-7 w-auto" />
+                  <div className="flex items-center gap-1 text-primary">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span key={i} className="text-lg">★</span>
+                    ))}
+                  </div>
+                  <span className="label-uppercase text-xs text-foreground/80">5.0</span>
+                </div>
+                <a href="https://uk.trustpilot.com/review/aokitchens.co.uk" target="_blank" rel="noreferrer" className="label-uppercase text-xs text-foreground/80 hover:text-primary transition-colors">
+                  View
+                </a>
+              </AnimatedSection>
+              <AnimatedSection delay={0.1} className="p-4 bg-background border border-border flex items-center justify-between gap-4 hover:border-primary transition-colors duration-300">
+                <div className="flex items-center gap-3">
+                  <img src="/google_reviews_logo.png" alt="Google Reviews" className="h-7 w-auto" />
+                  <div className="flex items-center gap-1 text-primary">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span key={i} className="text-lg">★</span>
+                    ))}
+                  </div>
+                  <span className="label-uppercase text-xs text-foreground/80">5.0</span>
+                </div>
+                <a href="https://www.google.com/search?q=Andrew+Osborne+Kitchens+reviews" target="_blank" rel="noreferrer" className="label-uppercase text-xs text-foreground/80 hover:text-primary transition-colors">
+                  View
+                </a>
+              </AnimatedSection>
+            </div>
+            <AnimatedSection delay={0.15} className="p-6 bg-secondary border border-border">
+              <p className="body-elegant text-foreground leading-relaxed text-center">
+                “From first visit to completion nothing was too much trouble. Everything was scheduled like clockwork and the workmanship was second to none.” — Nicki Coxall
+              </p>
+            </AnimatedSection>
           </div>
         </section>
 
