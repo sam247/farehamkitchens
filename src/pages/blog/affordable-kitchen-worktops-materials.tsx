@@ -44,7 +44,7 @@ const AffordableWorktops = () => {
             <AnimatedSection delay={0.2} animation="fade-in-right">
               <div className="aspect-[4/3] overflow-hidden bg-secondary">
                 <img
-                  src="/aok/blogimages/aaffordable-kitchen-worktops.jpg"
+                  src="/aok/blogimages/affordable-kitchen-worktops.jpg"
                   alt="Affordable kitchen worktops"
                   className="w-full h-full object-cover"
                 />
