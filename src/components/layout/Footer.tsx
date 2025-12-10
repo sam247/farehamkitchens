@@ -88,11 +88,11 @@ const Footer = () => {
                 </address>
               </li>
               <li>
-                <p className="not-italic">
-                  Monday to Friday: 9:30am – 5:00am<br />
-                  Saturday: 10:00am – 4:00am<br />
-                  Sunday: Closed
-                </p>
+                  <p className="not-italic">
+                    Monday to Friday: 9:30am – 5:00pm<br />
+                    Saturday: 10:00am – 4:00pm<br />
+                    Sunday: Closed
+                  </p>
               </li>
             </ul>
           </div>
