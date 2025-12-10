@@ -27,6 +27,13 @@ const posts = [
     image: "/aok/blogimages/window-prices-uk.jpg",
     category: "Budget & Planning",
   },
+  {
+    slug: "affordable-kitchen-worktops-materials",
+    title: "Affordable Kitchen Worktop Materials",
+    excerpt: "Budget-friendly worktops that balance durability, maintenance, and style without breaking the bank.",
+    image: "/aok/blogimages/aaffordable-kitchen-worktops.jpg",
+    category: "Materials Guide",
+  },
 ];
 
 const BlogIndex = () => {

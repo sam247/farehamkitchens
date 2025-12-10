@@ -126,6 +126,7 @@ const KitchenPricesUK = () => {
                 <ul className="space-y-2 body-elegant text-foreground">
                   <li><Link href="/blog/best-kitchen-appliances-for-small-uk-homes" className="hover:text-primary transition-colors">Best appliances for small kitchens</Link></li>
                   <li><Link href="/blog/what-is-a-shaker-kitchen" className="hover:text-primary transition-colors">What is a Shaker kitchen?</Link></li>
+                  <li><Link href="/blog/affordable-kitchen-worktops-materials" className="hover:text-primary transition-colors">Affordable worktops</Link></li>
                   <li><Link href="/projects" className="hover:text-primary transition-colors">See Our Projects</Link></li>
                   <li><Link href="/services" className="hover:text-primary transition-colors">Our Services</Link></li>
                   <li><Link href="/process" className="hover:text-primary transition-colors">Our Process</Link></li>

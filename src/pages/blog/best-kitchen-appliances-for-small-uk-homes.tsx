@@ -144,6 +144,9 @@ const BestAppliancesSmallHomes = () => {
               <div className="p-6 bg-background border border-border space-y-3">
                 <span className="label-uppercase text-primary text-xs">Explore</span>
                 <ul className="space-y-2 body-elegant text-foreground">
+                  <li><Link href="/blog/kitchen-prices-uk" className="hover:text-primary transition-colors">Kitchen prices in the UK</Link></li>
+                  <li><Link href="/blog/what-is-a-shaker-kitchen" className="hover:text-primary transition-colors">What is a Shaker kitchen?</Link></li>
+                  <li><Link href="/blog/affordable-kitchen-worktops-materials" className="hover:text-primary transition-colors">Affordable worktops</Link></li>
                   <li><Link href="/projects" className="hover:text-primary transition-colors">See Our Projects</Link></li>
                   <li><Link href="/services" className="hover:text-primary transition-colors">Our Services</Link></li>
                   <li><Link href="/process" className="hover:text-primary transition-colors">Our Process</Link></li>
