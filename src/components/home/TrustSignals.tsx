@@ -19,12 +19,12 @@ const badges = [
 ];
 
 const testimonials = [
-  { quote: "The design team transformed our space and managed the fit seamlessly.", name: "Client, Hampshire" },
-  { quote: "Brilliant handleless kitchen with quartz worktops—on time and on budget.", name: "Homeowner, Fareham" },
-  { quote: "Great communication, premium appliances, and superb install quality.", name: "Customer, Southampton" },
-  { quote: "Shaker kitchen looks incredible—craftsmanship and attention to detail.", name: "Family, Botley" },
-  { quote: "Professional fitters, tidy workmanship, and clear pricing throughout.", name: "Client, Totton" },
-  { quote: "Showroom visit was invaluable—team helped us choose the right finishes.", name: "Visitor, West Wellow" },
+  { quote: "We are absolutely delighted with the kitchen the design for which we developed with Matt’s great patience over a long period of time. The result has given us the perfect layout for our needs. Matt took great care to inform us of progress and the process of installation.", name: "Adrian Hannen" },
+  { quote: "We are very happy with our new kitchen! The design is stunning, with colours in perfect harmony, pleasing shapes, and ingenious ideas. The attention to detail really stands out. From the moment we visited Matt’s showroom, it was clear he has exceptional talent, and the final result truly lived up to our expectations.", name: "Antoine Marcade" },
+  { quote: "I cannot praise Matt and his team enough for creating my dream kitchen. From my first visit to completion nothing was too much trouble. Everything was scheduled like clockwork. Pete the fitter and Steve the electrician were Matt’s recommended installation team and they were fantastic, the workmanship was second to none.", name: "Nicki Coxall" },
+  { quote: "Brilliant from start to finish. Matt worked through my wish list and found solutions to fit my budget. The fitter Pete, and electrician Steve both worked well together, and created a beautiful kitchen. It was finished off with Grace's decorating and I couldn't be happier with the result.", name: "Deborah Reilly" },
+  { quote: "Our recent kitchen refurb was a fantastic experience from start to finish with Andrew Osborne Kitchens. The design was perfect for our new layout and the whole scheme was planned and managed really well by Matt and his team of highly experienced professionals.", name: "Stephen Joyce" },
+  { quote: "Amazing kitchen and fabulous experience from Matt. AOK created a bespoke kitchen for us which was expertly installed by Pete. All the way through the process Matt was in touch helping us with everything from unit design, kitchen surface materials and a few changes in schedule caused by our build plan.", name: "Jon Grubb" },
 ];
 
 const TrustSignals = () => {
