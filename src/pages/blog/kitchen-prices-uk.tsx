@@ -58,7 +58,7 @@ const KitchenPricesUK = () => {
             <AnimatedSection className="lg:col-span-2 space-y-10">
               <article className="space-y-6 body-elegant text-muted-foreground leading-relaxed">
                 <p>
-                  Kitchen renovation is one of the most significant investments you can make in your home. Whether you're aiming for a budget update or a luxury overhaul, understanding kitchen prices in the UK for 2025 is essential for informed decisions.
+                  Kitchen renovation is one of the most significant investments you can make in your home. Whether you&apos;re aiming for a budget update or a luxury overhaul, understanding kitchen prices in the UK for 2025 is essential for informed decisions.
                 </p>
                 <h3 className="heading-medium text-foreground">What's the average kitchen cost?</h3>
                 <p>
