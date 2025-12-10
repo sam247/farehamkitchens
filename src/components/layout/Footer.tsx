@@ -118,11 +118,6 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-6">
-            <p className="text-sm text-muted-foreground">
-              Copyright © 2025 | Andrew Osbourne Kitchens T/A Fareham Kitchens
-            </p>
-          </div>
 
           {/* Social Links */}
           <div className="flex items-center gap-6">
