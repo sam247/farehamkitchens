@@ -20,6 +20,13 @@ const posts = [
     image: "/aok/blogimages/best-kitchen-appliances-for-small-uk-homes.jpg",
     category: "Appliance Guide",
   },
+  {
+    slug: "kitchen-prices-uk",
+    title: "Average Kitchen Prices in the UK 2025",
+    excerpt: "Breakdown of kitchen costs by size, budget, materials, appliances, and fitting across the UK.",
+    image: "/aok/blogimages/window-prices-uk.jpg",
+    category: "Budget & Planning",
+  },
 ];
 
 const BlogIndex = () => {
