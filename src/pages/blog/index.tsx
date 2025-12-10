@@ -13,6 +13,13 @@ const posts = [
     image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
     category: "Design Insight",
   },
+  {
+    slug: "best-kitchen-appliances-for-small-uk-homes",
+    title: "Best Kitchen Appliances for Small UK Homes",
+    excerpt: "Compact ovens, hobs, cooling, dishwashers, and smart tech to maximise small kitchens in the UK.",
+    image: "/aok/blogimages/best-kitchen-appliances-for-small-uk-homes.jpg",
+    category: "Appliance Guide",
+  },
 ];
 
 const BlogIndex = () => {
