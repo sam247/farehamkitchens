@@ -8,8 +8,6 @@ import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import RevealText from "@/components/ui/RevealText";
 
-const categories = ['All', 'Contemporary', 'Classic', 'Handleless', 'Shaker'];
-
 const projects = [
   {
     id: 1,
@@ -50,12 +48,7 @@ const projects = [
 ];
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState('All');
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
-
-  const filteredProjects = activeCategory === 'All'
-    ? projects
-    : projects.filter((project) => project.category === activeCategory);
 
   return (
     <>
@@ -92,34 +85,11 @@ const Projects = () => {
           </div>
         </section>
 
-        {/* Filter Section */}
-        <section className="pb-16">
-          <div className="container mx-auto px-6 lg:px-12">
-            <AnimatedSection delay={0.2}>
-              <div className="flex flex-wrap gap-4 lg:gap-8">
-                {categories.map((category) => (
-                  <button
-                    key={category}
-                    onClick={() => setActiveCategory(category)}
-                    className={`label-uppercase text-sm transition-all duration-300 pb-2 border-b-2 ${
-                      activeCategory === category
-                        ? 'text-primary border-primary'
-                        : 'text-muted-foreground border-transparent hover:text-foreground'
-                    }`}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-            </AnimatedSection>
-          </div>
-        </section>
-
         {/* Projects Grid */}
         <section className="pb-32">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-              {filteredProjects.map((project, index) => (
+              {projects.map((project, index) => (
                 <AnimatedSection
                   key={project.id}
                   delay={0.1 * ((index % 4) + 1)}

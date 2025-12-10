@@ -43,7 +43,7 @@ const services = [
     icon: HeartHandshake,
     title: 'Aftercare Service',
     description: 'Our relationship continues long after installation with dedicated aftercare and maintenance support.',
-    features: ['Annual check-ups', 'Care guidance', 'Adjustment service', 'Priority support'],
+    features: ['Rapid response support', 'Care guidance', 'Adjustment service', 'Priority support'],
   },
 ];
 
@@ -159,7 +159,7 @@ const Services = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.3}>
                   <div className="grid grid-cols-2 gap-6">
-                    {['AEG', 'NEFF', 'Fisher & Paykal', 'Siemens', 'Quooker', 'Premium Appliances'].map((brand) => (
+                    {['AEG', 'NEFF', 'Bora', 'Siemens', 'Quooker', 'Premium Appliances'].map((brand) => (
                       <div
                         key={brand}
                         className="p-4 border border-border text-center hover:border-primary transition-colors duration-300"

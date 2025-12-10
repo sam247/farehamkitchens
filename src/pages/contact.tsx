@@ -16,11 +16,10 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
-    projectType: '',
     message: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
@@ -185,25 +184,6 @@ const Contact = () => {
                       </div>
 
                       <div>
-                        <label htmlFor="projectType" className="label-uppercase text-foreground text-xs block mb-3">
-                          Project Type
-                        </label>
-                        <select
-                          id="projectType"
-                          name="projectType"
-                          value={formData.projectType}
-                          onChange={handleChange}
-                          className="w-full bg-transparent border-b border-border pb-3 text-foreground focus:outline-none focus:border-primary transition-colors duration-300 body-elegant cursor-pointer"
-                        >
-                          <option value="" className="bg-background">Select project type</option>
-                          <option value="new-kitchen" className="bg-background">New Kitchen</option>
-                          <option value="renovation" className="bg-background">Kitchen Renovation</option>
-                          <option value="extension" className="bg-background">Extension Project</option>
-                          <option value="other" className="bg-background">Other</option>
-                        </select>
-                      </div>
-
-                      <div>
                         <label htmlFor="message" className="label-uppercase text-foreground text-xs block mb-3">
                           Your Message *
                         </label>
@@ -323,7 +303,7 @@ const Contact = () => {
                   },
                   {
                     q: 'What areas do you cover?',
-                    a: 'We primarily serve Hampshire and the surrounding counties, including Surrey, West Sussex, and Dorset.',
+                    a: 'We primarily serve Hampshire—especially Southampton, Portsmouth, and Winchester—and only travel further for select projects.',
                   },
                 ].map((faq, index) => (
                   <AnimatedSection

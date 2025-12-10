@@ -48,7 +48,7 @@ const processSteps = [
       'Coordination with suppliers and specialists',
     ],
     image: '/aok/Top_Soft_Graphit_Querformat_1700x1200.jpg.webp',
-    duration: '6-10 weeks',
+    duration: '4-7 weeks',
   },
   {
     number: '04',
@@ -62,7 +62,7 @@ const processSteps = [
       'Comprehensive handover and aftercare',
     ],
     image: '/aok/AOK-showroom.jpg.webp',
-    duration: '1-2 weeks',
+    duration: '1-4 weeks',
   },
 ];
 
@@ -267,7 +267,7 @@ const Process = () => {
 
               <AnimatedSection delay={0.6} className="text-center mt-16">
                 <p className="body-elegant text-muted-foreground mb-8">
-                  <strong className="text-foreground">Total estimated timeline: 10-18 weeks</strong>
+                  <strong className="text-foreground">Total estimated timeline: 7-15 weeks</strong>
                   <br />
                   Every project is unique, and timelines may vary based on complexity and specifications.
                 </p>

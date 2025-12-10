@@ -49,7 +49,7 @@ const About = () => {
                 <RevealText text="Crafting Exceptional" delay={0.2} />
                 <br />
                 <span className="text-primary">
-                  <RevealText text="Kitchens Since 1998" delay={0.5} />
+                  <RevealText text="Kitchens Since 1971" delay={0.5} />
                 </span>
               </h1>
               <AnimatedSection delay={0.8}>
