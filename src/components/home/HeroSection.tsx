@@ -48,7 +48,7 @@ const HeroSection = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}
         >
-          <span className="label-uppercase text-foreground/80">Bespoke Luxury Kitchens</span>
+          <span className="label-uppercase text-foreground/80">An AOKitchens Company</span>
         </div>
 
         {/* Main Heading */}
