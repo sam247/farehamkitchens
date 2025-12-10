@@ -31,7 +31,7 @@ const posts = [
     slug: "affordable-kitchen-worktops-materials",
     title: "Affordable Kitchen Worktop Materials",
     excerpt: "Budget-friendly worktops that balance durability, maintenance, and style without breaking the bank.",
-    image: "/aok/blogimages/aaffordable-kitchen-worktops.jpg",
+    image: "/aok/blogimages/affordable-kitchen-worktops.jpg",
     category: "Materials Guide",
   },
 ];
