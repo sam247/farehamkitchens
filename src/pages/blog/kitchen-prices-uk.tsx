@@ -60,7 +60,7 @@ const KitchenPricesUK = () => {
                 <p>
                   Kitchen renovation is one of the most significant investments you can make in your home. Whether you&apos;re aiming for a budget update or a luxury overhaul, understanding kitchen prices in the UK for 2025 is essential for informed decisions.
                 </p>
-                <h3 className="heading-medium text-foreground">What's the average kitchen cost?</h3>
+                <h3 className="heading-medium text-foreground">What&apos;s the average kitchen cost?</h3>
                 <p>
                   Most homeowners can expect to spend between £5,000 and £20,000 for a complete kitchen renovation. The common mid-range sits around £12,000–£20,000 with branded appliances, durable worktops, and professional fitting. Budget projects can be £3,000–£7,000; high-end bespoke can exceed £55,000+.
                 </p>
