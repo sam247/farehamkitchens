@@ -28,6 +28,9 @@ const OfferBanner = () => {
             <MagneticButton to="tel:+441489788617" variant="ghost">
               Call Us
             </MagneticButton>
+            <MagneticButton to="/blog/aeg-offer" variant="ghost">
+              Offer Details
+            </MagneticButton>
           </div>
         </AnimatedSection>
       </div>

@@ -35,6 +35,13 @@ const posts = [
     category: "Materials Guide",
   },
   {
+    slug: "aeg-offer",
+    title: "Free AEG SaphirMatt Hob with Your New Kitchen",
+    excerpt: "Order your kitchen by March 31st 2026 and get a free AEG SaphirMatt induction hob with a 5-year warranty. Limited availability; terms apply.",
+    image: "/aok/offer_image1.webp",
+    category: "Offers",
+  },
+  {
     slug: "choosing-the-right-kitchen-worktop",
     title: "Choosing the Right Kitchen Worktop: Quartz, Granite or Laminate",
     excerpt: "Compare quartz, granite, and laminate worktops—costs, care, heat resistance, sustainability, and which suits your kitchen style.",
