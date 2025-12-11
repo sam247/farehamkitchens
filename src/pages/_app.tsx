@@ -16,6 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="hXXV1F6z10G66uO1p3UrmA"
+          async
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
