@@ -9,7 +9,7 @@ const OfferBanner = () => {
         <AnimatedSection>
           <img
             src="/aok/offer.png.webp"
-            alt="Special offer"
+            alt="Free AEG Saphir Matt induction hob offer graphic"
             className="w-full h-auto object-contain max-w-md mx-auto"
           />
         </AnimatedSection>

@@ -261,7 +261,7 @@ const Contact = () => {
                   <div className="aspect-[4/3] bg-secondary border border-border relative overflow-hidden group">
                     <img
                     src="/aok/AOK-showroom.jpg.webp"
-                    alt="Map location"
+                    alt="Fareham Kitchens showroom exterior on Bitterne Road East"
                     className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">

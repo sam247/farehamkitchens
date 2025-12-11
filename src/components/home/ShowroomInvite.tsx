@@ -39,7 +39,7 @@ const ShowroomInvite = () => {
           <div className="aspect-[4/5] overflow-hidden bg-secondary border border-border">
             <img
               src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop"
-              alt="Showroom"
+              alt="Fareham Kitchens showroom interior with display kitchen"
               className="w-full h-full object-cover"
             />
           </div>

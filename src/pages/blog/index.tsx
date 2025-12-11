@@ -34,6 +34,13 @@ const posts = [
     image: "/aok/blogimages/affordable-kitchen-worktops.jpg",
     category: "Materials Guide",
   },
+  {
+    slug: "choosing-the-right-kitchen-worktop",
+    title: "Choosing the Right Kitchen Worktop: Quartz, Granite or Laminate",
+    excerpt: "Compare quartz, granite, and laminate worktops—costs, care, heat resistance, sustainability, and which suits your kitchen style.",
+    image: "/aok/blogimages/choosing-the-right-kitchen-worktop.jpg",
+    category: "Materials Guide",
+  },
 ];
 
 const BlogIndex = () => {
