@@ -22,14 +22,8 @@ const OfferBanner = () => {
             Enquire now to lock in this offer for your project. Subject to availability and consultation.
           </p>
           <div className="flex flex-wrap gap-4">
-            <MagneticButton to="/contact" variant="outline">
+            <MagneticButton to="/blog/aeg-offer" variant="outline">
               Claim the Offer
-            </MagneticButton>
-            <MagneticButton to="tel:+441489788617" variant="ghost">
-              Call Us
-            </MagneticButton>
-            <MagneticButton to="/blog/aeg-offer" variant="ghost">
-              Offer Details
             </MagneticButton>
           </div>
         </AnimatedSection>
