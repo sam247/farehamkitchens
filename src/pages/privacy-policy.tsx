@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">1. Introduction</h2>
                     <p>
-                      AO Kitchens trading as Fareham Kitchens ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.farehamkitchens.co.uk or use our services.
+                      AO Kitchens trading as Fareham Kitchens (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website www.farehamkitchens.co.uk or use our services.
                     </p>
                   </div>
 
@@ -147,7 +147,7 @@ const PrivacyPolicy = () => {
                   </div>
 
                   <div>
-                    <h2 className="heading-medium text-foreground mb-4">11. Children's Privacy</h2>
+                    <h2 className="heading-medium text-foreground mb-4">11. Children&apos;s Privacy</h2>
                     <p>
                       Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.
                     </p>
@@ -156,7 +156,7 @@ const PrivacyPolicy = () => {
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">12. Changes to This Privacy Policy</h2>
                     <p>
-                      We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.
+                      We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date. You are advised to review this Privacy Policy periodically for any changes.
                     </p>
                   </div>
 

@@ -48,7 +48,7 @@ const TermsOfService = () => {
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">1. Introduction</h2>
                     <p>
-                      These Terms of Service ("Terms") govern your access to and use of the website www.farehamkitchens.co.uk (the "Website") and the services provided by AO Kitchens trading as Fareham Kitchens ("we", "our", or "us"). By accessing or using our Website or services, you agree to be bound by these Terms.
+                      These Terms of Service (&quot;Terms&quot;) govern your access to and use of the website www.farehamkitchens.co.uk (the &quot;Website&quot;) and the services provided by AO Kitchens trading as Fareham Kitchens (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;). By accessing or using our Website or services, you agree to be bound by these Terms.
                     </p>
                   </div>
 
@@ -62,7 +62,7 @@ const TermsOfService = () => {
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">3. Use of Website</h2>
                     <h3 className="heading-small text-foreground mb-3">3.1 Acceptable Use</h3>
-                    <p className="mb-4">You agree to use our Website only for lawful purposes and in a way that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the Website. Prohibited behaviour includes:</p>
+                    <p className="mb-4">You agree to use our Website only for lawful purposes and in a way that does not infringe the rights of, restrict, or inhibit anyone else&apos;s use and enjoyment of the Website. Prohibited behaviour includes:</p>
                     <ul className="list-disc list-inside space-y-2">
                       <li>Harassing or causing distress or inconvenience to any person</li>
                       <li>Transmitting obscene or offensive content</li>
