@@ -99,6 +99,7 @@ const Services = () => {
                 src="/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp"
                   alt="Kitchen design consultation"
                   className="aspect-square"
+                  priority={true}
                 />
               </AnimatedSection>
             </div>

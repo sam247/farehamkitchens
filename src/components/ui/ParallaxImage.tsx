@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 
 interface ParallaxImageProps {
   src: string;
@@ -7,6 +7,7 @@ interface ParallaxImageProps {
   className?: string;
   speed?: number;
   overlay?: boolean;
+  priority?: boolean;
 }
 
 const ParallaxImage = ({
@@ -15,6 +16,7 @@ const ParallaxImage = ({
   className = '',
   speed = 0.5,
   overlay = true,
+  priority = false,
 }: ParallaxImageProps) => {
   const [offset, setOffset] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
@@ -30,17 +32,21 @@ const ParallaxImage = ({
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [speed]);
 
   return (
     <div ref={ref} className={`relative overflow-hidden ${className}`}>
-      <img
+      <Image
         src={src}
         alt={alt}
-        className="w-full h-full object-cover transition-transform duration-100"
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        className="object-cover transition-transform duration-100"
         style={{ transform: `translateY(${offset}px) scale(1.1)` }}
+        priority={priority}
+        loading={priority ? undefined : 'lazy'}
       />
       {overlay && (
         <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />

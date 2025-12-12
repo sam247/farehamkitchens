@@ -1,5 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Image from "next/image";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -50,8 +50,15 @@ const SouthamptonKitchenProject = () => {
             "/aok/project2/DSC_2555.jpg",
           ].map((src, index) => (
             <AnimatedSection key={src} delay={0.05 * index}>
-              <div className="aspect-[4/3] overflow-hidden bg-muted">
-                <img src={src} alt="Contemporary Shaker Kitchen, Southampton" className="w-full h-full object-cover" />
+              <div className="aspect-[4/3] overflow-hidden bg-muted relative">
+                <Image 
+                  src={src} 
+                  alt="Contemporary Shaker Kitchen, Southampton" 
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                  loading={index < 2 ? "eager" : "lazy"}
+                />
               </div>
             </AnimatedSection>
           ))}

@@ -32,7 +32,8 @@ const VideoSection = () => {
               poster="/placeholderhero.png"
               controls
               playsInline
-              preload="metadata"
+              preload="none"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-background/40 to-background/60 pointer-events-none" />
             <div className="absolute bottom-6 left-6">
