@@ -142,8 +142,23 @@ const Footer = () => {
           </div>
 
           {/* Legal */}
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <span>Copyright © 2025 | Andrew Osbourne Kitchens T/A Fareham Kitchens | Powered by Better Ranking</span>
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 text-sm text-muted-foreground">
+            <div className="flex items-center gap-4">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-foreground transition-colors duration-300"
+              >
+                Privacy Policy
+              </Link>
+              <span>|</span>
+              <Link
+                href="/terms-of-service"
+                className="hover:text-foreground transition-colors duration-300"
+              >
+                Terms of Service
+              </Link>
+            </div>
+            <span>Copyright © {currentYear} | AO Kitchens T/A Fareham Kitchens | Powered by Better Ranking</span>
           </div>
         </div>
       </div>

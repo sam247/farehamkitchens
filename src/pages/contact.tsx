@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Head from "next/head";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -90,6 +90,11 @@ const Contact = () => {
           name="description"
           content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation."
         />
+        <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
+        <meta property="og:description" content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/contact" />
+        <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />
@@ -259,10 +264,13 @@ const Contact = () => {
                 {/* Map Placeholder */}
                 <AnimatedSection delay={0.5}>
                   <div className="aspect-[4/3] bg-secondary border border-border relative overflow-hidden group">
-                    <img
+                    <Image
                     src="/aok/AOK-showroom.jpg.webp"
                     alt="Fareham Kitchens showroom exterior on Bitterne Road East"
-                    className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover opacity-50 group-hover:opacity-70 transition-opacity duration-500"
+                    loading="lazy"
                     />
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center">

@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -58,6 +58,11 @@ const Projects = () => {
           name="description"
           content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations."
         />
+        <meta property="og:title" content="Kitchen Projects in Hampshire | Fareham Kitchens" />
+        <meta property="og:description" content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/projects" />
+        <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />
@@ -102,13 +107,16 @@ const Projects = () => {
                     onMouseLeave={() => setHoveredProject(null)}
                   >
                     {/* Image Container */}
-                    <div className="aspect-[4/3] overflow-hidden bg-muted">
-                      <img
+                    <div className="aspect-[4/3] overflow-hidden bg-muted relative">
+                      <Image
                         src={project.image}
                         alt={project.title}
-                        className={`w-full h-full object-cover transition-all duration-700 ease-out-expo ${
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className={`object-cover transition-all duration-700 ease-out-expo ${
                           hoveredProject === project.id ? 'scale-110' : 'scale-100'
                         }`}
+                        loading={index < 2 ? "eager" : "lazy"}
                       />
                       {/* Overlay */}
                       <div
