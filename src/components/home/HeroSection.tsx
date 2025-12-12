@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { ArrowDown } from 'lucide-react';
 import MagneticButton from '../ui/MagneticButton';
 import RevealText from '../ui/RevealText';
 
@@ -10,12 +9,6 @@ const HeroSection = () => {
     setIsLoaded(true);
   }, []);
 
-  const scrollToContent = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: 'smooth',
-    });
-  };
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -84,17 +77,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <button
-        onClick={scrollToContent}
-        className={`absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-foreground/60 hover:text-foreground transition-all duration-500 ${
-          isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-        }`}
-        style={{ transitionDelay: '1.5s' }}
-      >
-        <span className="label-uppercase text-xs">Discover</span>
-        <ArrowDown size={20} className="animate-float" />
-      </button>
 
       {/* Decorative Lines */}
       <div
