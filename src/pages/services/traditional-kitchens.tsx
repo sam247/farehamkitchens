@@ -16,6 +16,11 @@ const TraditionalKitchens = () => {
           name="description"
           content="Classic bespoke kitchens with in-frame doors, ornate detailing, and modern comfort. Handcrafted in Hampshire by Fareham Kitchens."
         />
+        <meta property="og:title" content="Traditional Kitchens Hampshire | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Classic bespoke kitchens with in-frame doors, ornate detailing, and modern comfort. Handcrafted in Hampshire by Fareham Kitchens." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/services/traditional1.jpg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/services/traditional-kitchens" />
+        <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

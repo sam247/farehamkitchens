@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -6,8 +7,21 @@ import MagneticButton from "@/components/ui/MagneticButton";
 
 const WestWellowKitchenProject = () => {
   return (
-    <main className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <Head>
+        <title>Oak Shaker Kitchen in West Wellow | Fareham Kitchens</title>
+        <meta
+          name="description"
+          content="Milford shaker in natural oak stained with Osmo Raw, large larder storage with internal drawers, statement Smeg range under a custom mantle, and a re-used oak beam to preserve character."
+        />
+        <meta property="og:title" content="Oak Shaker Kitchen in West Wellow | Fareham Kitchens" />
+        <meta property="og:description" content="Milford shaker in natural oak stained with Osmo Raw, large larder storage with internal drawers, statement Smeg range under a custom mantle, and a re-used oak beam to preserve character." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/project4/image00012-1-scaled-2.jpeg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/projects/west-wellow-kitchen-project" />
+        <meta property="og:type" content="article" />
+      </Head>
+      <main className="min-h-screen bg-background">
+        <Navigation />
 
       <section className="pt-32 pb-16 lg:pt-44">
         <div className="container mx-auto px-6 lg:px-12">
@@ -77,6 +91,7 @@ const WestWellowKitchenProject = () => {
 
       <Footer />
     </main>
+    </>
   );
 };
 

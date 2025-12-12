@@ -59,6 +59,11 @@ const BlogIndex = () => {
           name="description"
           content="Kitchen design insights, case studies, and guides from our Fareham kitchen showroom team."
         />
+        <meta property="og:title" content="Kitchen Design Blog | Fareham Kitchens" />
+        <meta property="og:description" content="Kitchen design insights, case studies, and guides from our Fareham kitchen showroom team." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/blog" />
+        <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

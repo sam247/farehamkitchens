@@ -16,6 +16,11 @@ const ModernKitchens = () => {
           name="description"
           content="Sleek handleless kitchens, minimal lines, and integrated technology crafted by Fareham Kitchens for Hampshire homes."
         />
+        <meta property="og:title" content="Modern Kitchens Hampshire | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Sleek handleless kitchens, minimal lines, and integrated technology crafted by Fareham Kitchens for Hampshire homes." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/services/modern1.webp" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/services/modern-kitchens" />
+        <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

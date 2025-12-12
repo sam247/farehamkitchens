@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -6,8 +7,21 @@ import MagneticButton from "@/components/ui/MagneticButton";
 
 const TottonKitchenProject = () => {
   return (
-    <main className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <Head>
+        <title>Taupe & Oak Kitchen in Totton | Fareham Kitchens</title>
+        <meta
+          name="description"
+          content="Supply of bespoke kitchen furniture, quartz worktops, accessories, and appliances. Top Soft taupe with Toronto natural vintage oak fascias and worktops, breakfast bar with wine chiller, bespoke larder and appliance housing for organized, clutter-free living."
+        />
+        <meta property="og:title" content="Taupe & Oak Kitchen in Totton | Fareham Kitchens" />
+        <meta property="og:description" content="Supply of bespoke kitchen furniture, quartz worktops, accessories, and appliances. Top Soft taupe with Toronto natural vintage oak fascias and worktops, breakfast bar with wine chiller, bespoke larder and appliance housing for organized, clutter-free living." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/project3/image00024-scaled.jpeg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/projects/totton-kitchen-project" />
+        <meta property="og:type" content="article" />
+      </Head>
+      <main className="min-h-screen bg-background">
+        <Navigation />
 
       <section className="pt-32 pb-16 lg:pt-44">
         <div className="container mx-auto px-6 lg:px-12">
@@ -77,6 +91,7 @@ const TottonKitchenProject = () => {
 
       <Footer />
     </main>
+    </>
   );
 };
 

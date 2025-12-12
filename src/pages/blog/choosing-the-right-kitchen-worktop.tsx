@@ -15,6 +15,11 @@ const ChoosingTheRightKitchenWorktop = () => {
           name="description"
           content="Compare quartz, granite, and laminate kitchen worktops: pros, cons, cost, maintenance, sustainability, and how to match each surface to your style and lifestyle."
         />
+        <meta property="og:title" content="Choosing the Right Kitchen Worktop: Quartz, Granite or Laminate" />
+        <meta property="og:description" content="Compare quartz, granite, and laminate kitchen worktops: pros, cons, cost, maintenance, sustainability, and how to match each surface to your style and lifestyle." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/blogimages/choosing-the-right-kitchen-worktop.jpg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/blog/choosing-the-right-kitchen-worktop" />
+        <meta property="og:type" content="article" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -6,8 +7,21 @@ import MagneticButton from "@/components/ui/MagneticButton";
 
 const BotleyKitchenProject = () => {
   return (
-    <main className="min-h-screen bg-background">
-      <Navigation />
+    <>
+      <Head>
+        <title>Handleless Blue Kitchen in Botley | Fareham Kitchens</title>
+        <meta
+          name="description"
+          content="Systemat AV6000 true handleless in a bespoke blue, bronze mirror splashback, Dekton island, AEG + Bora appliances, Quooker boiling tap, and tall cabinetry for concealed storage."
+        />
+        <meta property="og:title" content="Handleless Blue Kitchen in Botley | Fareham Kitchens" />
+        <meta property="og:description" content="Systemat AV6000 true handleless in a bespoke blue, bronze mirror splashback, Dekton island, AEG + Bora appliances, Quooker boiling tap, and tall cabinetry for concealed storage." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/projects/botley-kitchen-project" />
+        <meta property="og:type" content="article" />
+      </Head>
+      <main className="min-h-screen bg-background">
+        <Navigation />
 
       <section className="pt-32 pb-16 lg:pt-44">
         <div className="container mx-auto px-6 lg:px-12">
@@ -77,6 +91,7 @@ const BotleyKitchenProject = () => {
 
       <Footer />
     </main>
+    </>
   );
 };
 

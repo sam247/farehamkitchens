@@ -15,6 +15,11 @@ const AffordableWorktops = () => {
           name="description"
           content="Budget-friendly kitchen worktops: laminate, solid wood, concrete, tile, solid surface, and sustainable options with pros, costs, and maintenance."
         />
+        <meta property="og:title" content="Affordable Kitchen Worktop Materials | Fareham Kitchens" />
+        <meta property="og:description" content="Budget-friendly kitchen worktops: laminate, solid wood, concrete, tile, solid surface, and sustainable options with pros, costs, and maintenance." />
+        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/blogimages/affordable-kitchen-worktops.jpg" />
+        <meta property="og:url" content="https://www.farehamkitchens.co.uk/blog/affordable-kitchen-worktops-materials" />
+        <meta property="og:type" content="article" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />
