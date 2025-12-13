@@ -10,10 +10,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <meta
-          name="description"
-          content="Fareham Kitchens crafts bespoke, luxury kitchens with timeless design and meticulous craftsmanship."
-        />
         <meta property="og:site_name" content="Fareham Kitchens" />
       </Head>
       <body>
