@@ -92,9 +92,13 @@ const Contact = () => {
         />
         <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
         <meta property="og:description" content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation." />
-        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
-        <meta property="og:url" content="https://www.farehamkitchens.co.uk/contact" />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/contact" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
+        <meta name="twitter:description" content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

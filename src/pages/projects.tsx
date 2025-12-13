@@ -60,9 +60,13 @@ const Projects = () => {
         />
         <meta property="og:title" content="Kitchen Projects in Hampshire | Fareham Kitchens" />
         <meta property="og:description" content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations." />
-        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
-        <meta property="og:url" content="https://www.farehamkitchens.co.uk/projects" />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/projects" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kitchen Projects in Hampshire | Fareham Kitchens" />
+        <meta name="twitter:description" content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />
