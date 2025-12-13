@@ -116,8 +116,8 @@ const Brochures = () => {
         />
         <meta property="og:title" content="Download Kitchen Brochures | Fareham Kitchens" />
         <meta property="og:description" content="Download Häcker Systemat, Häcker Concept130, and British-made kitchen brochures. Share your details to unlock the PDFs and choose the right range for your home." />
-        <meta property="og:image" content="https://www.farehamkitchens.co.uk/logo.webp" />
-        <meta property="og:url" content="https://www.farehamkitchens.co.uk/brochures" />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/logo.webp" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/brochures" />
         <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">

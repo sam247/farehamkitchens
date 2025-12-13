@@ -17,8 +17,8 @@ const AegOffer = () => {
         />
         <meta property="og:title" content="Free AEG Saphir Matt Induction Hob | New Year Kitchen Offer" />
         <meta property="og:description" content="Order your new kitchen by March 31st 2026 and receive a free AEG SaphirMatt induction hob with 5-year warranty. Limited to 6 hobs. Terms apply." />
-        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/offer_image1.webp" />
-        <meta property="og:url" content="https://www.farehamkitchens.co.uk/blog/aeg-offer" />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/offer_image1.webp" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/blog/aeg-offer" />
         <meta property="og:type" content="article" />
       </Head>
       <main className="min-h-screen bg-background">

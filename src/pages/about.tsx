@@ -36,8 +36,8 @@ const About = () => {
         />
         <meta property="og:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom" />
         <meta property="og:description" content="About Fareham Kitchens by AOK: Hampshire kitchen showroom for bespoke luxury, Shaker and handleless kitchens, granite worktops, and full design-to-install service." />
-        <meta property="og:image" content="https://www.farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
-        <meta property="og:url" content="https://www.farehamkitchens.co.uk/about" />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/about" />
         <meta property="og:type" content="website" />
       </Head>
       <main className="min-h-screen bg-background">
