@@ -15,6 +15,21 @@ const nextConfig = {
   },
   compress: true,
   poweredByHeader: false,
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.farehamkitchens.co.uk',
+          },
+        ],
+        destination: 'https://farehamkitchens.co.uk/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
