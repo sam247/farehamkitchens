@@ -104,6 +104,10 @@ const Process = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/process" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kitchen Design Process | Fareham Kitchens Hampshire" />
+        <meta name="twitter:description" content="Our Fareham kitchen showroom guides you from consultation and design through installation: handleless, Shaker, granite worktops, and bespoke cabinetry." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

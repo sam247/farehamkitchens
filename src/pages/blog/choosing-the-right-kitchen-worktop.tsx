@@ -20,6 +20,10 @@ const ChoosingTheRightKitchenWorktop = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/choosing-the-right-kitchen-worktop.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/blog/choosing-the-right-kitchen-worktop" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Choosing the Right Kitchen Worktop: Quartz, Granite or Laminate" />
+        <meta name="twitter:description" content="Compare quartz, granite, and laminate kitchen worktops: pros, cons, cost, maintenance, sustainability, and how to match each surface to your style and lifestyle." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/blogimages/choosing-the-right-kitchen-worktop.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

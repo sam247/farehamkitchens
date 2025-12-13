@@ -20,6 +20,10 @@ const WhatIsAShakerKitchen = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/blog/what-is-a-shaker-kitchen" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="What Is a Shaker Kitchen? | Shaker Kitchens in Hampshire" />
+        <meta name="twitter:description" content="Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

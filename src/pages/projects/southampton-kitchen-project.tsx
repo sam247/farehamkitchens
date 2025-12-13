@@ -19,6 +19,10 @@ const SouthamptonKitchenProject = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project2/DSC_2513-scaled.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/projects/southampton-kitchen-project" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contemporary Shaker Kitchen in Southampton | Fareham Kitchens" />
+        <meta name="twitter:description" content="Full kitchen remodel with building works and reconfiguration. Contemporary shaker cabinetry, peninsula seating, oak shelves with integrated lighting, full-height storage, and solid timber doors for lasting durability." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/project2/DSC_2513-scaled.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

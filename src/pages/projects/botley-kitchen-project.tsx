@@ -19,6 +19,10 @@ const BotleyKitchenProject = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/projects/botley-kitchen-project" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Handleless Blue Kitchen in Botley | Fareham Kitchens" />
+        <meta name="twitter:description" content="Systemat AV6000 true handleless in a bespoke blue, bronze mirror splashback, Dekton island, AEG + Bora appliances, Quooker boiling tap, and tall cabinetry for concealed storage." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

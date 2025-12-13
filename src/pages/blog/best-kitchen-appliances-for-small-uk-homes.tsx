@@ -20,6 +20,10 @@ const BestAppliancesSmallHomes = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/best-kitchen-appliances-for-small-uk-homes.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/blog/best-kitchen-appliances-for-small-uk-homes" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Best Kitchen Appliances for Small UK Homes | Fareham Kitchens" />
+        <meta name="twitter:description" content="Compact ovens, hobs, cooling, dishwashers, laundry, and smart tech to maximise space in small UK kitchens—curated by Fareham Kitchens." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/blogimages/best-kitchen-appliances-for-small-uk-homes.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

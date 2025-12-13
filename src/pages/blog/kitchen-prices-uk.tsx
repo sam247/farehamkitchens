@@ -20,6 +20,10 @@ const KitchenPricesUK = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/window-prices-uk.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/blog/kitchen-prices-uk" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Average Kitchen Prices in the UK 2025 | Fareham Kitchens" />
+        <meta name="twitter:description" content="Kitchen prices in the UK for 2025: costs by size, budget, materials, appliances, labour, and tips to plan your renovation." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/blogimages/window-prices-uk.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

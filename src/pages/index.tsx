@@ -27,6 +27,10 @@ const Index = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/logo.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire" />
+        <meta name="twitter:description" content="Fareham kitchen showroom crafting bespoke luxury kitchens in Hampshire. Handleless and Shaker kitchens, granite worktops, and full design-to-installation by expert kitchen fitters." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/logo.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

@@ -19,6 +19,10 @@ const WestWellowKitchenProject = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project4/image00012-1-scaled-2.jpeg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/projects/west-wellow-kitchen-project" />
         <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Oak Shaker Kitchen in West Wellow | Fareham Kitchens" />
+        <meta name="twitter:description" content="Milford shaker in natural oak stained with Osmo Raw, large larder storage with internal drawers, statement Smeg range under a custom mantle, and a re-used oak beam to preserve character." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/project4/image00012-1-scaled-2.jpeg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

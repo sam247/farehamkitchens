@@ -16,6 +16,9 @@ const TermsOfService = () => {
         <meta property="og:description" content="Terms of Service for AO Kitchens trading as Fareham Kitchens. Read our terms and conditions for using our website and services." />
         <meta property="og:url" content="https://farehamkitchens.co.uk/terms-of-service" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Terms of Service | Fareham Kitchens" />
+        <meta name="twitter:description" content="Terms of Service for AO Kitchens trading as Fareham Kitchens. Read our terms and conditions for using our website and services." />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

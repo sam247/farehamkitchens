@@ -21,6 +21,10 @@ const ShakerKitchens = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/shaker-kitchens" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Bespoke Shaker kitchens by Fareham Kitchens. Framed cabinetry, balanced proportions, and handcrafted details tailored to Hampshire homes." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

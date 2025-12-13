@@ -16,6 +16,9 @@ const PrivacyPolicy = () => {
         <meta property="og:description" content="Privacy Policy for AO Kitchens trading as Fareham Kitchens. Learn how we collect, use, and protect your personal information." />
         <meta property="og:url" content="https://farehamkitchens.co.uk/privacy-policy" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Privacy Policy | Fareham Kitchens" />
+        <meta name="twitter:description" content="Privacy Policy for AO Kitchens trading as Fareham Kitchens. Learn how we collect, use, and protect your personal information." />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

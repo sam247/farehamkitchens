@@ -68,6 +68,10 @@ const Services = () => {
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Kitchen Design & Installation | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Kitchen design and installation in Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and premium appliance partners. Visit our Fareham kitchen showroom." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />
