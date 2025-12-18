@@ -51,6 +51,14 @@ const Footer = () => {
               ))}
               <li>
                 <Link
+                  href="/location"
+                  className="body-elegant text-muted-foreground hover:text-foreground transition-colors duration-300 link-elegant"
+                >
+                  Locations
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/blog"
                   className="body-elegant text-muted-foreground hover:text-foreground transition-colors duration-300 link-elegant"
                 >

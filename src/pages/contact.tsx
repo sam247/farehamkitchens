@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
+import ReCAPTCHA from "react-google-recaptcha";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -12,6 +13,7 @@ const Contact = () => {
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -28,19 +30,46 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (!recaptchaRef.current) {
+      toast({
+        title: 'Security check failed',
+        description: 'Please wait for the security check to load.',
+        variant: 'destructive',
+      });
+      return;
+    }
+
     setIsSubmitting(true);
+    
     try {
+      // Get reCAPTCHA token
+      const recaptchaToken = await recaptchaRef.current.executeAsync();
+      
+      if (!recaptchaToken) {
+        throw new Error("reCAPTCHA verification failed");
+      }
+
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          recaptchaToken,
+        }),
       });
 
       if (!response.ok) {
-        throw new Error("Request failed");
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Request failed");
       }
 
       setIsSubmitted(true);
+      // Reset form
+      setFormData({ name: '', email: '', phone: '', message: '' });
+      // Reset reCAPTCHA
+      recaptchaRef.current?.reset();
+      
       toast({
         title: 'Message Sent',
         description: 'Thank you for your enquiry. We\'ll be in touch within 24 hours.',
@@ -49,9 +78,11 @@ const Contact = () => {
       console.error(error);
       toast({
         title: 'Something went wrong',
-        description: 'Please try again or call us on 01489 788617.',
+        description: error instanceof Error ? error.message : 'Please try again or call us on 01489 788617.',
         variant: 'destructive',
       });
+      // Reset reCAPTCHA on error
+      recaptchaRef.current?.reset();
     } finally {
       setIsSubmitting(false);
     }
@@ -207,6 +238,14 @@ const Contact = () => {
                           onChange={handleChange}
                           className="w-full bg-transparent border-b border-border pb-3 text-foreground focus:outline-none focus:border-primary transition-colors duration-300 body-elegant resize-none"
                           placeholder="Tell us about your project..."
+                        />
+                      </div>
+
+                      <div className="mb-4">
+                        <ReCAPTCHA
+                          ref={recaptchaRef}
+                          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+                          size="invisible"
                         />
                       </div>
 

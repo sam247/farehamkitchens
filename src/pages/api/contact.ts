@@ -28,16 +28,39 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
   }
 
-  const { name, email, phone, projectType, message } = req.body as {
+  const { name, email, phone, projectType, message, recaptchaToken } = req.body as {
     name?: string;
     email?: string;
     phone?: string;
     projectType?: string;
     message?: string;
+    recaptchaToken?: string;
   };
 
   if (!name || !email || !message) {
     return res.status(400).json({ error: "Missing required fields" });
+  }
+
+  // Verify reCAPTCHA token
+  if (recaptchaToken) {
+    const recaptchaSecret = process.env.RECAPTCHA_SECRET_KEY;
+    if (recaptchaSecret) {
+      try {
+        const verifyResponse = await fetch(
+          `https://www.google.com/recaptcha/api/siteverify?secret=${recaptchaSecret}&response=${recaptchaToken}`,
+          { method: "POST" }
+        );
+        const verifyData = await verifyResponse.json();
+        
+        if (!verifyData.success) {
+          console.error("reCAPTCHA verification failed:", verifyData);
+          return res.status(400).json({ error: "reCAPTCHA verification failed" });
+        }
+      } catch (error) {
+        console.error("reCAPTCHA verification error:", error);
+        return res.status(500).json({ error: "Failed to verify reCAPTCHA" });
+      }
+    }
   }
 
   const subject = "New Enquiry From Fareham Kitchens";

@@ -26,6 +26,12 @@ export default function Document() {
           rel="stylesheet"
         />
         <meta property="og:site_name" content="Fareham Kitchens" />
+        {/* Google reCAPTCHA v3 */}
+        <script
+          src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}`}
+          async
+          defer
+        />
       </Head>
       <body>
         <Main />
