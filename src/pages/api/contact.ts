@@ -2,7 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const TO_EMAIL = "sam@betterranking.co.uk";
+const TO_EMAIL = "info@aokitchens.co.uk";
 const BCC_EMAIL = "sampettiford@googlemail.com";
 // Use environment variable if set, otherwise fallback to verified domain
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || "info@farehamkitchens.co.uk";
@@ -40,7 +40,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(400).json({ error: "Missing required fields" });
   }
 
-  const subject = `New enquiry from ${name}`;
+  const subject = "New Enquiry From Fareham Kitchens";
   const textLines = [
     `Name: ${name}`,
     `Email: ${email}`,
