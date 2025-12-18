@@ -66,7 +66,7 @@ const LocationIndex = () => {
         <meta property="og:title" content="Kitchen Showrooms Near You | Fareham Kitchens | Hampshire Locations" />
         <meta property="og:description" content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
-        <meta property="og:url" content="https://farehamkitchens.co.uk/location" />
+        <meta property="og:url" content="https://farehamkitchens.co.uk/locations" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
@@ -122,7 +122,7 @@ const LocationIndex = () => {
                   className="group"
                 >
                   <Link
-                    href={`/location/${location.slug}`}
+                    href={`/locations/${location.slug}`}
                     className="block p-8 bg-secondary border border-border hover:border-primary transition-all duration-500 h-full"
                   >
                     <h3 className="heading-medium text-foreground mb-4 group-hover:text-primary transition-colors duration-300">

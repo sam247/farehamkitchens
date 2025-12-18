@@ -29,7 +29,7 @@ const LocationTemplate = ({
         <meta property="og:title" content={metaTitle} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
-        <meta property="og:url" content={`https://farehamkitchens.co.uk/location/${locationSlug}`} />
+        <meta property="og:url" content={`https://farehamkitchens.co.uk/locations/${locationSlug}`} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
@@ -128,7 +128,7 @@ const LocationTemplate = ({
                       We also serve homeowners in nearby areas. Explore our other locations:
                     </p>
                     <p>
-                      <Link href="/location" className="text-primary hover:underline">View all locations</Link> we serve, including Portsmouth, Winchester, Gosport, Hedge End, Romsey, Warsash, Chilworth, and across Hampshire.
+                      <Link href="/locations" className="text-primary hover:underline">View all locations</Link> we serve, including Portsmouth, Winchester, Gosport, Hedge End, Romsey, Warsash, Chilworth, and across Hampshire.
                     </p>
                   </div>
                 </div>
