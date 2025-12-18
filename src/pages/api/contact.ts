@@ -14,8 +14,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(405).json({ error: "Method not allowed" });
   }
 
+  // Log API key status (without exposing the key)
+  console.log("Resend API Key present:", !!resendApiKey);
+  console.log("Resend client initialized:", !!resend);
+  console.log("FROM_EMAIL:", FROM_EMAIL);
+  console.log("TO_EMAIL:", TO_EMAIL);
+
   if (!resend) {
-    return res.status(500).json({ error: "Email service not configured" });
+    console.error("Resend client not initialized - RESEND_API_KEY is missing or invalid");
+    return res.status(500).json({ 
+      error: "Email service not configured",
+      details: "RESEND_API_KEY environment variable is missing or invalid"
+    });
   }
 
   const { name, email, phone, projectType, message } = req.body as {
@@ -44,6 +54,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     .join("\n");
 
   try {
+    console.log("Attempting to send email via Resend...");
+    console.log("Email payload:", {
+      from: FROM_EMAIL,
+      to: TO_EMAIL,
+      bcc: BCC_EMAIL,
+      replyTo: email,
+      subject,
+      textLength: textLines.length,
+    });
+
     const result = await resend.emails.send({
       from: FROM_EMAIL,
       to: [TO_EMAIL],
@@ -53,28 +73,43 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       text: textLines,
     });
 
-    console.log("Email sent successfully:", result);
+    console.log("Email sent successfully:", JSON.stringify(result, null, 2));
 
     return res.status(200).json({ success: true });
   } catch (error: any) {
-    console.error("Contact form email error:", error);
+    console.error("Contact form email error - Full error object:", error);
+    console.error("Error type:", typeof error);
+    console.error("Error constructor:", error?.constructor?.name);
     
     // Log more detailed error information
     if (error?.message) {
       console.error("Error message:", error.message);
     }
     if (error?.response) {
-      console.error("Error response:", error.response);
+      console.error("Error response:", JSON.stringify(error.response, null, 2));
+    }
+    if (error?.statusCode) {
+      console.error("Error status code:", error.statusCode);
+    }
+    if (error?.name) {
+      console.error("Error name:", error.name);
     }
 
-    // Return more detailed error in development
-    const errorMessage = process.env.NODE_ENV === 'development' 
-      ? error?.message || "Failed to send message"
-      : "Failed to send message";
+    // Return more detailed error information
+    const errorMessage = error?.message || "Failed to send message";
+    const errorDetails = {
+      message: errorMessage,
+      name: error?.name,
+      statusCode: error?.statusCode,
+      ...(process.env.NODE_ENV === 'development' && {
+        fullError: error?.toString(),
+        stack: error?.stack,
+      }),
+    };
 
     return res.status(500).json({ 
       error: errorMessage,
-      details: process.env.NODE_ENV === 'development' ? error : undefined
+      details: errorDetails
     });
   }
 }
