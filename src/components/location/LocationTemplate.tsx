@@ -83,7 +83,7 @@ const LocationTemplate = ({
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">Bespoke Kitchen Design in {locationName}</h2>
                     <p>
-                      At <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>, we serve homeowners across {locationName} and the wider Hampshire area, bringing our expertise in bespoke kitchen design and installation to your doorstep. Whether you're looking for a modern handleless kitchen, a classic Shaker design, or a traditional in-frame kitchen, our team can help bring your vision to life.
+                      At <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>, we serve homeowners across {locationName} and the wider Hampshire area, bringing our expertise in bespoke kitchen design and installation to your doorstep. Whether you&apos;re looking for a modern handleless kitchen, a classic Shaker design, or a traditional in-frame kitchen, our team can help bring your vision to life.
                     </p>
                   </div>
 
@@ -103,7 +103,7 @@ const LocationTemplate = ({
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">Visit Our Showroom</h2>
                     <p className="mb-4">
-                      While we're based in Southampton, we're easily accessible from {locationName} and welcome visitors from across Hampshire. Our showroom at 491-493 Bitterne Road East, Southampton, SO18 5EQ, showcases our full range of kitchen styles, materials, and finishes.
+                      While we&apos;re based in Southampton, we&apos;re easily accessible from {locationName} and welcome visitors from across Hampshire. Our showroom at 491-493 Bitterne Road East, Southampton, SO18 5EQ, showcases our full range of kitchen styles, materials, and finishes.
                     </p>
                     <p>
                       <Link href="/contact" className="text-primary hover:underline">Book a consultation</Link> to discuss your {locationName} kitchen project, or <Link href="/" className="text-primary hover:underline">explore our portfolio</Link> to see examples of our work across Hampshire.

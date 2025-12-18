@@ -150,7 +150,7 @@ const LocationIndex = () => {
                   Ready to Start Your Kitchen Project?
                 </h2>
                 <p className="body-elegant text-muted-foreground mb-8 max-w-2xl mx-auto">
-                  Whether you're in {locations.map(l => l.name).join(", ")}, or anywhere else in Hampshire, we're here to help create your dream kitchen. Visit our <Link href="/" className="text-primary hover:underline">Southampton showroom</Link> or <Link href="/contact" className="text-primary hover:underline">book a consultation</Link> to get started.
+                  Whether you&apos;re in {locations.map(l => l.name).join(", ")}, or anywhere else in Hampshire, we&apos;re here to help create your dream kitchen. Visit our <Link href="/" className="text-primary hover:underline">Southampton showroom</Link> or <Link href="/contact" className="text-primary hover:underline">book a consultation</Link> to get started.
                 </p>
                 <MagneticButton to="/contact" variant="outline">
                   Book Your Consultation
