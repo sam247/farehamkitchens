@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Link from "next/link";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -29,19 +30,21 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Fareham Kitchens | Hampshire Kitchen Showroom</title>
+        <title>About Fareham Kitchens | Hampshire Kitchen Showroom | Bespoke Kitchens Since 1971 | AOK Kitchens Southampton</title>
         <meta
           name="description"
-          content="About Fareham Kitchens by AOK: Hampshire kitchen showroom for bespoke luxury, Shaker and handleless kitchens, granite worktops, and full design-to-install service."
+          content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971."
         />
-        <meta property="og:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom" />
-        <meta property="og:description" content="About Fareham Kitchens by AOK: Hampshire kitchen showroom for bespoke luxury, Shaker and handleless kitchens, granite worktops, and full design-to-install service." />
+        <meta property="og:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom | Bespoke Kitchens Since 1971" />
+        <meta property="og:description" content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/about" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom" />
-        <meta name="twitter:description" content="About Fareham Kitchens by AOK: Hampshire kitchen showroom for bespoke luxury, Shaker and handleless kitchens, granite worktops, and full design-to-install service." />
+        <meta name="twitter:description" content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -158,8 +161,8 @@ const About = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground mb-8 leading-relaxed">
-                    Experience the quality and craftsmanship of Fareham Kitchens
-                    firsthand at our Southampton showroom. Browse our full range of
+                    Experience the quality and craftsmanship of <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>
+                    {' '}firsthand at our Southampton showroom. Browse our full range of
                     kitchen styles, materials, and finishes, and let our expert designers
                     guide you through the possibilities.
                   </p>

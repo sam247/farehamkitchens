@@ -109,20 +109,22 @@ const Brochures = () => {
   return (
     <>
       <Head>
-        <title>Download Kitchen Brochures | Fareham Kitchens</title>
+        <title>Download Kitchen Brochures | Fareham Kitchens | Häcker Systemat & Concept130 Kitchen Brochures Hampshire</title>
         <meta
           name="description"
-          content="Download Häcker Systemat, Häcker Concept130, and British-made kitchen brochures. Share your details to unlock the PDFs and choose the right range for your home."
+          content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads."
         />
-        <meta property="og:title" content="Download Kitchen Brochures | Fareham Kitchens" />
-        <meta property="og:description" content="Download Häcker Systemat, Häcker Concept130, and British-made kitchen brochures. Share your details to unlock the PDFs and choose the right range for your home." />
-        <meta property="og:image" content="https://farehamkitchens.co.uk/logo.webp" />
+        <meta property="og:title" content="Download Kitchen Brochures | Fareham Kitchens | Häcker Systemat & Concept130" />
+        <meta property="og:description" content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads." />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/brochures" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Download Kitchen Brochures | Fareham Kitchens" />
-        <meta name="twitter:description" content="Download Häcker Systemat, Häcker Concept130, and British-made kitchen brochures. Share your details to unlock the PDFs and choose the right range for your home." />
-        <meta name="twitter:image" content="https://farehamkitchens.co.uk/logo.webp" />
+        <meta name="twitter:description" content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

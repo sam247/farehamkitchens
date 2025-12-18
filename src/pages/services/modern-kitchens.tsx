@@ -11,19 +11,21 @@ const ModernKitchens = () => {
   return (
     <>
       <Head>
-        <title>Modern Kitchens Hampshire | Fareham Kitchen Showroom</title>
+        <title>Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom | Contemporary Kitchen Design Southampton</title>
         <meta
           name="description"
-          content="Sleek handleless kitchens, minimal lines, and integrated technology crafted by Fareham Kitchens for Hampshire homes."
+          content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech."
         />
-        <meta property="og:title" content="Modern Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta property="og:description" content="Sleek handleless kitchens, minimal lines, and integrated technology crafted by Fareham Kitchens for Hampshire homes." />
+        <meta property="og:title" content="Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom | Contemporary Design" />
+        <meta property="og:description" content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/modern1.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/modern-kitchens" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Modern Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Sleek handleless kitchens, minimal lines, and integrated technology crafted by Fareham Kitchens for Hampshire homes." />
+        <meta name="twitter:title" content="Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/modern1.webp" />
       </Head>
       <main className="min-h-screen bg-background">

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Link from "next/link";
 import { Compass, Palette, Hammer, Sparkles, Shield, HeartHandshake } from "lucide-react";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -58,19 +59,21 @@ const Services = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Design & Installation | Fareham Kitchen Showroom</title>
+        <title>Kitchen Design & Installation Services | Fareham Kitchen Showroom Hampshire | Bespoke Kitchens Southampton</title>
         <meta
           name="description"
-          content="Kitchen design and installation in Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and premium appliance partners. Visit our Fareham kitchen showroom."
+          content="Kitchen design & installation in Hampshire. Handleless, Shaker kitchens, granite worktops."
         />
-        <meta property="og:title" content="Kitchen Design & Installation | Fareham Kitchen Showroom" />
-        <meta property="og:description" content="Kitchen design and installation in Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and premium appliance partners. Visit our Fareham kitchen showroom." />
+        <meta property="og:title" content="Kitchen Design & Installation Services | Fareham Kitchen Showroom Hampshire" />
+        <meta property="og:description" content="Kitchen design & installation in Hampshire. Handleless, Shaker kitchens, granite worktops." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Design & Installation | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Kitchen design and installation in Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and premium appliance partners. Visit our Fareham kitchen showroom." />
+        <meta name="twitter:title" content="Kitchen Design & Installation Services | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Kitchen design & installation in Hampshire. Handleless, Shaker kitchens, granite worktops." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -93,7 +96,7 @@ const Services = () => {
                 </h1>
                 <AnimatedSection delay={0.8}>
                   <p className="body-elegant text-muted-foreground text-lg max-w-xl">
-                  From initial inspiration to final installation, we provide a comprehensive, end-to-end service for handleless kitchens, Shaker kitchens, and granite worktops in Hampshire—designed, supplied, and installed by our Fareham team.
+                  From initial inspiration to final installation, we provide a comprehensive, end-to-end service for handleless kitchens, Shaker kitchens, and granite worktops in Hampshire—designed, supplied, and installed by our <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link> team.
                   </p>
                 </AnimatedSection>
               </div>

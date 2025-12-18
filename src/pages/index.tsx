@@ -17,20 +17,22 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire</title>
+        <title>Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire | Handleless & Shaker Kitchens Southampton</title>
         <meta
           name="description"
-          content="Fareham kitchen showroom crafting bespoke luxury kitchens in Hampshire. Handleless and Shaker kitchens, granite worktops, and full design-to-installation by expert kitchen fitters."
+          content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation."
         />
-        <meta property="og:title" content="Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire" />
-        <meta property="og:description" content="Fareham kitchen showroom crafting bespoke luxury kitchens in Hampshire. Handleless and Shaker kitchens, granite worktops, and full design-to-installation by expert kitchen fitters." />
-        <meta property="og:image" content="https://farehamkitchens.co.uk/logo.webp" />
+        <meta property="og:title" content="Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire | Handleless & Shaker Kitchens Southampton" />
+        <meta property="og:description" content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation." />
+        <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire" />
-        <meta name="twitter:description" content="Fareham kitchen showroom crafting bespoke luxury kitchens in Hampshire. Handleless and Shaker kitchens, granite worktops, and full design-to-installation by expert kitchen fitters." />
-        <meta name="twitter:image" content="https://farehamkitchens.co.uk/logo.webp" />
+        <meta name="twitter:description" content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation." />
+        <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

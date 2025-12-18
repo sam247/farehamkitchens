@@ -53,19 +53,21 @@ const Projects = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Projects in Hampshire | Fareham Kitchens</title>
+        <title>Kitchen Projects Portfolio | Fareham Kitchens Hampshire | Bespoke Handleless & Shaker Kitchens Southampton</title>
         <meta
           name="description"
-          content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations."
+          content="Recent kitchen projects in Fareham, Southampton, Hampshire. Handleless & Shaker kitchens."
         />
-        <meta property="og:title" content="Kitchen Projects in Hampshire | Fareham Kitchens" />
-        <meta property="og:description" content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations." />
+        <meta property="og:title" content="Kitchen Projects Portfolio | Fareham Kitchens Hampshire | Bespoke Kitchens" />
+        <meta property="og:description" content="Recent kitchen projects in Fareham, Southampton, Hampshire. Handleless & Shaker kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/projects" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Projects in Hampshire | Fareham Kitchens" />
-        <meta name="twitter:description" content="Recent kitchens in Fareham, Southampton, and Hampshire: handleless kitchens, Shaker kitchens, granite worktops, and bespoke installations." />
+        <meta name="twitter:title" content="Kitchen Projects Portfolio | Fareham Kitchens Hampshire" />
+        <meta name="twitter:description" content="Recent kitchen projects in Fareham, Southampton, Hampshire. Handleless & Shaker kitchens." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -87,7 +89,7 @@ const Projects = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Explore bespoke handleless and Shaker kitchens installed across Fareham, Southampton, and Hampshire—complete with granite or quartz worktops, premium appliances, and meticulous fitting.
+                  Explore bespoke handleless and Shaker kitchens installed across Fareham, Southampton, and Hampshire by <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>—complete with granite or quartz worktops, premium appliances, and meticulous fitting.
                 </p>
               </AnimatedSection>
             </div>

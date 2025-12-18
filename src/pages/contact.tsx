@@ -85,19 +85,21 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Fareham Kitchen Showroom | Book a Consultation</title>
+        <title>Contact Fareham Kitchen Showroom | Book a Consultation | Kitchen Design Southampton Hampshire | 01489 788617</title>
         <meta
           name="description"
-          content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation."
+          content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens."
         />
-        <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
-        <meta property="og:description" content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation." />
+        <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation | Kitchen Design Southampton" />
+        <meta property="og:description" content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/contact" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
-        <meta name="twitter:description" content="Visit our Fareham kitchen showroom in Southampton. Call 01489 788617 or email info@aokitchens.co.uk for handleless and Shaker kitchens, granite worktops, and full installation." />
+        <meta name="twitter:description" content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">

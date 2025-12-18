@@ -11,19 +11,21 @@ const ShakerKitchens = () => {
   return (
     <>
       <Head>
-        <title>Shaker Kitchens Hampshire | Fareham Kitchen Showroom</title>
+        <title>Shaker Kitchens Hampshire | Fareham Kitchen Showroom | Bespoke Framed Kitchen Cabinetry Southampton</title>
         <meta
           name="description"
-          content="Bespoke Shaker kitchens by Fareham Kitchens. Framed cabinetry, balanced proportions, and handcrafted details tailored to Hampshire homes."
+          content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details."
         />
-        <meta property="og:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta property="og:description" content="Bespoke Shaker kitchens by Fareham Kitchens. Framed cabinetry, balanced proportions, and handcrafted details tailored to Hampshire homes." />
+        <meta property="og:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom | Bespoke Framed Cabinetry" />
+        <meta property="og:description" content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/shaker-kitchens" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Bespoke Shaker kitchens by Fareham Kitchens. Framed cabinetry, balanced proportions, and handcrafted details tailored to Hampshire homes." />
+        <meta name="twitter:description" content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
       </Head>
       <main className="min-h-screen bg-background">

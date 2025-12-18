@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -94,19 +95,21 @@ const Process = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Design Process | Fareham Kitchens Hampshire</title>
+        <title>Kitchen Design Process | Fareham Kitchens Hampshire | From Consultation to Installation | Bespoke Kitchen Design</title>
         <meta
           name="description"
-          content="Our Fareham kitchen showroom guides you from consultation and design through installation: handleless, Shaker, granite worktops, and bespoke cabinetry."
+          content="Kitchen design process at Fareham Kitchens. Consultation to installation service."
         />
-        <meta property="og:title" content="Kitchen Design Process | Fareham Kitchens Hampshire" />
-        <meta property="og:description" content="Our Fareham kitchen showroom guides you from consultation and design through installation: handleless, Shaker, granite worktops, and bespoke cabinetry." />
+        <meta property="og:title" content="Kitchen Design Process | Fareham Kitchens Hampshire | From Consultation to Installation" />
+        <meta property="og:description" content="Kitchen design process at Fareham Kitchens. Consultation to installation service." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/process" />
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fareham Kitchens" />
+        <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kitchen Design Process | Fareham Kitchens Hampshire" />
-        <meta name="twitter:description" content="Our Fareham kitchen showroom guides you from consultation and design through installation: handleless, Shaker, granite worktops, and bespoke cabinetry." />
+        <meta name="twitter:description" content="Kitchen design process at Fareham Kitchens. Consultation to installation service." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -128,7 +131,7 @@ const Process = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Every Fareham Kitchen is the result of a carefully considered journey,
+                  Every <Link href="/" className="text-primary hover:underline">Fareham Kitchen</Link> is the result of a carefully considered journey,
                   where your dreams are transformed into a masterpiece of design and craftsmanship.
                 </p>
               </AnimatedSection>
