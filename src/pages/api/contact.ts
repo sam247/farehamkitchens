@@ -2,9 +2,10 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { Resend } from "resend";
 
 const resendApiKey = process.env.RESEND_API_KEY;
-const TO_EMAIL = "info@aokitchens.co.uk";
+const TO_EMAIL = "sam@betterranking.co.uk";
 const BCC_EMAIL = "sampettiford@googlemail.com";
-const FROM_EMAIL = "notifications@farehamkitchens.com";
+// Use environment variable if set, otherwise fallback to verified domain
+const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || "info@farehamkitchens.co.uk";
 
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
@@ -43,7 +44,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     .join("\n");
 
   try {
-    await resend.emails.send({
+    const result = await resend.emails.send({
       from: FROM_EMAIL,
       to: [TO_EMAIL],
       bcc: [BCC_EMAIL],
@@ -52,10 +53,29 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       text: textLines,
     });
 
+    console.log("Email sent successfully:", result);
+
     return res.status(200).json({ success: true });
-  } catch (error) {
-    console.error("Contact form email error", error);
-    return res.status(500).json({ error: "Failed to send message" });
+  } catch (error: any) {
+    console.error("Contact form email error:", error);
+    
+    // Log more detailed error information
+    if (error?.message) {
+      console.error("Error message:", error.message);
+    }
+    if (error?.response) {
+      console.error("Error response:", error.response);
+    }
+
+    // Return more detailed error in development
+    const errorMessage = process.env.NODE_ENV === 'development' 
+      ? error?.message || "Failed to send message"
+      : "Failed to send message";
+
+    return res.status(500).json({ 
+      error: errorMessage,
+      details: process.env.NODE_ENV === 'development' ? error : undefined
+    });
   }
 }
 

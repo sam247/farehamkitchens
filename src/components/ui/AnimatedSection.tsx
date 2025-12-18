@@ -19,6 +19,22 @@ const AnimatedSection = ({
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const current = ref.current;
+    if (!current) return;
+
+    // Check if element is already in viewport on mount
+    const rect = current.getBoundingClientRect();
+    const isInViewport = 
+      rect.top < window.innerHeight && 
+      rect.bottom > 0 && 
+      rect.left < window.innerWidth && 
+      rect.right > 0;
+
+    if (isInViewport) {
+      setIsVisible(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -29,15 +45,10 @@ const AnimatedSection = ({
       { threshold }
     );
 
-    const current = ref.current;
-    if (current) {
-      observer.observe(current);
-    }
+    observer.observe(current);
 
     return () => {
-      if (current) {
-        observer.unobserve(current);
-      }
+      observer.unobserve(current);
     };
   }, [threshold]);
 
