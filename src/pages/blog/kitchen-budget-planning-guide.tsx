@@ -121,7 +121,7 @@ const KitchenBudgetPlanningGuide = () => {
 
                 <h3 className="heading-medium text-foreground">Worktops (10-15%)</h3>
                 <p>
-                  Worktop costs vary widely. <Link href="/worktops/laminate-worktops" className="text-primary hover:underline">Laminate</Link> is most budget-friendly, while <Link href="/worktops/granite-worktops" className="text-primary hover:underline">granite</Link> and <Link href="/worktops/quartz-worktops" className="text-primary hover:underline">quartz</Link> are premium options. <Link href="/worktops/dekton-worktops" className="text-primary hover:underline">Dekton</Link> offers ultra-compact performance at a higher price point.
+                  Worktop costs vary widely. Laminate is most budget-friendly (see our <Link href="/blog/affordable-kitchen-worktops-materials" className="text-primary hover:underline">affordable worktops guide</Link>), while <Link href="/worktops/granite-worktops" className="text-primary hover:underline">granite</Link> and <Link href="/worktops/quartz-worktops" className="text-primary hover:underline">quartz</Link> are premium options. <Link href="/worktops/dekton-worktops" className="text-primary hover:underline">Dekton</Link> offers ultra-compact performance at a higher price point.
                 </p>
 
                 <h3 className="heading-medium text-foreground">Installation & Labour (15-20%)</h3>
