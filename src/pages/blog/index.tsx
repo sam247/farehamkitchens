@@ -76,6 +76,48 @@ const posts = [
     image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
     category: "Budget & Planning",
   },
+  {
+    slug: "kitchen-extension-planning-permission",
+    title: "Kitchen Extension Planning Permission Guide",
+    excerpt: "Complete guide to kitchen extension planning permission. Learn about permitted development rights, when you need planning permission, and how to apply.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Planning Guide",
+  },
+  {
+    slug: "kitchen-design-mistakes-to-avoid",
+    title: "Kitchen Design Mistakes to Avoid",
+    excerpt: "Learn about common kitchen design mistakes and how to avoid them. Expert advice on layout, storage, lighting, and planning your kitchen renovation.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Design Advice",
+  },
+  {
+    slug: "sustainable-kitchen-design",
+    title: "Sustainable Kitchen Design",
+    excerpt: "Guide to sustainable and eco-friendly kitchen design. Learn about sustainable materials, energy-efficient appliances, and creating an environmentally conscious kitchen.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Sustainability",
+  },
+  {
+    slug: "kitchen-for-entertaining",
+    title: "Kitchen for Entertaining: Design Ideas",
+    excerpt: "Design ideas for entertaining kitchens. Learn how to create a kitchen perfect for hosting, with islands, seating, wine storage, and open-plan layouts.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Design Ideas",
+  },
+  {
+    slug: "kitchen-showroom-visit-guide",
+    title: "Kitchen Showroom Visit Guide",
+    excerpt: "Complete guide to visiting a kitchen showroom. Learn what to ask, what to look for, and how to make the most of your showroom visit when planning your kitchen.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Buying Guide",
+  },
+  {
+    slug: "kitchen-installation-process",
+    title: "Kitchen Installation Process: What to Expect",
+    excerpt: "Complete guide to the kitchen installation process. Learn what to expect, timeline, preparation, and what happens during kitchen installation.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Installation Guide",
+  },
 ];
 
 const BlogIndex = () => {

@@ -45,6 +45,33 @@ const projects = [
     description:
       "Milford shaker in natural oak stained with Osmo Raw, large larder storage with internal drawers, statement Smeg range under a custom mantle, and a re-used oak beam to preserve character.",
   },
+  {
+    id: 5,
+    slug: 'eastleigh-kitchen-project',
+    title: 'Modern Shaker Kitchen Extension, Eastleigh',
+    category: 'Extension',
+    image: '/aok/project2/DSC_2513-scaled.jpg',
+    description:
+      'Complete kitchen extension creating an open-plan space. Contemporary Shaker cabinetry, granite worktops, large island, and integrated AEG appliances.',
+  },
+  {
+    id: 6,
+    slug: 'portsmouth-kitchen-project',
+    title: 'Small Kitchen Redesign, Portsmouth',
+    category: 'Small Kitchen',
+    image: '/aok/project3/image00024-scaled.jpeg',
+    description:
+      'Compact galley kitchen transformed with smart storage solutions. Tall larders, deep drawers, and compact appliances maximise space in this small kitchen.',
+  },
+  {
+    id: 7,
+    slug: 'winchester-kitchen-project',
+    title: 'Traditional Kitchen with Island, Winchester',
+    category: 'Traditional',
+    image: '/aok/project4/image00012-1-scaled-2.jpeg',
+    description:
+      'Period property kitchen balancing traditional character with modern functionality. In-frame cabinetry, large central island, and premium appliances.',
+  },
 ];
 
 const Projects = () => {

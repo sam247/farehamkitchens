@@ -228,6 +228,7 @@ const Services = () => {
                 <Link href="/small-kitchens" className="text-primary hover:underline">Small Kitchens</Link>
                 <Link href="/kitchen-extensions" className="text-primary hover:underline">Kitchen Extensions</Link>
                 <Link href="/kitchen-storage" className="text-primary hover:underline">Kitchen Storage</Link>
+                <Link href="/appliances" className="text-primary hover:underline">Appliances</Link>
                 <Link href="/worktops/granite-worktops" className="text-primary hover:underline">Granite Worktops</Link>
                 <Link href="/worktops/quartz-worktops" className="text-primary hover:underline">Quartz Worktops</Link>
               </div>

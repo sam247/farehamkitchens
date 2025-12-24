@@ -53,6 +53,17 @@ const pages = [
   { path: '/locations/eastleigh-kitchens', priority: '0.7', changefreq: 'monthly' },
   { path: '/locations/waterlooville-kitchens', priority: '0.7', changefreq: 'monthly' },
   { path: '/locations/bishops-waltham-kitchens', priority: '0.7', changefreq: 'monthly' },
+  { path: '/reviews', priority: '0.8', changefreq: 'monthly' },
+  { path: '/appliances', priority: '0.8', changefreq: 'monthly' },
+  { path: '/blog/kitchen-extension-planning-permission', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-design-mistakes-to-avoid', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/sustainable-kitchen-design', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-for-entertaining', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-showroom-visit-guide', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-installation-process', priority: '0.7', changefreq: 'monthly' },
+  { path: '/projects/eastleigh-kitchen-project', priority: '0.8', changefreq: 'monthly' },
+  { path: '/projects/portsmouth-kitchen-project', priority: '0.8', changefreq: 'monthly' },
+  { path: '/projects/winchester-kitchen-project', priority: '0.8', changefreq: 'monthly' },
 ];
 
 function generateSitemap() {
