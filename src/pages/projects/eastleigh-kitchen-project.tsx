@@ -41,7 +41,7 @@ const EastleighKitchenProject = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground max-w-3xl">
-                A complete kitchen extension and renovation creating a stunning open-plan space. Contemporary Shaker cabinetry in soft grey, granite worktops, and integrated AEG appliances combine to create a family-friendly kitchen that's both beautiful and highly functional.
+                A complete kitchen extension and renovation creating a stunning open-plan space. Contemporary Shaker cabinetry in soft grey, granite worktops, and integrated AEG appliances combine to create a family-friendly kitchen that&apos;s both beautiful and highly functional.
               </p>
             </AnimatedSection>
           </div>

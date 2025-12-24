@@ -45,7 +45,7 @@ const SmallKitchens = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Small kitchens don't mean small possibilities. With smart design, space-saving solutions, and compact appliances, we create functional, beautiful kitchens that make the most of every square inch. From galley kitchens to compact apartments, we specialise in maximising space without compromising on style or functionality.
+                    Small kitchens don&apos;t mean small possibilities. With smart design, space-saving solutions, and compact appliances, we create functional, beautiful kitchens that make the most of every square inch. From galley kitchens to compact apartments, we specialise in maximising space without compromising on style or functionality.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -190,7 +190,7 @@ const SmallKitchens = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Book a consultation to discuss your small kitchen design. We'll help you create a functional, beautiful kitchen that makes the most of every inch of space.
+                Book a consultation to discuss your small kitchen design. We&apos;ll help you create a functional, beautiful kitchen that makes the most of every inch of space.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

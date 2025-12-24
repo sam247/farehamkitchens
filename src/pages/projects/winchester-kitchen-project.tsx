@@ -41,7 +41,7 @@ const WinchesterKitchenProject = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground max-w-3xl">
-                A period property kitchen that perfectly balances traditional character with modern functionality. In-frame cabinetry, ornate details, and a large central island create a kitchen that honours the home's heritage while providing all the conveniences of contemporary living.
+                A period property kitchen that perfectly balances traditional character with modern functionality. In-frame cabinetry, ornate details, and a large central island create a kitchen that honours the home&apos;s heritage while providing all the conveniences of contemporary living.
               </p>
             </AnimatedSection>
           </div>
@@ -83,7 +83,7 @@ const WinchesterKitchenProject = () => {
               <div>
                 <h2 className="heading-medium text-foreground mb-3">Design Approach</h2>
                 <p className="body-elegant text-muted-foreground">
-                  The design respects the property's period features while incorporating contemporary elements. In-frame cabinetry with ornate detailing creates an authentic traditional look, while the large island adds modern functionality.
+                  The design respects the property&apos;s period features while incorporating contemporary elements. In-frame cabinetry with ornate detailing creates an authentic traditional look, while the large island adds modern functionality.
                 </p>
               </div>
               <div>

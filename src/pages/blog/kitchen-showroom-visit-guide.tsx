@@ -148,7 +148,7 @@ const KitchenShowroomVisitGuide = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>What does the design process involve?</li>
                   <li>How long does the design phase take?</li>
-                  <li>What's included in the design service?</li>
+                  <li>What&apos;s included in the design service?</li>
                   <li>Do you provide 3D visualisations?</li>
                 </ul>
 
@@ -156,13 +156,13 @@ const KitchenShowroomVisitGuide = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>Do you provide installation services?</li>
                   <li>How long does installation typically take?</li>
-                  <li>What's included in the installation?</li>
+                  <li>What&apos;s included in the installation?</li>
                   <li>Do you coordinate with other tradespeople?</li>
                 </ul>
 
                 <h3 className="heading-medium text-foreground">About Costs</h3>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>What's included in the quoted price?</li>
+                  <li>What&apos;s included in the quoted price?</li>
                   <li>Are there any additional costs to consider?</li>
                   <li>What payment terms do you offer?</li>
                   <li>Are there any current offers or promotions?</li>
@@ -172,8 +172,8 @@ const KitchenShowroomVisitGuide = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>What warranties do you offer?</li>
                   <li>How long are warranties valid?</li>
-                  <li>What's covered under warranty?</li>
-                  <li>What's your aftercare service like?</li>
+                  <li>What&apos;s covered under warranty?</li>
+                  <li>What&apos;s your aftercare service like?</li>
                 </ul>
 
                 <h2 className="heading-medium text-foreground">Making the Most of Your Visit</h2>

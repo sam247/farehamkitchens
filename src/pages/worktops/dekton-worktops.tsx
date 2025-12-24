@@ -174,7 +174,7 @@ const DektonWorktops = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Discover Dekton's extreme durability and modern aesthetic in our showroom. Perfect for contemporary kitchens where performance and style are equally important.
+                Discover Dekton&apos;s extreme durability and modern aesthetic in our showroom. Perfect for contemporary kitchens where performance and style are equally important.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

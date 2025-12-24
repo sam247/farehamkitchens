@@ -75,7 +75,7 @@ const SustainableKitchenDesign = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-elegant text-muted-foreground max-w-2xl">
-                  Creating an eco-friendly kitchen doesn't mean compromising on style or quality. Learn how to design a sustainable kitchen that's beautiful, functional, and kind to the environment.
+                  Creating an eco-friendly kitchen doesn&apos;t mean compromising on style or quality. Learn how to design a sustainable kitchen that&apos;s beautiful, functional, and kind to the environment.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -101,12 +101,12 @@ const SustainableKitchenDesign = () => {
               <article className="space-y-6 body-elegant text-muted-foreground leading-relaxed">
                 <h2 className="heading-medium text-foreground">Why Choose Sustainable Kitchen Design?</h2>
                 <p>
-                  Sustainable kitchen design reduces environmental impact while creating a healthier home. By choosing responsibly sourced materials, energy-efficient appliances, and durable designs, you create a kitchen that's better for the planet and built to last.
+                  Sustainable kitchen design reduces environmental impact while creating a healthier home. By choosing responsibly sourced materials, energy-efficient appliances, and durable designs, you create a kitchen that&apos;s better for the planet and built to last.
                 </p>
 
                 <h2 className="heading-medium text-foreground">Sustainable Materials</h2>
                 <p>
-                  The materials you choose significantly impact your kitchen's environmental footprint:
+                  The materials you choose significantly impact your kitchen&apos;s environmental footprint:
                 </p>
 
                 <h3 className="heading-medium text-foreground">Cabinetry</h3>
@@ -147,7 +147,7 @@ const SustainableKitchenDesign = () => {
                   The most sustainable kitchen is one that lasts. Designing for longevity means:
                 </p>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>Choosing timeless styles that won't date quickly</li>
+                  <li>Choosing timeless styles that won&apos;t date quickly</li>
                   <li>Investing in quality materials and craftsmanship</li>
                   <li>Designing flexible layouts that adapt to changing needs</li>
                   <li>Ensuring easy maintenance and repair</li>
@@ -160,7 +160,7 @@ const SustainableKitchenDesign = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li><strong className="text-foreground">Recycling storage:</strong> Built-in recycling and composting solutions</li>
                   <li><strong className="text-foreground">Food waste:</strong> Composting systems and food waste disposers</li>
-                  <li><strong className="text-foreground">Packaging:</strong> Consider how you'll store bulk items to reduce packaging waste</li>
+                  <li><strong className="text-foreground">Packaging:</strong> Consider how you&apos;ll store bulk items to reduce packaging waste</li>
                 </ul>
 
                 <h2 className="heading-medium text-foreground">Water Efficiency</h2>
@@ -176,7 +176,7 @@ const SustainableKitchenDesign = () => {
 
                 <h2 className="heading-medium text-foreground">Creating Your Sustainable Kitchen</h2>
                 <p>
-                  Sustainable kitchen design balances environmental considerations with functionality and style. <Link href="/contact" className="text-primary hover:underline">Work with our designers</Link> to create a kitchen that's beautiful, functional, and environmentally conscious. We can help you choose sustainable materials, energy-efficient appliances, and design solutions that reduce your environmental impact without compromising on quality or style.
+                  Sustainable kitchen design balances environmental considerations with functionality and style. <Link href="/contact" className="text-primary hover:underline">Work with our designers</Link> to create a kitchen that&apos;s beautiful, functional, and environmentally conscious. We can help you choose sustainable materials, energy-efficient appliances, and design solutions that reduce your environmental impact without compromising on quality or style.
                 </p>
               </article>
             </AnimatedSection>

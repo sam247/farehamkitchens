@@ -153,13 +153,13 @@ const KitchenIslands = () => {
               <AnimatedSection delay={0.05} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">Space Requirements</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Ensure adequate clearance around your island—typically 900-1200mm between the island and other units for comfortable movement. We'll measure your space and design an island that maximises functionality without overwhelming the room.
+                  Ensure adequate clearance around your island—typically 900-1200mm between the island and other units for comfortable movement. We&apos;ll measure your space and design an island that maximises functionality without overwhelming the room.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">Workflow & Function</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Consider how you use your kitchen. Do you need extra prep space, storage, or seating? We'll design your island to support your cooking style and lifestyle, creating a functional centrepiece that enhances your daily routine.
+                  Consider how you use your kitchen. Do you need extra prep space, storage, or seating? We&apos;ll design your island to support your cooking style and lifestyle, creating a functional centrepiece that enhances your daily routine.
                 </p>
               </AnimatedSection>
             </div>
@@ -180,7 +180,7 @@ const KitchenIslands = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Book a consultation to discuss your kitchen island design. We'll help you create a bespoke island that perfectly suits your space, style, and needs.
+                Book a consultation to discuss your kitchen island design. We&apos;ll help you create a bespoke island that perfectly suits your space, style, and needs.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: "Can you work with my existing kitchen appliances?",
-    answer: "Yes, we can design around your existing appliances if they're in good condition and meet your needs. However, we often recommend upgrading to integrated appliances for a seamless, modern look. We work with premium brands including AEG, Bora, Quooker, Miele, and Gaggenau, and can help you select the perfect appliances for your new kitchen."
+    answer: "Yes, we can design around your existing appliances if they&apos;re in good condition and meet your needs. However, we often recommend upgrading to integrated appliances for a seamless, modern look. We work with premium brands including AEG, Bora, Quooker, Miele, and Gaggenau, and can help you select the perfect appliances for your new kitchen."
   },
   {
     question: "Do you work with a budget in mind?",
-    answer: "Absolutely. We work with a wide range of budgets and can tailor your kitchen design to meet your financial requirements. During your initial consultation, we'll discuss your budget and show you options that work within it. We offer three main kitchen ranges: Häcker Systemat (premium), Concept130 (mid-range), and British-made (flexible pricing), allowing us to find the perfect solution for your budget."
+    answer: "Absolutely. We work with a wide range of budgets and can tailor your kitchen design to meet your financial requirements. During your initial consultation, we&apos;ll discuss your budget and show you options that work within it. We offer three main kitchen ranges: Häcker Systemat (premium), Concept130 (mid-range), and British-made (flexible pricing), allowing us to find the perfect solution for your budget."
   },
   {
     question: "How do I book a kitchen consultation?",
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: "What worktop materials do you offer?",
-    answer: "We offer a wide range of worktop materials including: Granite (natural stone, heat-resistant, unique patterns), Quartz (engineered stone, low maintenance, consistent appearance), Dekton (ultra-compact surface, extremely durable, modern aesthetic), and Solid wood (warm, traditional, requires maintenance). We'll help you choose the best material based on your lifestyle, budget, and design preferences."
+    answer: "We offer a wide range of worktop materials including: Granite (natural stone, heat-resistant, unique patterns), Quartz (engineered stone, low maintenance, consistent appearance), Dekton (ultra-compact surface, extremely durable, modern aesthetic), and Solid wood (warm, traditional, requires maintenance). We&apos;ll help you choose the best material based on your lifestyle, budget, and design preferences."
   },
   {
     question: "How long does kitchen installation take?",
@@ -115,7 +115,7 @@ const FAQ = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Find answers to common questions about our kitchen design process, installation services, costs, and more. Can't find what you're looking for? <Link href="/contact" className="text-primary hover:underline">Contact us</Link> and we'll be happy to help.
+                  Find answers to common questions about our kitchen design process, installation services, costs, and more. Can&apos;t find what you&apos;re looking for? <Link href="/contact" className="text-primary hover:underline">Contact us</Link> and we&apos;ll be happy to help.
                 </p>
               </AnimatedSection>
             </div>
@@ -154,7 +154,7 @@ const FAQ = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.1}>
               <h2 className="heading-large text-foreground">
-                Let's Discuss Your<br />
+                Let&apos;s Discuss Your<br />
                 <span className="text-primary">Kitchen Project</span>
               </h2>
             </AnimatedSection>

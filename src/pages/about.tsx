@@ -244,7 +244,7 @@ const About = () => {
             </div>
             <AnimatedSection delay={0.15} className="p-6 bg-secondary border border-border">
               <p className="body-elegant text-foreground leading-relaxed text-center mb-4">
-                "From first visit to completion nothing was too much trouble. Everything was scheduled like clockwork and the workmanship was second to none." — Nicki Coxall
+                &ldquo;From first visit to completion nothing was too much trouble. Everything was scheduled like clockwork and the workmanship was second to none.&rdquo; — Nicki Coxall
               </p>
               <p className="text-center">
                 <Link href="/reviews" className="text-primary hover:underline label-uppercase text-xs">

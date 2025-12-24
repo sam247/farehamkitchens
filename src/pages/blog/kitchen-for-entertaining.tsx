@@ -75,7 +75,7 @@ const KitchenForEntertaining = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-elegant text-muted-foreground max-w-2xl">
-                  Create a kitchen that's perfect for hosting. From islands with seating to wine storage and open-plan layouts, discover design ideas for entertaining kitchens that bring people together.
+                  Create a kitchen that&apos;s perfect for hosting. From islands with seating to wine storage and open-plan layouts, discover design ideas for entertaining kitchens that bring people together.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -101,7 +101,7 @@ const KitchenForEntertaining = () => {
               <article className="space-y-6 body-elegant text-muted-foreground leading-relaxed">
                 <h2 className="heading-medium text-foreground">Designing a Kitchen for Entertaining</h2>
                 <p>
-                  A kitchen designed for entertaining goes beyond cooking—it's a social hub where guests gather, conversations flow, and memories are made. Whether you love hosting dinner parties, casual get-togethers, or family gatherings, these design ideas create a kitchen that's perfect for entertaining.
+                  A kitchen designed for entertaining goes beyond cooking—it&apos;s a social hub where guests gather, conversations flow, and memories are made. Whether you love hosting dinner parties, casual get-togethers, or family gatherings, these design ideas create a kitchen that&apos;s perfect for entertaining.
                 </p>
 
                 <h2 className="heading-medium text-foreground">Kitchen Islands: The Heart of Entertaining</h2>
@@ -189,7 +189,7 @@ const KitchenForEntertaining = () => {
 
                 <h2 className="heading-medium text-foreground">Creating Your Entertaining Kitchen</h2>
                 <p>
-                  Designing a kitchen for entertaining requires careful planning to balance cooking functionality with social spaces. <Link href="/contact" className="text-primary hover:underline">Work with our designers</Link> to create a kitchen that's perfect for hosting, whether you love intimate dinner parties or large gatherings. We'll help you design a space that brings people together and makes entertaining a joy.
+                  Designing a kitchen for entertaining requires careful planning to balance cooking functionality with social spaces. <Link href="/contact" className="text-primary hover:underline">Work with our designers</Link> to create a kitchen that&apos;s perfect for hosting, whether you love intimate dinner parties or large gatherings. We&apos;ll help you design a space that brings people together and makes entertaining a joy.
                 </p>
               </article>
             </AnimatedSection>

@@ -205,7 +205,7 @@ const KitchenStorage = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Book a consultation to discuss your storage needs. We'll design bespoke storage solutions that keep your kitchen organised and make cooking more enjoyable.
+                Book a consultation to discuss your storage needs. We&apos;ll design bespoke storage solutions that keep your kitchen organised and make cooking more enjoyable.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

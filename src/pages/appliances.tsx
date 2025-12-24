@@ -78,7 +78,7 @@ const Appliances = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    We partner with the world's finest appliance manufacturers to ensure your kitchen is equipped with the very best. From German engineering excellence to innovative extraction systems and instant boiling water, we source and integrate appliances that match the quality of our bespoke cabinetry.
+                    We partner with the world&apos;s finest appliance manufacturers to ensure your kitchen is equipped with the very best. From German engineering excellence to innovative extraction systems and instant boiling water, we source and integrate appliances that match the quality of our bespoke cabinetry.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -143,7 +143,7 @@ const Appliances = () => {
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-secondary/40 space-y-3">
                 <h3 className="heading-medium text-foreground">Installation</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Our expert team installs and connects all appliances, ensuring they're properly integrated with your cabinetry and fully functional. We handle all electrical and plumbing connections.
+                  Our expert team installs and connects all appliances, ensuring they&apos;re properly integrated with your cabinetry and fully functional. We handle all electrical and plumbing connections.
                 </p>
               </AnimatedSection>
             </div>

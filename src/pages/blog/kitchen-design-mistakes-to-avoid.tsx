@@ -125,7 +125,7 @@ const KitchenDesignMistakesToAvoid = () => {
 
                 <h2 className="heading-medium text-foreground">4. Choosing Style Over Function</h2>
                 <p>
-                  While aesthetics are important, prioritising looks over functionality leads to frustration. A beautiful kitchen that's difficult to use won't bring you joy long-term.
+                  While aesthetics are important, prioritising looks over functionality leads to frustration. A beautiful kitchen that&apos;s difficult to use won&apos;t bring you joy long-term.
                 </p>
                 <p>
                   <strong className="text-foreground">Solution:</strong> Balance style and function. Choose designs that look great AND work well for your lifestyle and cooking habits.
@@ -152,7 +152,7 @@ const KitchenDesignMistakesToAvoid = () => {
                   Proper ventilation is essential for removing cooking odours, steam, and grease. Inadequate extraction leads to condensation, lingering smells, and grease buildup.
                 </p>
                 <p>
-                  <strong className="text-foreground">Solution:</strong> Invest in a quality extractor hood or <Link href="/appliances" className="text-primary hover:underline">Bora downdraft system</Link>. Ensure it's properly sized for your hob and kitchen size.
+                  <strong className="text-foreground">Solution:</strong> Invest in a quality extractor hood or <Link href="/appliances" className="text-primary hover:underline">Bora downdraft system</Link>. Ensure it&apos;s properly sized for your hob and kitchen size.
                 </p>
 
                 <h2 className="heading-medium text-foreground">8. Not Planning for Future Needs</h2>

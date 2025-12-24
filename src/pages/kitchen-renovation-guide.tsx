@@ -144,19 +144,19 @@ const KitchenRenovationGuide = () => {
               <AnimatedSection delay={0.05} className="p-6 border border-border bg-secondary/40">
                 <h3 className="heading-medium text-foreground mb-3">Initial Consultation</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Book a consultation to discuss your vision, lifestyle, and requirements. We'll measure your space, understand your cooking habits, and explore design options. This typically takes 1-2 hours and can be at our showroom or your home.
+                  Book a consultation to discuss your vision, lifestyle, and requirements. We&apos;ll measure your space, understand your cooking habits, and explore design options. This typically takes 1-2 hours and can be at our showroom or your home.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-secondary/40">
                 <h3 className="heading-medium text-foreground mb-3">3D Visualisations</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Our designers create detailed 3D CAD drawings showing your new kitchen from every angle. You'll see exactly how it will look, how the layout works, and how materials and finishes come together. This process typically takes 2-4 weeks.
+                  Our designers create detailed 3D CAD drawings showing your new kitchen from every angle. You&apos;ll see exactly how it will look, how the layout works, and how materials and finishes come together. This process typically takes 2-4 weeks.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.15} className="p-6 border border-border bg-secondary/40">
                 <h3 className="heading-medium text-foreground mb-3">Material Selection</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Choose cabinetry finishes, worktops, appliances, and hardware. We'll help you select materials that match your style, budget, and lifestyle. Visit our showroom to see and feel samples in person.
+                  Choose cabinetry finishes, worktops, appliances, and hardware. We&apos;ll help you select materials that match your style, budget, and lifestyle. Visit our showroom to see and feel samples in person.
                 </p>
               </AnimatedSection>
             </div>
@@ -174,7 +174,7 @@ const KitchenRenovationGuide = () => {
               <AnimatedSection delay={0.05} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">Preparation</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Before installation begins, we'll coordinate with any builders or tradespeople needed for structural work, plumbing, or electrical updates. We ensure everything is ready for a smooth installation.
+                  Before installation begins, we&apos;ll coordinate with any builders or tradespeople needed for structural work, plumbing, or electrical updates. We ensure everything is ready for a smooth installation.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-background">
@@ -241,7 +241,7 @@ const KitchenRenovationGuide = () => {
               <AnimatedSection delay={0.05} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">Insufficient Budget Planning</h3>
                 <p className="body-elegant text-muted-foreground">
-                  Always include a contingency fund (10-15%) for unexpected costs. Don't forget to budget for building work, electrical, plumbing, and finishing touches.
+                  Always include a contingency fund (10-15%) for unexpected costs. Don&apos;t forget to budget for building work, electrical, plumbing, and finishing touches.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-background">
@@ -274,13 +274,13 @@ const KitchenRenovationGuide = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.1}>
               <h2 className="heading-large text-foreground">
-                Let's Plan Your<br />
+                Let&apos;s Plan Your<br />
                 <span className="text-primary">Kitchen Renovation</span>
               </h2>
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Book a consultation to discuss your kitchen renovation project. We'll guide you through every step, from initial planning to final installation.
+                Book a consultation to discuss your kitchen renovation project. We&apos;ll guide you through every step, from initial planning to final installation.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

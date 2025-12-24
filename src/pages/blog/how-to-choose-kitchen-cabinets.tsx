@@ -111,7 +111,7 @@ const HowToChooseKitchenCabinets = () => {
 
                 <h3 className="heading-medium text-foreground">Wall Cabinets</h3>
                 <p>
-                  Wall cabinets provide storage above worktops, typically for crockery, glasses, and smaller items. Consider height and depth to ensure they don't overwhelm the space or block light.
+                  Wall cabinets provide storage above worktops, typically for crockery, glasses, and smaller items. Consider height and depth to ensure they don&apos;t overwhelm the space or block light.
                 </p>
 
                 <h3 className="heading-medium text-foreground">Tall Storage</h3>

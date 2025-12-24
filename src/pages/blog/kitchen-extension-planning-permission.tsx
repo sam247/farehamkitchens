@@ -127,7 +127,7 @@ const KitchenExtensionPlanningPermission = () => {
 
                 <h2 className="heading-medium text-foreground">When You Need Planning Permission</h2>
                 <p>
-                  You'll need planning permission if:
+                  You&apos;ll need planning permission if:
                 </p>
                 <ul className="list-disc list-inside space-y-2">
                   <li>Your extension exceeds permitted development size limits</li>
@@ -135,7 +135,7 @@ const KitchenExtensionPlanningPermission = () => {
                   <li>Your property is in a conservation area</li>
                   <li>Your property is listed</li>
                   <li>Your property is in an Area of Outstanding Natural Beauty (AONB)</li>
-                  <li>Your extension would affect a neighbour's right to light</li>
+                  <li>Your extension would affect a neighbour&apos;s right to light</li>
                 </ul>
 
                 <h2 className="heading-medium text-foreground">The Planning Application Process</h2>
@@ -167,12 +167,12 @@ const KitchenExtensionPlanningPermission = () => {
 
                 <h3 className="heading-medium text-foreground">4. Decision</h3>
                 <p>
-                  You'll receive a decision notice. If approved, you can proceed with your extension. If refused, you can appeal or modify your plans and reapply.
+                  You&apos;ll receive a decision notice. If approved, you can proceed with your extension. If refused, you can appeal or modify your plans and reapply.
                 </p>
 
                 <h2 className="heading-medium text-foreground">Building Regulations</h2>
                 <p>
-                  <strong className="text-foreground">Important:</strong> Even if you don't need planning permission, you'll still need building regulations approval. This covers structural safety, insulation, fire safety, electrical work, and drainage. Building regulations are separate from planning permission and are required for all extensions.
+                  <strong className="text-foreground">Important:</strong> Even if you don&apos;t need planning permission, you&apos;ll still need building regulations approval. This covers structural safety, insulation, fire safety, electrical work, and drainage. Building regulations are separate from planning permission and are required for all extensions.
                 </p>
 
                 <h2 className="heading-medium text-foreground">Getting Help</h2>

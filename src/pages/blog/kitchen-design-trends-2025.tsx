@@ -75,7 +75,7 @@ const KitchenDesignTrends2025 = () => {
               </AnimatedSection>
               <AnimatedSection delay={0.2}>
                 <p className="body-elegant text-muted-foreground max-w-2xl">
-                  Discover what's shaping kitchen design in 2025. From sustainable materials to smart technology, these trends reflect how we want to live, cook, and entertain in our homes.
+                  Discover what&apos;s shaping kitchen design in 2025. From sustainable materials to smart technology, these trends reflect how we want to live, cook, and entertain in our homes.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -133,7 +133,7 @@ const KitchenDesignTrends2025 = () => {
 
                 <h2 className="heading-medium text-foreground">5. Kitchen Islands as Focal Points</h2>
                 <p>
-                  Islands continue to be the heart of the kitchen, but in 2025 they're becoming more multifunctional. <Link href="/kitchen-islands" className="text-primary hover:underline">Kitchen islands</Link> now often include integrated sinks, hobs, wine storage, and seating, creating a true hub for cooking, dining, and socialising.
+                  Islands continue to be the heart of the kitchen, but in 2025 they&apos;re becoming more multifunctional. <Link href="/kitchen-islands" className="text-primary hover:underline">Kitchen islands</Link> now often include integrated sinks, hobs, wine storage, and seating, creating a true hub for cooking, dining, and socialising.
                 </p>
                 <p>
                   Multi-level islands with different heights for prep and dining are popular, as are islands with contrasting materials or colours to create visual separation.

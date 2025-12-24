@@ -45,7 +45,7 @@ const KitchenExtensions = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    A kitchen extension is one of the most valuable home improvements you can make. Whether you're creating an open-plan living space, adding a dining area, or simply gaining more room for cooking and storage, we work with trusted local builders to design and coordinate kitchen extensions that transform how you live.
+                    A kitchen extension is one of the most valuable home improvements you can make. Whether you&apos;re creating an open-plan living space, adding a dining area, or simply gaining more room for cooking and storage, we work with trusted local builders to design and coordinate kitchen extensions that transform how you live.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
@@ -160,16 +160,16 @@ const KitchenExtensions = () => {
                   Many single-storey rear extensions fall under permitted development, meaning you may not need planning permission if:
                 </p>
                 <ul className="space-y-2 body-elegant text-muted-foreground list-disc list-inside">
-                  <li>The extension doesn't extend more than 6m from the original house (8m for detached)</li>
-                  <li>It's no higher than 4m</li>
-                  <li>It doesn't cover more than 50% of your garden</li>
+                  <li>The extension doesn&apos;t extend more than 6m from the original house (8m for detached)</li>
+                  <li>It&apos;s no higher than 4m</li>
+                  <li>It doesn&apos;t cover more than 50% of your garden</li>
                   <li>It meets other specific criteria</li>
                 </ul>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">When You Need Planning Permission</h3>
                 <p className="body-elegant text-muted-foreground">
-                  You'll need planning permission for larger extensions, double-storey extensions, or if your property is in a conservation area or listed. We work with local architects and can guide you through the planning process, helping with applications and liaising with your local council.
+                  You&apos;ll need planning permission for larger extensions, double-storey extensions, or if your property is in a conservation area or listed. We work with local architects and can guide you through the planning process, helping with applications and liaising with your local council.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.15} className="p-6 border border-border bg-background">
@@ -193,7 +193,7 @@ const KitchenExtensions = () => {
               <AnimatedSection delay={0.05} className="p-6 border border-border bg-secondary/40 space-y-3">
                 <h3 className="heading-medium text-foreground">Initial Consultation</h3>
                 <p className="body-elegant text-muted-foreground">
-                  We assess your existing space, discuss your vision, and explore extension possibilities. We'll consider your budget, planning constraints, and how you want to use the new space.
+                  We assess your existing space, discuss your vision, and explore extension possibilities. We&apos;ll consider your budget, planning constraints, and how you want to use the new space.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1} className="p-6 border border-border bg-secondary/40 space-y-3">
@@ -266,7 +266,7 @@ const KitchenExtensions = () => {
             </AnimatedSection>
             <AnimatedSection delay={0.2}>
               <p className="body-elegant text-muted-foreground leading-relaxed">
-                Book a consultation to discuss your kitchen extension project. We'll help you understand planning requirements, explore design options, and create a plan to transform your home.
+                Book a consultation to discuss your kitchen extension project. We&apos;ll help you understand planning requirements, explore design options, and create a plan to transform your home.
               </p>
             </AnimatedSection>
             <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">

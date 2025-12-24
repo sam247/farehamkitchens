@@ -13,7 +13,7 @@ const reviews = [
     location: "Southampton",
     project: "Modern Handleless Kitchen",
     rating: 5,
-    text: "Absolutely thrilled with our new kitchen! The design process was smooth, and the team was professional throughout. The quality is outstanding, and the installation was completed on time with minimal disruption. Couldn't be happier!",
+    text: "Absolutely thrilled with our new kitchen! The design process was smooth, and the team was professional throughout. The quality is outstanding, and the installation was completed on time with minimal disruption. Couldn&apos;t be happier!",
     date: "2024"
   },
   {
@@ -29,7 +29,7 @@ const reviews = [
     location: "Winchester",
     project: "Kitchen Extension & Renovation",
     rating: 5,
-    text: "We extended our kitchen and needed a complete redesign. The team coordinated everything perfectly with our builders, and the result is a stunning open-plan space that's perfect for family life. Worth every penny!",
+    text: "We extended our kitchen and needed a complete redesign. The team coordinated everything perfectly with our builders, and the result is a stunning open-plan space that&apos;s perfect for family life. Worth every penny!",
     date: "2024"
   },
   {
@@ -45,7 +45,7 @@ const reviews = [
     location: "Gosport",
     project: "Small Kitchen Redesign",
     rating: 5,
-    text: "Our small kitchen now feels twice the size thanks to clever storage solutions and smart design. The team maximised every inch of space, and we couldn't be more pleased with the result.",
+    text: "Our small kitchen now feels twice the size thanks to clever storage solutions and smart design. The team maximised every inch of space, and we couldn&apos;t be more pleased with the result.",
     date: "2024"
   },
   {
@@ -127,7 +127,7 @@ const Reviews = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Don't just take our word for it. Read what our customers say about their experience with Fareham Kitchens, from initial consultation through to final installation.
+                  Don&apos;t just take our word for it. Read what our customers say about their experience with Fareham Kitchens, from initial consultation through to final installation.
                 </p>
               </AnimatedSection>
             </div>
@@ -150,7 +150,7 @@ const Reviews = () => {
                     ))}
                   </div>
                   <p className="body-elegant text-muted-foreground mb-6 leading-relaxed">
-                    "{review.text}"
+                    &ldquo;{review.text}&rdquo;
                   </p>
                   <div className="border-t border-border pt-4">
                     <p className="heading-medium text-foreground text-sm mb-1">{review.name}</p>
@@ -174,7 +174,7 @@ const Reviews = () => {
                   <span className="text-primary">Across Hampshire</span>
                 </h2>
                 <p className="body-elegant text-muted-foreground">
-                  With over 40 years of experience, we've helped thousands of homeowners create their dream kitchens. Our commitment to quality, service, and customer satisfaction is reflected in every project we complete.
+                  With over 40 years of experience, we&apos;ve helped thousands of homeowners create their dream kitchens. Our commitment to quality, service, and customer satisfaction is reflected in every project we complete.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={0.1}>

@@ -126,7 +126,7 @@ const KitchenBudgetPlanningGuide = () => {
 
                 <h3 className="heading-medium text-foreground">Installation & Labour (15-20%)</h3>
                 <p>
-                  Professional installation ensures your kitchen is fitted correctly and safely. This includes fitting units, connecting appliances, plumbing, and electrical work. Don't underestimate this cost—quality installation is essential.
+                  Professional installation ensures your kitchen is fitted correctly and safely. This includes fitting units, connecting appliances, plumbing, and electrical work. Don&apos;t underestimate this cost—quality installation is essential.
                 </p>
 
                 <h3 className="heading-medium text-foreground">Building Work (10-15%)</h3>
@@ -136,7 +136,7 @@ const KitchenBudgetPlanningGuide = () => {
 
                 <h3 className="heading-medium text-foreground">Finishing Touches (5-10%)</h3>
                 <p>
-                  Don't forget finishing touches: flooring, paint, tiles, lighting, and accessories. These details complete your kitchen but can add up if not budgeted for.
+                  Don&apos;t forget finishing touches: flooring, paint, tiles, lighting, and accessories. These details complete your kitchen but can add up if not budgeted for.
                 </p>
 
                 <h2 className="heading-medium text-foreground">The Contingency Fund</h2>
@@ -153,7 +153,7 @@ const KitchenBudgetPlanningGuide = () => {
 
                 <h2 className="heading-medium text-foreground">Budgeting by Kitchen Size</h2>
                 <p>
-                  Kitchen costs scale with size, but not proportionally. A larger kitchen doesn't necessarily cost twice as much as a smaller one, as some costs are fixed:
+                  Kitchen costs scale with size, but not proportionally. A larger kitchen doesn&apos;t necessarily cost twice as much as a smaller one, as some costs are fixed:
                 </p>
                 <ul className="list-disc list-inside space-y-2">
                   <li><strong className="text-foreground">Small kitchen (10-15m²):</strong> £15,000 - £25,000</li>
@@ -170,8 +170,8 @@ const KitchenBudgetPlanningGuide = () => {
                 </p>
                 <ul className="list-disc list-inside space-y-2">
                   <li>Choose mid-range ranges like Concept130 for excellent quality at accessible prices</li>
-                  <li>Invest in quality where it matters most (cabinetry, worktops) and be flexible elsewhere</li>
-                  <li>Consider keeping existing appliances if they're in good condition</li>
+                  <li>                  Invest in quality where it matters most (cabinetry, worktops) and be flexible elsewhere</li>
+                  <li>Consider keeping existing appliances if they&apos;re in good condition</li>
                   <li>Plan carefully to avoid costly changes mid-project</li>
                   <li>Work with a designer to maximise space and efficiency</li>
                 </ul>
@@ -181,7 +181,7 @@ const KitchenBudgetPlanningGuide = () => {
                   Always get detailed quotes that break down costs by category. This helps you understand where your money is going and compare options. Be wary of quotes that seem too good to be true—quality kitchens require quality materials and craftsmanship.
                 </p>
                 <p>
-                  <Link href="/contact" className="text-primary hover:underline">Book a consultation</Link> to discuss your budget and get a detailed quote for your kitchen project. We'll work with you to create a kitchen that meets your needs and fits your budget.
+                  <Link href="/contact" className="text-primary hover:underline">Book a consultation</Link> to discuss your budget and get a detailed quote for your kitchen project. We&apos;ll work with you to create a kitchen that meets your needs and fits your budget.
                 </p>
               </article>
             </AnimatedSection>

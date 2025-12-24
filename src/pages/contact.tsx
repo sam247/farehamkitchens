@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
