@@ -239,6 +239,9 @@ const ShakerKitchens = () => {
               <MagneticButton to="/services/modern-kitchens" variant="ghost">
                 Modern Kitchens
               </MagneticButton>
+              <MagneticButton to="/kitchen-islands" variant="ghost">
+                Kitchen Islands
+              </MagneticButton>
             </div>
           </div>
         </section>

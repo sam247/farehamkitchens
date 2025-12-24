@@ -237,6 +237,9 @@ const ChoosingTheRightKitchenWorktop = () => {
               <div className="p-6 bg-background border border-border space-y-3">
                 <span className="label-uppercase text-primary text-xs">Explore</span>
                 <ul className="space-y-2 body-elegant text-foreground">
+                  <li><Link href="/worktops/granite-worktops" className="hover:text-primary transition-colors">Granite worktops</Link></li>
+                  <li><Link href="/worktops/quartz-worktops" className="hover:text-primary transition-colors">Quartz worktops</Link></li>
+                  <li><Link href="/worktops/dekton-worktops" className="hover:text-primary transition-colors">Dekton worktops</Link></li>
                   <li><Link href="/blog/affordable-kitchen-worktops-materials" className="hover:text-primary transition-colors">Affordable worktops</Link></li>
                   <li><Link href="/blog/what-is-a-shaker-kitchen" className="hover:text-primary transition-colors">What is a Shaker kitchen?</Link></li>
                   <li><Link href="/blog/kitchen-prices-uk" className="hover:text-primary transition-colors">Kitchen prices UK</Link></li>

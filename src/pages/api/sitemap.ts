@@ -37,6 +37,12 @@ const pages = [
   { path: '/locations/romsey-kitchens', priority: '0.7', changefreq: 'monthly' },
   { path: '/locations/warsash-kitchens', priority: '0.7', changefreq: 'monthly' },
   { path: '/locations/winchester-kitchens', priority: '0.7', changefreq: 'monthly' },
+  { path: '/faq', priority: '0.8', changefreq: 'monthly' },
+  { path: '/worktops/granite-worktops', priority: '0.8', changefreq: 'monthly' },
+  { path: '/worktops/quartz-worktops', priority: '0.8', changefreq: 'monthly' },
+  { path: '/worktops/dekton-worktops', priority: '0.8', changefreq: 'monthly' },
+  { path: '/kitchen-islands', priority: '0.8', changefreq: 'monthly' },
+  { path: '/small-kitchens', priority: '0.8', changefreq: 'monthly' },
 ];
 
 function generateSitemap() {

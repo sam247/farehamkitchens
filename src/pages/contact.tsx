@@ -369,6 +369,11 @@ const Contact = () => {
                     <p className="body-elegant text-muted-foreground">{faq.a}</p>
                   </AnimatedSection>
                 ))}
+                <AnimatedSection delay={0.4} className="pt-8">
+                  <p className="body-elegant text-muted-foreground">
+                    Have more questions? Visit our <Link href="/faq" className="text-primary hover:underline">FAQ page</Link> for comprehensive answers to common kitchen design questions.
+                  </p>
+                </AnimatedSection>
               </div>
             </div>
           </div>

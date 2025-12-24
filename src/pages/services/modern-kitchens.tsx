@@ -239,6 +239,9 @@ const ModernKitchens = () => {
               <MagneticButton to="/services/traditional-kitchens" variant="ghost">
                 Traditional Kitchens
               </MagneticButton>
+              <MagneticButton to="/kitchen-islands" variant="ghost">
+                Kitchen Islands
+              </MagneticButton>
             </div>
           </div>
         </section>

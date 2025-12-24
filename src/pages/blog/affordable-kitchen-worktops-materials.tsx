@@ -146,6 +146,9 @@ const AffordableWorktops = () => {
               <div className="p-6 bg-background border border-border space-y-3">
                 <span className="label-uppercase text-primary text-xs">Explore</span>
                 <ul className="space-y-2 body-elegant text-foreground">
+                  <li><Link href="/worktops/granite-worktops" className="hover:text-primary transition-colors">Granite worktops</Link></li>
+                  <li><Link href="/worktops/quartz-worktops" className="hover:text-primary transition-colors">Quartz worktops</Link></li>
+                  <li><Link href="/worktops/dekton-worktops" className="hover:text-primary transition-colors">Dekton worktops</Link></li>
                   <li><Link href="/blog/kitchen-prices-uk" className="hover:text-primary transition-colors">Kitchen prices in the UK</Link></li>
                   <li><Link href="/blog/best-kitchen-appliances-for-small-uk-homes" className="hover:text-primary transition-colors">Best appliances for small kitchens</Link></li>
                   <li><Link href="/blog/what-is-a-shaker-kitchen" className="hover:text-primary transition-colors">What is a Shaker kitchen?</Link></li>

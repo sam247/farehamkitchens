@@ -214,10 +214,21 @@ const Services = () => {
                 and take the first step towards your dream kitchen.
               </p>
             </AnimatedSection>
-            <AnimatedSection delay={0.3}>
+            <AnimatedSection delay={0.3} className="flex flex-wrap justify-center gap-4">
               <MagneticButton to="/contact" variant="outline">
                 Book Your Consultation
               </MagneticButton>
+              <MagneticButton to="/faq" variant="ghost">
+                View FAQ
+              </MagneticButton>
+            </AnimatedSection>
+            <AnimatedSection delay={0.4} className="mt-8">
+              <div className="flex flex-wrap justify-center gap-6 text-sm">
+                <Link href="/kitchen-islands" className="text-primary hover:underline">Kitchen Islands</Link>
+                <Link href="/small-kitchens" className="text-primary hover:underline">Small Kitchens</Link>
+                <Link href="/worktops/granite-worktops" className="text-primary hover:underline">Granite Worktops</Link>
+                <Link href="/worktops/quartz-worktops" className="text-primary hover:underline">Quartz Worktops</Link>
+              </div>
             </AnimatedSection>
           </div>
         </section>
