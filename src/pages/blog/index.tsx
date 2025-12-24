@@ -48,6 +48,34 @@ const posts = [
     image: "/aok/blogimages/choosing-the-right-kitchen-worktop.jpg",
     category: "Materials Guide",
   },
+  {
+    slug: "kitchen-design-trends-2025",
+    title: "Kitchen Design Trends 2025",
+    excerpt: "Discover the latest kitchen design trends for 2025. From handleless kitchens to sustainable materials, explore what's hot in UK kitchen design.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Design Insight",
+  },
+  {
+    slug: "how-to-choose-kitchen-cabinets",
+    title: "How to Choose Kitchen Cabinets",
+    excerpt: "Complete guide to choosing kitchen cabinets. Learn about cabinet types, materials, finishes, and quality considerations for your kitchen renovation.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Buying Guide",
+  },
+  {
+    slug: "kitchen-lighting-design-guide",
+    title: "Kitchen Lighting Design Guide",
+    excerpt: "Complete guide to kitchen lighting design. Learn about task lighting, ambient lighting, accent lighting, and how to create the perfect lighting scheme.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Design Guide",
+  },
+  {
+    slug: "kitchen-budget-planning-guide",
+    title: "Kitchen Budget Planning Guide",
+    excerpt: "Complete guide to budgeting for a kitchen renovation. Learn how to allocate your budget, plan for unexpected costs, and get the best value.",
+    image: "/aok/blogimages/what_is_a_shaker_kitchen.webp",
+    category: "Budget & Planning",
+  },
 ];
 
 const BlogIndex = () => {

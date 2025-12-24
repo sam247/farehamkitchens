@@ -226,6 +226,8 @@ const Services = () => {
               <div className="flex flex-wrap justify-center gap-6 text-sm">
                 <Link href="/kitchen-islands" className="text-primary hover:underline">Kitchen Islands</Link>
                 <Link href="/small-kitchens" className="text-primary hover:underline">Small Kitchens</Link>
+                <Link href="/kitchen-extensions" className="text-primary hover:underline">Kitchen Extensions</Link>
+                <Link href="/kitchen-storage" className="text-primary hover:underline">Kitchen Storage</Link>
                 <Link href="/worktops/granite-worktops" className="text-primary hover:underline">Granite Worktops</Link>
                 <Link href="/worktops/quartz-worktops" className="text-primary hover:underline">Quartz Worktops</Link>
               </div>

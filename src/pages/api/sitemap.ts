@@ -43,6 +43,16 @@ const pages = [
   { path: '/worktops/dekton-worktops', priority: '0.8', changefreq: 'monthly' },
   { path: '/kitchen-islands', priority: '0.8', changefreq: 'monthly' },
   { path: '/small-kitchens', priority: '0.8', changefreq: 'monthly' },
+  { path: '/kitchen-extensions', priority: '0.8', changefreq: 'monthly' },
+  { path: '/kitchen-storage', priority: '0.8', changefreq: 'monthly' },
+  { path: '/kitchen-renovation-guide', priority: '0.8', changefreq: 'monthly' },
+  { path: '/blog/kitchen-design-trends-2025', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/how-to-choose-kitchen-cabinets', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-lighting-design-guide', priority: '0.7', changefreq: 'monthly' },
+  { path: '/blog/kitchen-budget-planning-guide', priority: '0.7', changefreq: 'monthly' },
+  { path: '/locations/eastleigh-kitchens', priority: '0.7', changefreq: 'monthly' },
+  { path: '/locations/waterlooville-kitchens', priority: '0.7', changefreq: 'monthly' },
+  { path: '/locations/bishops-waltham-kitchens', priority: '0.7', changefreq: 'monthly' },
 ];
 
 function generateSitemap() {
