@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next';
+import { NextApiRequest, NextApiResponse } from 'next';
 
 const SITE_URL = 'https://farehamkitchens.co.uk';
 
@@ -57,21 +57,11 @@ ${pages
 </urlset>`;
 }
 
-export default function Sitemap() {
-  // This component should never render
-  return null;
-}
-
-export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const sitemap = generateSitemap();
 
   res.setHeader('Content-Type', 'text/xml');
   res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate');
-  res.write(sitemap);
-  res.end();
-
-  return {
-    props: {},
-  };
-};
+  res.status(200).send(sitemap);
+}
 
