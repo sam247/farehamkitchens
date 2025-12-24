@@ -52,6 +52,21 @@ const locations = [
     name: "Winchester",
     description: "Luxury kitchen design and installation in Winchester, Hampshire.",
   },
+  {
+    slug: "eastleigh-kitchens",
+    name: "Eastleigh",
+    description: "Kitchen design and installation services in Eastleigh, Hampshire.",
+  },
+  {
+    slug: "waterlooville-kitchens",
+    name: "Waterlooville",
+    description: "Bespoke kitchen solutions for Waterlooville homeowners.",
+  },
+  {
+    slug: "bishops-waltham-kitchens",
+    name: "Bishops Waltham",
+    description: "Premium kitchen design and installation in Bishops Waltham, Hampshire.",
+  },
 ];
 
 const LocationIndex = () => {
