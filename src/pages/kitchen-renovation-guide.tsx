@@ -192,7 +192,7 @@ const KitchenRenovationGuide = () => {
               <AnimatedSection delay={0.15} className="p-6 border border-border bg-background">
                 <h3 className="heading-medium text-foreground mb-3">Minimal Disruption</h3>
                 <p className="body-elegant text-muted-foreground">
-                  We work efficiently to minimise disruption to your daily life. Our team keeps the work area clean and organised, and we'll discuss temporary kitchen arrangements if needed during the renovation.
+                  We work efficiently to minimise disruption to your daily life. Our team keeps the work area clean and organised, and we&apos;ll discuss temporary kitchen arrangements if needed during the renovation.
                 </p>
               </AnimatedSection>
             </div>

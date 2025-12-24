@@ -126,7 +126,7 @@ const KitchenShowroomVisitGuide = () => {
 
                 <h3 className="heading-medium text-foreground">Materials & Finishes</h3>
                 <ul className="list-disc list-inside space-y-2">
-                  <li>See worktop materials in person—photos don't show texture</li>
+                  <li>See worktop materials in person—photos don&apos;t show texture</li>
                   <li>Compare different door finishes and colours</li>
                   <li>Feel the quality of materials</li>
                   <li>Ask about durability and maintenance requirements</li>
