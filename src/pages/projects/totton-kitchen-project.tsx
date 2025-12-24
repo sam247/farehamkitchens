@@ -14,6 +14,7 @@ const TottonKitchenProject = () => {
           name="description"
           content="Supply of bespoke kitchen furniture, quartz worktops, accessories, and appliances. Top Soft taupe with Toronto natural vintage oak fascias and worktops, breakfast bar with wine chiller, bespoke larder and appliance housing for organized, clutter-free living."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/projects/totton-kitchen-project" />
         <meta property="og:title" content="Taupe & Oak Kitchen in Totton | Fareham Kitchens" />
         <meta property="og:description" content="Supply of bespoke kitchen furniture, quartz worktops, accessories, and appliances. Top Soft taupe with Toronto natural vintage oak fascias and worktops, breakfast bar with wine chiller, bespoke larder and appliance housing for organized, clutter-free living." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project3/image00024-scaled.jpeg" />

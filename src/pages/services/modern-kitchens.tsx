@@ -16,6 +16,7 @@ const ModernKitchens = () => {
           name="description"
           content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/services/modern-kitchens" />
         <meta property="og:title" content="Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom | Contemporary Design" />
         <meta property="og:description" content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/modern1.webp" />

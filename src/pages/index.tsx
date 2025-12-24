@@ -22,6 +22,7 @@ const Index = () => {
           name="description"
           content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/" />
         <meta property="og:title" content="Fareham Kitchen Showroom | Bespoke Luxury Kitchens in Hampshire | Handleless & Shaker Kitchens Southampton" />
         <meta property="og:description" content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />

@@ -63,6 +63,7 @@ const LocationIndex = () => {
           name="description"
           content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/locations" />
         <meta property="og:title" content="Kitchen Showrooms Near You | Fareham Kitchens | Hampshire Locations" />
         <meta property="og:description" content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />

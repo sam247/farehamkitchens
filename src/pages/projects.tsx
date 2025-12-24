@@ -58,6 +58,7 @@ const Projects = () => {
           name="description"
           content="Recent kitchen projects in Fareham, Southampton, Hampshire. Handleless & Shaker kitchens."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/projects" />
         <meta property="og:title" content="Kitchen Projects Portfolio | Fareham Kitchens Hampshire | Bespoke Kitchens" />
         <meta property="og:description" content="Recent kitchen projects in Fareham, Southampton, Hampshire. Handleless & Shaker kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project1/Cinney-Ray-4-scaled.jpg" />

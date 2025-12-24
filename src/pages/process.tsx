@@ -100,6 +100,7 @@ const Process = () => {
           name="description"
           content="Kitchen design process at Fareham Kitchens. Consultation to installation service."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/process" />
         <meta property="og:title" content="Kitchen Design Process | Fareham Kitchens Hampshire | From Consultation to Installation" />
         <meta property="og:description" content="Kitchen design process at Fareham Kitchens. Consultation to installation service." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />

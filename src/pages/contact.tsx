@@ -121,6 +121,7 @@ const Contact = () => {
           name="description"
           content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/contact" />
         <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation | Kitchen Design Southampton" />
         <meta property="og:description" content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />

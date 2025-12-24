@@ -16,6 +16,7 @@ const ShakerKitchens = () => {
           name="description"
           content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/services/shaker-kitchens" />
         <meta property="og:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom | Bespoke Framed Cabinetry" />
         <meta property="og:description" content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />

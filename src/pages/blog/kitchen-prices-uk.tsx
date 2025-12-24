@@ -15,6 +15,7 @@ const KitchenPricesUK = () => {
           name="description"
           content="Kitchen prices in the UK for 2025: costs by size, budget, materials, appliances, labour, and tips to plan your renovation."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/blog/kitchen-prices-uk" />
         <meta property="og:title" content="Average Kitchen Prices in the UK 2025 | Fareham Kitchens" />
         <meta property="og:description" content="Kitchen prices in the UK for 2025: costs by size, budget, materials, appliances, labour, and tips to plan your renovation." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/window-prices-uk.jpg" />

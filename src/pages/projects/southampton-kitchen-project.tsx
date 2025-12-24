@@ -14,6 +14,7 @@ const SouthamptonKitchenProject = () => {
           name="description"
           content="Full kitchen remodel with building works and reconfiguration. Contemporary shaker cabinetry, peninsula seating, oak shelves with integrated lighting, full-height storage, and solid timber doors for lasting durability."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/projects/southampton-kitchen-project" />
         <meta property="og:title" content="Contemporary Shaker Kitchen in Southampton | Fareham Kitchens" />
         <meta property="og:description" content="Full kitchen remodel with building works and reconfiguration. Contemporary shaker cabinetry, peninsula seating, oak shelves with integrated lighting, full-height storage, and solid timber doors for lasting durability." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/project2/DSC_2513-scaled.jpg" />

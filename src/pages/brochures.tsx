@@ -114,6 +114,7 @@ const Brochures = () => {
           name="description"
           content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/brochures" />
         <meta property="og:title" content="Download Kitchen Brochures | Fareham Kitchens | Häcker Systemat & Concept130" />
         <meta property="og:description" content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />

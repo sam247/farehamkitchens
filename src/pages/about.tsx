@@ -35,6 +35,7 @@ const About = () => {
           name="description"
           content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/about" />
         <meta property="og:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom | Bespoke Kitchens Since 1971" />
         <meta property="og:description" content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />

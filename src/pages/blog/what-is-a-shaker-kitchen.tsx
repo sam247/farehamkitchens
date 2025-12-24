@@ -15,15 +15,48 @@ const WhatIsAShakerKitchen = () => {
           name="description"
           content="Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/blog/what-is-a-shaker-kitchen" />
         <meta property="og:title" content="What Is a Shaker Kitchen? | Shaker Kitchens in Hampshire" />
         <meta property="og:description" content="Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/blog/what-is-a-shaker-kitchen" />
         <meta property="og:type" content="article" />
+        <meta property="article:published_time" content="2025-07-02T00:00:00Z" />
+        <meta property="article:author" content="Fareham Kitchens" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="What Is a Shaker Kitchen? | Shaker Kitchens in Hampshire" />
         <meta name="twitter:description" content="Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": "What Is a Shaker Kitchen? | Shaker Kitchens in Hampshire",
+              "description": "Learn the history, design principles, and ways to personalise Shaker kitchens in Hampshire, including colours, materials, and layout tips.",
+              "image": "https://farehamkitchens.co.uk/aok/blogimages/what_is_a_shaker_kitchen.webp",
+              "datePublished": "2025-07-02T00:00:00Z",
+              "dateModified": "2025-07-02T00:00:00Z",
+              "author": {
+                "@type": "Organization",
+                "name": "Fareham Kitchens"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Fareham Kitchens",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://farehamkitchens.co.uk/logo.webp"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://farehamkitchens.co.uk/blog/what-is-a-shaker-kitchen"
+              }
+            }),
+          }}
+        />
       </Head>
       <main className="min-h-screen bg-background">
         <Navigation />

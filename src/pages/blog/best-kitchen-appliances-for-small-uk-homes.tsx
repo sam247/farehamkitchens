@@ -15,6 +15,7 @@ const BestAppliancesSmallHomes = () => {
           name="description"
           content="Compact ovens, hobs, cooling, dishwashers, laundry, and smart tech to maximise space in small UK kitchens—curated by Fareham Kitchens."
         />
+        <link rel="canonical" href="https://farehamkitchens.co.uk/blog/best-kitchen-appliances-for-small-uk-homes" />
         <meta property="og:title" content="Best Kitchen Appliances for Small UK Homes | Fareham Kitchens" />
         <meta property="og:description" content="Compact ovens, hobs, cooling, dishwashers, laundry, and smart tech to maximise space in small UK kitchens—curated by Fareham Kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/blogimages/best-kitchen-appliances-for-small-uk-homes.jpg" />
