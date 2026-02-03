@@ -95,7 +95,7 @@ const LocationIndex = () => {
         <Navigation />
 
         {/* Hero Section */}
-        <section className="pt-32 pb-20 lg:pt-48 lg:pb-32">
+        <section className="pt-34 pb-20 lg:pt-56 lg:pb-32">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="max-w-4xl">
               <AnimatedSection>

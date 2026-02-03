@@ -6,12 +6,14 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
+import AnnouncementBar from "@/components/layout/AnnouncementBar";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [queryClient] = useState(() => new QueryClient());
 
   return (
     <>
+      <AnnouncementBar />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -42,7 +44,7 @@ export default function App({ Component, pageProps }: AppProps) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Fareham Kitchens by AOK",
-              image: "https://farehamkitchens.co.uk/logo.webp",
+              image: "https://farehamkitchens.co.uk/logo.png",
               url: "https://farehamkitchens.co.uk",
               telephone: "+441489788617",
               email: "info@aokitchens.co.uk",

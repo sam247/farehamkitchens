@@ -33,7 +33,7 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ease-out-expo ${
+        className={`fixed top-bar left-0 right-0 z-50 transition-all duration-700 ease-out-expo ${
           isScrolled ? "glass py-4" : "bg-transparent py-6"
         }`}
       >
@@ -42,9 +42,9 @@ const Navigation = () => {
             {/* Logo */}
             <Link href="/" className="relative group">
               <img
-                src="/logo.webp"
+                src="/logo.png"
                 alt="Fareham Kitchens"
-                className="h-10 md:h-12 w-auto"
+                className="h-9 md:h-11 w-auto max-h-12"
               />
             </Link>
 

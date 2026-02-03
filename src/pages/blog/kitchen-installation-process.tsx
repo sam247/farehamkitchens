@@ -61,7 +61,7 @@ const KitchenInstallationProcess = () => {
       <main className="min-h-screen bg-background">
         <Navigation />
 
-        <section className="pt-32 pb-12 lg:pt-44">
+        <section className="pt-34 pb-12 lg:pt-54">
           <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="space-y-4">
               <AnimatedSection>

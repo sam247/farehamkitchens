@@ -42,6 +42,13 @@ const posts = [
     category: "Offers",
   },
   {
+    slug: "aeg-cashback-offer",
+    title: "AEG 2026 Consumer Cashback — Up to £1,300",
+    excerpt: "Claim up to £500 on 3+ AEG appliances, plus £500 on selected hobs and £300 on MaxiSpace fridge freezer. Offer 02.01.26 – 30.06.26.",
+    image: "/aok/offer_image1.webp",
+    category: "Offers",
+  },
+  {
     slug: "choosing-the-right-kitchen-worktop",
     title: "Choosing the Right Kitchen Worktop: Quartz, Granite or Laminate",
     excerpt: "Compare quartz, granite, and laminate worktops—costs, care, heat resistance, sustainability, and which suits your kitchen style.",
@@ -143,7 +150,7 @@ const BlogIndex = () => {
       <main className="min-h-screen bg-background">
         <Navigation />
 
-        <section className="pt-32 pb-20 lg:pt-44">
+        <section className="pt-34 pb-20 lg:pt-54">
           <div className="container mx-auto px-6 lg:px-12">
             <AnimatedSection>
               <span className="label-uppercase text-primary mb-4 block">Insights</span>

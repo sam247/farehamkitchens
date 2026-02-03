@@ -36,6 +36,9 @@
 
     --radius: 0rem;
 
+    /* Layout */
+    --announcement-bar-h: 2.5rem;
+
     /* Custom Properties */
     --cream: 40 20% 95%;
     --charcoal: 0 0% 10%;

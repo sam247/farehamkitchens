@@ -15,9 +15,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <img
-                src="/logo.webp"
+                src="/logo.png"
                 alt="Fareham Kitchens"
-                className="h-10 w-auto"
+                className="h-9 w-auto max-h-12"
               />
             </Link>
             <p className="body-elegant text-muted-foreground max-w-xs">

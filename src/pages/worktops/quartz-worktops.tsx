@@ -53,7 +53,7 @@ const QuartzWorktops = () => {
         <Navigation />
 
         {/* Hero */}
-        <section className="pt-32 pb-20 lg:pt-44">
+        <section className="pt-34 pb-20 lg:pt-54">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
               <div className="lg:col-span-7 space-y-6">

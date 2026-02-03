@@ -28,7 +28,7 @@ const BotleyKitchenProject = () => {
       <main className="min-h-screen bg-background">
         <Navigation />
 
-      <section className="pt-32 pb-16 lg:pt-44">
+      <section className="pt-34 pb-16 lg:pt-54">
         <div className="container mx-auto px-6 lg:px-12">
           <AnimatedSection>
             <span className="label-uppercase text-primary mb-4 block">Case Study</span>

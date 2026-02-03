@@ -13,6 +13,13 @@ export default {
       },
     },
     extend: {
+      spacing: {
+        "bar": "var(--announcement-bar-h, 2.5rem)",
+        "34": "8.5rem",
+        "42": "10.5rem",
+        "54": "13.5rem",
+        "56": "14rem",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

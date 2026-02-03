@@ -81,7 +81,7 @@ const Services = () => {
         <Navigation />
 
         {/* Hero Section */}
-        <section className="pt-32 pb-20 lg:pt-48 lg:pb-32">
+        <section className="pt-34 pb-20 lg:pt-56 lg:pb-32">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
