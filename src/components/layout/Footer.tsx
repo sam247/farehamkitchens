@@ -25,12 +25,12 @@ const Footer = () => {
             </p>
             <div className="mt-4">
               <a
-                href="https://uk.trustpilot.com/review/aokitchens.co.uk"
+                href="https://www.google.com/search?q=Andrew+Osborne+Kitchens+reviews"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
               >
-                <Image src="/trustpilot-white.webp" alt="Trustpilot" width={90} height={22} />
+                <Image src="/google_reviews_logo.png" alt="Google Reviews" width={110} height={28} />
               </a>
             </div>
           </div>
@@ -166,7 +166,7 @@ const Footer = () => {
                 Terms of Service
               </Link>
             </div>
-            <span>Copyright © {currentYear} | AO Kitchens T/A Fareham Kitchens | Powered by Better Ranking</span>
+            <span>Copyright © {currentYear} | AO Kitchens T/A Fareham Kitchens</span>
           </div>
         </div>
       </div>

@@ -5,12 +5,6 @@ import { Star } from "lucide-react";
 
 const badges = [
   {
-    label: "Trustpilot",
-    score: "5.0",
-    href: "https://uk.trustpilot.com/review/aokitchens.co.uk",
-    logo: "/trustpilot-white.webp",
-  },
-  {
     label: "Google Reviews",
     score: "5.0",
     href: "https://www.google.com/search?q=Andrew+Osborne+Kitchens+reviews",

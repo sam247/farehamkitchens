@@ -141,7 +141,7 @@ const Process = () => {
         </section>
 
         {/* Progress Indicator */}
-        <div className="hidden lg:block fixed left-12 top-1/2 -translate-y-1/2 z-40">
+        <div className="hidden lg:block fixed left-12 top-[58%] -translate-y-1/2 z-40">
           <div className="flex flex-col items-center gap-4">
             {processSteps.map((step, index) => (
               <button
