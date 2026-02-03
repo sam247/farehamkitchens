@@ -61,10 +61,12 @@ const AegCashbackOffer = () => {
               </AnimatedSection>
             </div>
             <AnimatedSection delay={0.2} animation="fade-in-right">
-              <div className="aspect-[4/3] overflow-hidden bg-secondary border border-border flex items-center justify-center p-8">
-                <p className="heading-medium text-muted-foreground text-center">
-                  AEG Premier Partner<br />Consumer Cashback 2026
-                </p>
+              <div className="aspect-[4/3] overflow-hidden bg-secondary border border-border">
+                <img
+                  src="/aeg_offer_image.png"
+                  alt="AEG 2026 Premier Partner Consumer Cashback offer"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </AnimatedSection>
           </div>
