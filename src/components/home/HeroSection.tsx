@@ -35,15 +35,6 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
-        {/* Tagline */}
-        <div
-          className={`mb-8 transition-all duration-1000 delay-300 ${
-            isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-          }`}
-        >
-          <span className="label-uppercase text-foreground/80">Quality Kitchens for Fareham</span>
-        </div>
-
         {/* Main Heading */}
         <h1 className="heading-display text-foreground mb-8">
           <RevealText text="Fareham Kitchen" delay={0.5} />
