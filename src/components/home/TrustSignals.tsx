@@ -39,33 +39,6 @@ const TrustSignals = () => {
           <h2 className="heading-large text-foreground">Loved by homeowners</h2>
         </AnimatedSection>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-          {badges.map((item, index) => (
-            <AnimatedSection
-              key={item.label}
-              delay={0.05 * (index + 1)}
-              className="p-4 bg-background border border-border flex items-center justify-between gap-4 hover:border-primary transition-colors duration-300"
-            >
-              <div className="flex items-center gap-3">
-                <Image src={item.logo} alt={item.label} width={110} height={28} />
-                <div className="flex items-center gap-1 text-primary">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} size={14} fill="currentColor" strokeWidth={0} />
-                  ))}
-                </div>
-              </div>
-              <a
-                href={item.href}
-                target="_blank"
-                rel="noreferrer"
-                className="label-uppercase text-xs text-foreground/80 hover:text-primary transition-colors"
-              >
-                View
-              </a>
-            </AnimatedSection>
-          ))}
-        </div>
-
         <AnimatedSection delay={0.1}>
           <div className="relative p-6 bg-background border border-border">
             <p className="body-elegant text-foreground leading-relaxed mb-4 min-h-[96px]">
@@ -82,6 +55,19 @@ const TrustSignals = () => {
                 />
               ))}
             </div>
+            <a
+              href={badges[0].href}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 pt-6 border-t border-border flex items-center gap-3 w-fit hover:opacity-80 transition-opacity"
+            >
+              <Image src={badges[0].logo} alt={badges[0].label} width={110} height={28} />
+              <div className="flex items-center gap-1 text-primary">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} size={14} fill="currentColor" strokeWidth={0} />
+                ))}
+              </div>
+            </a>
           </div>
         </AnimatedSection>
       </div>
