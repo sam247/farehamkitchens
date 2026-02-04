@@ -95,14 +95,14 @@ const Process = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Design Process | Fareham Kitchens Hampshire | From Consultation to Installation | Bespoke Kitchen Design</title>
+        <title>Kitchen Design Process | Fareham Kitchens | Consultation to Installation</title>
         <meta
           name="description"
-          content="Kitchen design process at Fareham Kitchens. Consultation to installation service."
+          content="Our kitchen design process from our Fareham showroom: consultation, design, craftsmanship and installation. What to expect."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/process" />
-        <meta property="og:title" content="Kitchen Design Process | Fareham Kitchens Hampshire | From Consultation to Installation" />
-        <meta property="og:description" content="Kitchen design process at Fareham Kitchens. Consultation to installation service." />
+        <meta property="og:title" content="Kitchen Design Process | Fareham Kitchens | Consultation to Installation" />
+        <meta property="og:description" content="Our kitchen design process from our Fareham showroom: consultation, design, craftsmanship and installation." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AV7080_Rauchblau_HS-offen_1700x1200.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/process" />
         <meta property="og:type" content="website" />

@@ -11,22 +11,22 @@ const KitchenStorage = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Storage Solutions Hampshire | Larder & Pantry Design | Fareham Kitchens</title>
+        <title>Kitchen Storage Solutions | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Kitchen storage solutions in Hampshire. Bespoke larders, pantry storage, drawer systems, and tall storage. Expert storage design by Fareham Kitchens."
+          content="Kitchen storage solutions from our Fareham showroom. Bespoke larders, pantry storage, drawer systems. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/kitchen-storage" />
-        <meta property="og:title" content="Kitchen Storage Solutions Hampshire | Larder & Pantry Design | Fareham Kitchens" />
-        <meta property="og:description" content="Kitchen storage solutions in Hampshire. Bespoke larders, pantry storage, drawer systems, and tall storage." />
+        <meta property="og:title" content="Kitchen Storage Solutions | Fareham Kitchens" />
+        <meta property="og:description" content="Kitchen storage solutions from our Fareham showroom. Bespoke larders, pantry storage, drawer systems." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/kitchen-storage" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Storage Solutions Hampshire | Larder & Pantry Design" />
-        <meta name="twitter:description" content="Kitchen storage solutions in Hampshire. Bespoke larders, pantry storage, drawer systems, and tall storage." />
+        <meta name="twitter:title" content="Kitchen Storage Solutions | Fareham Kitchens" />
+        <meta name="twitter:description" content="Kitchen storage solutions from our Fareham showroom. Bespoke larders, pantry storage, drawer systems." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const KitchenStorage = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Smart storage is the foundation of a functional kitchen. From bespoke larders and tall storage to innovative drawer systems and corner solutions, we design storage that maximises space, keeps everything organised, and makes cooking a joy. Every item has its place, and every space is utilised.
+                    Smart storage is the foundation of a functional kitchen. From bespoke larders and tall storage to innovative drawer systems and corner solutions, we design storage from <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> that maximises space, keeps everything organised, and makes cooking a joy. Every item has its place, and every space is utilised.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

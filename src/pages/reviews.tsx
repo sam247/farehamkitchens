@@ -62,14 +62,14 @@ const Reviews = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Reviews & Testimonials | Customer Reviews | Fareham Kitchens Hampshire</title>
+        <title>Kitchen Reviews & Testimonials | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Read customer reviews and testimonials for Fareham Kitchens. See what our clients say about our kitchen design, installation, and service across Hampshire."
+          content="Customer reviews and testimonials for Fareham Kitchens. What our clients say about our Fareham showroom, design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/reviews" />
         <meta property="og:title" content="Kitchen Reviews & Testimonials | Customer Reviews | Fareham Kitchens" />
-        <meta property="og:description" content="Read customer reviews and testimonials for Fareham Kitchens. See what our clients say about our kitchen design, installation, and service." />
+        <meta property="og:description" content="Customer reviews and testimonials for Fareham Kitchens. What our clients say about our Fareham showroom, design and installation." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/reviews" />
         <meta property="og:type" content="website" />
@@ -77,7 +77,7 @@ const Reviews = () => {
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kitchen Reviews & Testimonials | Customer Reviews" />
-        <meta name="twitter:description" content="Read customer reviews and testimonials for Fareham Kitchens. See what our clients say about our kitchen design, installation, and service." />
+        <meta name="twitter:description" content="Customer reviews and testimonials for Fareham Kitchens. What our clients say about our Fareham showroom, design and installation." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <script
           type="application/ld+json"
@@ -127,7 +127,7 @@ const Reviews = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Don&apos;t just take our word for it. Read what our customers say about their experience with Fareham Kitchens, from initial consultation through to final installation.
+                  Don&apos;t just take our word for it. Read what our customers say about their experience with <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>, from initial consultation through to final installation.
                 </p>
               </AnimatedSection>
             </div>

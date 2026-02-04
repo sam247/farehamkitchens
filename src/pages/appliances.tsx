@@ -44,22 +44,22 @@ const Appliances = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Appliances Hampshire | Integrated Appliances | Fareham Kitchens</title>
+        <title>Kitchen Appliances | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Premium kitchen appliances in Hampshire. AEG, Bora, Quooker, Miele, and Gaggenau appliances integrated into bespoke kitchens. Expert installation by Fareham Kitchens."
+          content="Premium kitchen appliances from our Fareham showroom. AEG, Bora, Quooker, Miele, Gaggenau integrated into bespoke kitchens. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/appliances" />
-        <meta property="og:title" content="Kitchen Appliances Hampshire | Integrated Appliances | Fareham Kitchens" />
-        <meta property="og:description" content="Premium kitchen appliances in Hampshire. AEG, Bora, Quooker, Miele, and Gaggenau appliances integrated into bespoke kitchens." />
+        <meta property="og:title" content="Kitchen Appliances | Fareham Kitchens" />
+        <meta property="og:description" content="Premium kitchen appliances from our Fareham showroom. AEG, Bora, Quooker, Miele, Gaggenau integrated into bespoke kitchens." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/appliances" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Appliances Hampshire | Integrated Appliances" />
-        <meta name="twitter:description" content="Premium kitchen appliances in Hampshire. AEG, Bora, Quooker, Miele, and Gaggenau appliances integrated into bespoke kitchens." />
+        <meta name="twitter:title" content="Kitchen Appliances | Fareham Kitchens" />
+        <meta name="twitter:description" content="Premium kitchen appliances from our Fareham showroom. AEG, Bora, Quooker, Miele, Gaggenau integrated into bespoke kitchens." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -78,7 +78,7 @@ const Appliances = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    We partner with the world&apos;s finest appliance manufacturers to ensure your kitchen is equipped with the very best. From German engineering excellence to innovative extraction systems and instant boiling water, we source and integrate appliances that match the quality of our bespoke cabinetry.
+                    We partner with the world&apos;s finest appliance manufacturers to ensure your kitchen is equipped with the very best. From <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> we source and integrate AEG, Bora, Quooker, Miele, and more—appliances that match the quality of our bespoke cabinetry.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

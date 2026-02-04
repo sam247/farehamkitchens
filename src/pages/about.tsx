@@ -30,22 +30,22 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Fareham Kitchens | Hampshire Kitchen Showroom | Bespoke Kitchens Since 1971 | AOK Kitchens Southampton</title>
+        <title>About Fareham Kitchens | Our Showroom & Story</title>
         <meta
           name="description"
-          content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971."
+          content="About Fareham Kitchens: our Fareham showroom and team. Bespoke kitchens since 1971, design to installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/about" />
-        <meta property="og:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom | Bespoke Kitchens Since 1971" />
-        <meta property="og:description" content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971." />
+        <meta property="og:title" content="About Fareham Kitchens | Our Showroom & Story" />
+        <meta property="og:description" content="About Fareham Kitchens: our Fareham showroom and team. Bespoke kitchens since 1971, design to installation." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/about" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About Fareham Kitchens | Hampshire Kitchen Showroom" />
-        <meta name="twitter:description" content="About Fareham Kitchens by AOK: Hampshire showroom for bespoke luxury kitchens since 1971." />
+        <meta name="twitter:title" content="About Fareham Kitchens | Our Showroom & Story" />
+        <meta name="twitter:description" content="About Fareham Kitchens: our Fareham showroom and team. Bespoke kitchens since 1971." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">

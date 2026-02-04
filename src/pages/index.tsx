@@ -20,11 +20,11 @@ const Index = () => {
         <title>Fareham Kitchen Showroom | Bespoke Kitchens & Design Studio</title>
         <meta
           name="description"
-          content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation."
+          content="Bespoke designer kitchens in Fareham. Handleless and Shaker kitchens, granite and quartz worktops, full design and installation from our showroom."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/" />
         <meta property="og:title" content="Fareham Kitchen Showroom | Bespoke Kitchens & Design Studio" />
-        <meta property="og:description" content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation." />
+        <meta property="og:description" content="Bespoke designer kitchens in Fareham. Handleless and Shaker kitchens, granite and quartz worktops, full design and installation from our showroom." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/" />
         <meta property="og:type" content="website" />
@@ -32,7 +32,7 @@ const Index = () => {
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Fareham Kitchen Showroom | Bespoke Kitchens & Design Studio" />
-        <meta name="twitter:description" content="Bespoke luxury kitchens in Fareham, Hampshire. Handleless & Shaker kitchens, granite worktops, full installation." />
+        <meta name="twitter:description" content="Bespoke designer kitchens in Fareham. Handleless and Shaker kitchens, granite and quartz worktops, full design and installation from our showroom." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">

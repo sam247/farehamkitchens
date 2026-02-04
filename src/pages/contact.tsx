@@ -117,14 +117,14 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact Fareham Kitchen Showroom | Book a Consultation | Kitchen Design Southampton Hampshire | 01489 788617</title>
+        <title>Contact Fareham Kitchen Showroom | Book a Consultation | 01489 788617</title>
         <meta
           name="description"
-          content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens."
+          content="Book a kitchen consultation at our Fareham showroom. Call 01489 788617 or enquire online for bespoke design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/contact" />
-        <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation | Kitchen Design Southampton" />
-        <meta property="og:description" content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens." />
+        <meta property="og:title" content="Contact Fareham Kitchen Showroom | Book a Consultation | 01489 788617" />
+        <meta property="og:description" content="Book a kitchen consultation at our Fareham showroom. Call 01489 788617 or enquire online." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/contact" />
         <meta property="og:type" content="website" />
@@ -132,7 +132,7 @@ const Contact = () => {
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Fareham Kitchen Showroom | Book a Consultation" />
-        <meta name="twitter:description" content="Contact Fareham Kitchens showroom in Southampton. Book consultation for bespoke kitchens." />
+        <meta name="twitter:description" content="Book a kitchen consultation at our Fareham showroom. Call 01489 788617 or enquire online." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -154,7 +154,7 @@ const Contact = () => {
               </h1>
               <AnimatedSection delay={0.8}>
               <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                Ready to begin your kitchen journey? Contact our Fareham kitchen showroom for a complimentary design consultation at your home or in our Hampshire studio.
+                Ready to begin your kitchen journey? Contact the <Link href="/" className="text-primary hover:underline">Fareham Kitchen Showroom</Link> for a complimentary design consultation at your home or in our showroom.
               </p>
               </AnimatedSection>
             </div>

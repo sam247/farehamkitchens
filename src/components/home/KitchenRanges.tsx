@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AnimatedSection from "../ui/AnimatedSection";
 
 const ranges = [
@@ -43,6 +44,14 @@ const KitchenRanges = () => {
             </AnimatedSection>
           ))}
         </div>
+        <AnimatedSection delay={0.5} className="mt-10 text-center">
+          <Link
+            href="/services"
+            className="inline-block text-primary font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
+          >
+            View our kitchen ranges
+          </Link>
+        </AnimatedSection>
       </div>
     </section>
   );

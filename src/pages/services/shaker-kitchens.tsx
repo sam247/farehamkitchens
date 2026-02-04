@@ -11,22 +11,22 @@ const ShakerKitchens = () => {
   return (
     <>
       <Head>
-        <title>Shaker Kitchens Hampshire | Fareham Kitchen Showroom | Bespoke Framed Kitchen Cabinetry Southampton</title>
+        <title>Shaker Kitchens | Fareham Kitchen Showroom</title>
         <meta
           name="description"
-          content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details."
+          content="Bespoke Shaker kitchens from our Fareham showroom. Framed cabinetry, handcrafted details, design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/services/shaker-kitchens" />
-        <meta property="og:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom | Bespoke Framed Cabinetry" />
-        <meta property="og:description" content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details." />
+        <meta property="og:title" content="Shaker Kitchens | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Bespoke Shaker kitchens from our Fareham showroom. Framed cabinetry, handcrafted details." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/shaker-kitchens" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Shaker Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Bespoke Shaker kitchens in Hampshire. Framed cabinetry, handcrafted details." />
+        <meta name="twitter:title" content="Shaker Kitchens | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Bespoke Shaker kitchens from our Fareham showroom. Framed cabinetry, handcrafted details." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/shaker1.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const ShakerKitchens = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Shaker kitchens are defined by proportion, restraint, and craftsmanship. We build framed doors with crisp rails, durable timber, and smooth paint finishes, then layer modern storage, soft-close hardware, and integrated lighting. The result is a kitchen that feels timeless in a Georgian townhouse, a coastal cottage, or a modern extension—quietly luxurious and designed to serve daily life.
+                    Shaker kitchens are defined by proportion, restraint, and craftsmanship. We build framed doors with crisp rails, durable timber, and smooth paint finishes from <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link>, then layer modern storage, soft-close hardware, and integrated lighting. The result is a kitchen that feels timeless in a Georgian townhouse, a coastal cottage, or a modern extension—quietly luxurious and designed to serve daily life.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

@@ -61,14 +61,14 @@ const FAQ = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Design FAQ | Frequently Asked Questions | Fareham Kitchens Hampshire</title>
+        <title>Kitchen Design FAQ | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Frequently asked questions about kitchen design, installation, costs, and services from Fareham Kitchens. Expert answers to help you plan your dream kitchen."
+          content="Frequently asked questions about kitchen design, installation, costs and services from our Fareham showroom. Expert answers for your kitchen project."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/faq" />
         <meta property="og:title" content="Kitchen Design FAQ | Frequently Asked Questions | Fareham Kitchens" />
-        <meta property="og:description" content="Frequently asked questions about kitchen design, installation, costs, and services from Fareham Kitchens." />
+        <meta property="og:description" content="Frequently asked questions about kitchen design, installation, costs and services from our Fareham showroom." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/faq" />
         <meta property="og:type" content="website" />
@@ -76,7 +76,7 @@ const FAQ = () => {
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kitchen Design FAQ | Frequently Asked Questions" />
-        <meta name="twitter:description" content="Frequently asked questions about kitchen design, installation, costs, and services from Fareham Kitchens." />
+        <meta name="twitter:description" content="Frequently asked questions about kitchen design, installation, costs and services from our Fareham showroom." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <script
           type="application/ld+json"
@@ -115,7 +115,7 @@ const FAQ = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-2xl">
-                  Find answers to common questions about our kitchen design process, installation services, costs, and more. Can&apos;t find what you&apos;re looking for? <Link href="/contact" className="text-primary hover:underline">Contact us</Link> and we&apos;ll be happy to help.
+                  Find answers to common questions about our kitchen design process, installation services, and costs—all delivered from <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link>. Can&apos;t find what you&apos;re looking for? <Link href="/contact" className="text-primary hover:underline">Contact us</Link> and we&apos;ll be happy to help.
                 </p>
               </AnimatedSection>
             </div>

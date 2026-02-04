@@ -14,7 +14,7 @@ const KitchenRenovationGuide = () => {
         <title>Kitchen Renovation Guide 2025 | Complete Kitchen Renovation Checklist | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Complete kitchen renovation guide for 2025. Step-by-step checklist, planning tips, budget advice, and timeline for kitchen renovations in Hampshire."
+          content="Complete kitchen renovation guide for 2025. Step-by-step checklist, planning tips, budget advice. From our Fareham showroom."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/kitchen-renovation-guide" />
         <meta property="og:title" content="Kitchen Renovation Guide 2025 | Complete Kitchen Renovation Checklist | Fareham Kitchens" />

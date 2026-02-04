@@ -11,22 +11,22 @@ const KitchenExtensions = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Extensions Hampshire | Open Plan Kitchen Extension Design | Fareham Kitchens</title>
+        <title>Kitchen Extensions | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Kitchen extension design and planning in Hampshire. Open plan kitchen extensions, planning permission advice, and expert design by Fareham Kitchens."
+          content="Kitchen extension design from our Fareham showroom. Open plan extensions, planning permission advice. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/kitchen-extensions" />
-        <meta property="og:title" content="Kitchen Extensions Hampshire | Open Plan Kitchen Extension Design | Fareham Kitchens" />
-        <meta property="og:description" content="Kitchen extension design and planning in Hampshire. Open plan kitchen extensions, planning permission advice, and expert design." />
+        <meta property="og:title" content="Kitchen Extensions | Fareham Kitchens" />
+        <meta property="og:description" content="Kitchen extension design from our Fareham showroom. Open plan extensions, planning permission advice." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/kitchen-extensions" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Extensions Hampshire | Open Plan Kitchen Extension Design" />
-        <meta name="twitter:description" content="Kitchen extension design and planning in Hampshire. Open plan kitchen extensions, planning permission advice." />
+        <meta name="twitter:title" content="Kitchen Extensions | Fareham Kitchens" />
+        <meta name="twitter:description" content="Kitchen extension design from our Fareham showroom. Open plan extensions, planning permission advice." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const KitchenExtensions = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    A kitchen extension is one of the most valuable home improvements you can make. Whether you&apos;re creating an open-plan living space, adding a dining area, or simply gaining more room for cooking and storage, we work with trusted local builders to design and coordinate kitchen extensions that transform how you live.
+                    A kitchen extension is one of the most valuable home improvements you can make. Whether you&apos;re creating an open-plan living space, adding a dining area, or gaining more room for cooking and storage, we work with trusted local builders from <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> to design and coordinate kitchen extensions that transform how you live.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

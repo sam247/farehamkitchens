@@ -73,22 +73,22 @@ const LocationIndex = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Showrooms Near You | Fareham Kitchens | Hampshire Kitchen Design Locations</title>
+        <title>Areas We Serve | Fareham Kitchen Showroom</title>
         <meta
           name="description"
-          content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more."
+          content="Kitchen design and installation from our Fareham showroom. We serve Chilworth, Portsmouth, Southampton, Gosport, Winchester and surrounding areas."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/locations" />
-        <meta property="og:title" content="Kitchen Showrooms Near You | Fareham Kitchens | Hampshire Locations" />
-        <meta property="og:description" content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more." />
+        <meta property="og:title" content="Areas We Serve | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Kitchen design and installation from our Fareham showroom. Chilworth, Portsmouth, Southampton, Gosport and more." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/locations" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Showrooms Near You | Fareham Kitchens" />
-        <meta name="twitter:description" content="Kitchen showrooms serving Hampshire. Chilworth, Portsmouth, Southampton, Gosport & more." />
+        <meta name="twitter:title" content="Areas We Serve | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Kitchen design and installation from our Fareham showroom. Chilworth, Portsmouth, Southampton, Gosport and more." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -166,7 +166,7 @@ const LocationIndex = () => {
                   Ready to Start Your Kitchen Project?
                 </h2>
                 <p className="body-elegant text-muted-foreground mb-8 max-w-2xl mx-auto">
-                  Whether you&apos;re in {locations.map(l => l.name).join(", ")}, or anywhere else in Hampshire, we&apos;re here to help create your dream kitchen. Visit our <Link href="/" className="text-primary hover:underline">Southampton showroom</Link> or <Link href="/contact" className="text-primary hover:underline">book a consultation</Link> to get started.
+                  Whether you&apos;re in {locations.map(l => l.name).join(", ")}, or anywhere else in Hampshire, we&apos;re here to help create your dream kitchen. Visit our <Link href="/" className="text-primary hover:underline">Fareham showroom</Link> or <Link href="/contact" className="text-primary hover:underline">book a consultation</Link> to get started.
                 </p>
                 <MagneticButton to="/contact" variant="outline">
                   Book Your Consultation

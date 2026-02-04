@@ -11,22 +11,22 @@ const TraditionalKitchens = () => {
   return (
     <>
       <Head>
-        <title>Traditional Kitchens Hampshire | Fareham Kitchen Showroom | Classic In-Frame Kitchen Design Southampton</title>
+        <title>Traditional Kitchens | Fareham Kitchen Showroom</title>
         <meta
           name="description"
-          content="Traditional kitchens in Hampshire. Classic in-frame doors, ornate detailing."
+          content="Traditional kitchens from our Fareham showroom. Classic in-frame doors, ornate detailing, design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/services/traditional-kitchens" />
-        <meta property="og:title" content="Traditional Kitchens Hampshire | Fareham Kitchen Showroom | Classic In-Frame Design" />
-        <meta property="og:description" content="Traditional kitchens in Hampshire. Classic in-frame doors, ornate detailing." />
+        <meta property="og:title" content="Traditional Kitchens | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Traditional kitchens from our Fareham showroom. Classic in-frame doors, ornate detailing." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/traditional1.jpg" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/traditional-kitchens" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Traditional Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Traditional kitchens in Hampshire. Classic in-frame doors, ornate detailing." />
+        <meta name="twitter:title" content="Traditional Kitchens | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Traditional kitchens from our Fareham showroom. Classic in-frame doors, ornate detailing." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/traditional1.jpg" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const TraditionalKitchens = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Traditional kitchens celebrate joinery, heritage profiles, and generous storage. We pair in-frame doors, beaded panels, and decorative cornice with soft-close runners, hidden lighting, and modern appliances. Each room is measured, designed, and installed by our Fareham team to suit manor houses, farmhouses, and period terraces across Hampshire.
+                    Traditional kitchens celebrate joinery, heritage profiles, and generous storage. We pair in-frame doors, beaded panels, and decorative cornice with soft-close runners, hidden lighting, and modern appliances. Each room is measured, designed, and installed by the <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link> team to suit manor houses, farmhouses, and period terraces across Hampshire.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

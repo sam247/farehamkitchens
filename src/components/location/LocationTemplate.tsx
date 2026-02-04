@@ -84,7 +84,7 @@ const LocationTemplate = ({
                   <div>
                     <h2 className="heading-medium text-foreground mb-4">Bespoke Kitchen Design in {locationName}</h2>
                     <p>
-                      At <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link>, we serve homeowners across {locationName} and the wider Hampshire area, bringing our expertise in bespoke kitchen design and installation to your doorstep. Whether you&apos;re looking for a modern handleless kitchen, a classic Shaker design, or a traditional in-frame kitchen, our team can help bring your vision to life.
+                      We design and install kitchens for homes in {locationName} and the surrounding area—handleless, Shaker, and traditional styles with granite or quartz worktops. All projects are designed and delivered through <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link>, where you can view ranges, discuss your brief, and plan your project.
                     </p>
                   </div>
 

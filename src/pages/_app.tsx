@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }: AppProps) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Fareham Kitchens by AOK",
+              name: "Fareham Kitchens",
               image: "https://farehamkitchens.co.uk/logo.png",
               url: "https://farehamkitchens.co.uk",
               telephone: "+441489788617",
@@ -56,6 +56,10 @@ export default function App({ Component, pageProps }: AppProps) {
                 postalCode: "SO18 5EQ",
                 addressCountry: "UK",
               },
+              areaServed: [
+                { "@type": "City", "name": "Fareham" },
+                { "@type": "City", "name": "Southampton" },
+              ],
               sameAs: [
                 "https://uk.trustpilot.com/review/aokitchens.co.uk",
                 "https://www.google.com/search?q=Andrew+Osborne+Kitchens+reviews",

@@ -11,22 +11,22 @@ const SmallKitchens = () => {
   return (
     <>
       <Head>
-        <title>Small Kitchen Design Hampshire | Compact Kitchen Solutions | Fareham Kitchens</title>
+        <title>Small Kitchen Design | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Small kitchen design solutions in Hampshire. Space-saving kitchen designs, compact appliances, and storage solutions for small kitchens. Expert design by Fareham Kitchens."
+          content="Small kitchen design from our Fareham showroom. Space-saving designs, compact appliances and storage solutions. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/small-kitchens" />
-        <meta property="og:title" content="Small Kitchen Design Hampshire | Compact Kitchen Solutions | Fareham Kitchens" />
-        <meta property="og:description" content="Small kitchen design solutions in Hampshire. Space-saving kitchen designs, compact appliances, and storage solutions." />
+        <meta property="og:title" content="Small Kitchen Design | Fareham Kitchens" />
+        <meta property="og:description" content="Small kitchen design from our Fareham showroom. Space-saving designs, compact appliances and storage solutions." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/small-kitchens" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Small Kitchen Design Hampshire | Compact Kitchen Solutions" />
-        <meta name="twitter:description" content="Small kitchen design solutions in Hampshire. Space-saving kitchen designs, compact appliances, and storage solutions." />
+        <meta name="twitter:title" content="Small Kitchen Design | Fareham Kitchens" />
+        <meta name="twitter:description" content="Small kitchen design from our Fareham showroom. Space-saving designs, compact appliances and storage solutions." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const SmallKitchens = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Small kitchens don&apos;t mean small possibilities. With smart design, space-saving solutions, and compact appliances, we create functional, beautiful kitchens that make the most of every square inch. From galley kitchens to compact apartments, we specialise in maximising space without compromising on style or functionality.
+                    Small kitchens don&apos;t mean small possibilities. With smart design, space-saving solutions, and compact appliances, <Link href="/" className="text-primary hover:underline">Fareham Kitchens</Link> creates functional, beautiful kitchens that make the most of every square inch—from galley kitchens to compact apartments—without compromising on style or functionality.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

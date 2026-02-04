@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -109,14 +110,14 @@ const Brochures = () => {
   return (
     <>
       <Head>
-        <title>Download Kitchen Brochures | Fareham Kitchens | Häcker Systemat & Concept130 Kitchen Brochures Hampshire</title>
+        <title>Download Kitchen Brochures | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads."
+          content="Download Häcker Systemat, Concept130 and British kitchen brochures from our Fareham showroom. Free PDF downloads."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/brochures" />
         <meta property="og:title" content="Download Kitchen Brochures | Fareham Kitchens | Häcker Systemat & Concept130" />
-        <meta property="og:description" content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads." />
+        <meta property="og:description" content="Download Häcker Systemat, Concept130 and British kitchen brochures from our Fareham showroom. Free PDF downloads." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/brochures" />
         <meta property="og:type" content="website" />
@@ -124,7 +125,7 @@ const Brochures = () => {
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Download Kitchen Brochures | Fareham Kitchens" />
-        <meta name="twitter:description" content="Download Häcker Systemat, Concept130 & British kitchen brochures. Free PDF downloads." />
+        <meta name="twitter:description" content="Download Häcker Systemat, Concept130 and British kitchen brochures from our Fareham showroom. Free PDF downloads." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -146,7 +147,7 @@ const Brochures = () => {
               </h1>
               <AnimatedSection delay={0.8}>
                 <p className="body-elegant text-muted-foreground text-lg max-w-3xl">
-                  Tell us a few details and unlock our latest brochures. Compare British-made furniture with
+                  Tell us a few details and unlock our latest brochures from <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link>. Compare British-made furniture with
                   Häcker&apos;s German ranges—Systemat for premium flexibility and Concept130 for outstanding value.
                 </p>
               </AnimatedSection>

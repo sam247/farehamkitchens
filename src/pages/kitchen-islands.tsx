@@ -11,22 +11,22 @@ const KitchenIslands = () => {
   return (
     <>
       <Head>
-        <title>Kitchen Islands Hampshire | Bespoke Kitchen Island Design | Fareham Kitchens</title>
+        <title>Kitchen Islands | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Bespoke kitchen island design in Hampshire. Kitchen islands with seating, storage, and appliances. Expert design and installation by Fareham Kitchens."
+          content="Bespoke kitchen island design from our Fareham showroom. Islands with seating, storage and appliances. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/kitchen-islands" />
-        <meta property="og:title" content="Kitchen Islands Hampshire | Bespoke Kitchen Island Design | Fareham Kitchens" />
-        <meta property="og:description" content="Bespoke kitchen island design in Hampshire. Kitchen islands with seating, storage, and appliances." />
+        <meta property="og:title" content="Kitchen Islands | Fareham Kitchens" />
+        <meta property="og:description" content="Bespoke kitchen island design from our Fareham showroom. Islands with seating, storage and appliances." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/kitchen-islands" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Kitchen Islands Hampshire | Bespoke Kitchen Island Design" />
-        <meta name="twitter:description" content="Bespoke kitchen island design in Hampshire. Kitchen islands with seating, storage, and appliances." />
+        <meta name="twitter:title" content="Kitchen Islands | Fareham Kitchens" />
+        <meta name="twitter:description" content="Bespoke kitchen island design from our Fareham showroom. Islands with seating, storage and appliances." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const KitchenIslands = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    A kitchen island transforms your space, creating a central hub for cooking, dining, and socialising. Whether you need extra storage, additional workspace, seating for family meals, or integrated appliances, we design bespoke kitchen islands that perfectly suit your lifestyle and space.
+                    A kitchen island transforms your space, creating a central hub for cooking, dining, and socialising. From <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> we design bespoke islands with extra storage, workspace, seating, or integrated appliances to suit your lifestyle and space.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

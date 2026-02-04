@@ -11,22 +11,22 @@ const ModernKitchens = () => {
   return (
     <>
       <Head>
-        <title>Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom | Contemporary Kitchen Design Southampton</title>
+        <title>Modern Handleless Kitchens | Fareham Kitchen Showroom</title>
         <meta
           name="description"
-          content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech."
+          content="Modern handleless kitchens from our Fareham showroom. Sleek minimal lines, integrated tech, design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/services/modern-kitchens" />
-        <meta property="og:title" content="Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom | Contemporary Design" />
-        <meta property="og:description" content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech." />
+        <meta property="og:title" content="Modern Handleless Kitchens | Fareham Kitchen Showroom" />
+        <meta property="og:description" content="Modern handleless kitchens from our Fareham showroom. Sleek minimal lines, integrated tech." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/services/modern1.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/services/modern-kitchens" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Modern Handleless Kitchens Hampshire | Fareham Kitchen Showroom" />
-        <meta name="twitter:description" content="Modern handleless kitchens in Hampshire. Sleek minimal lines, integrated tech." />
+        <meta name="twitter:title" content="Modern Handleless Kitchens | Fareham Kitchen Showroom" />
+        <meta name="twitter:description" content="Modern handleless kitchens from our Fareham showroom. Sleek minimal lines, integrated tech." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/services/modern1.webp" />
       </Head>
       <main className="min-h-screen bg-background">
@@ -45,7 +45,7 @@ const ModernKitchens = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Modern kitchens are about clarity: uninterrupted lines, tactile matt finishes, and storage that disappears until you need it. We design handleless, slab, and ultra-thin profiled doors with precision reveals, mitred worktops, and integrated lighting so the space feels sculpted and calm—perfect for open-plan living, new builds, and extensions with lots of glass.
+                    Modern kitchens are about clarity: uninterrupted lines, tactile matt finishes, and storage that disappears until you need it. From <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> we design handleless, slab, and ultra-thin profiled doors with precision reveals, mitred worktops, and integrated lighting so the space feels sculpted and calm—perfect for open-plan living, new builds, and extensions with lots of glass.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

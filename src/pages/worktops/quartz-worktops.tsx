@@ -11,22 +11,22 @@ const QuartzWorktops = () => {
   return (
     <>
       <Head>
-        <title>Quartz Worktops Hampshire | Engineered Stone Kitchen Worktops | Fareham Kitchens</title>
+        <title>Quartz Worktops | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Premium quartz worktops in Hampshire. Low-maintenance engineered stone kitchen worktops, non-porous, stain-resistant, and available in consistent colours. Expert installation."
+          content="Premium quartz worktops from our Fareham showroom. Low-maintenance engineered stone, non-porous, stain-resistant. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/worktops/quartz-worktops" />
-        <meta property="og:title" content="Quartz Worktops Hampshire | Engineered Stone Kitchen Worktops | Fareham Kitchens" />
-        <meta property="og:description" content="Premium quartz worktops in Hampshire. Low-maintenance engineered stone kitchen worktops, non-porous, stain-resistant, and available in consistent colours." />
+        <meta property="og:title" content="Quartz Worktops | Fareham Kitchens" />
+        <meta property="og:description" content="Premium quartz worktops from our Fareham showroom. Low-maintenance engineered stone, non-porous, stain-resistant." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/worktops/quartz-worktops" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Quartz Worktops Hampshire | Engineered Stone Kitchen Worktops" />
-        <meta name="twitter:description" content="Premium quartz worktops in Hampshire. Low-maintenance engineered stone kitchen worktops, non-porous, stain-resistant." />
+        <meta name="twitter:title" content="Quartz Worktops | Fareham Kitchens" />
+        <meta name="twitter:description" content="Premium quartz worktops from our Fareham showroom. Low-maintenance engineered stone, non-porous, stain-resistant." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <script
           type="application/ld+json"
@@ -65,7 +65,7 @@ const QuartzWorktops = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Quartz worktops combine the beauty of natural stone with the consistency and low maintenance of engineered materials. Made from 90% natural quartz and 10% resin, quartz worktops are non-porous, stain-resistant, and require no sealing. Perfect for modern kitchens where ease of maintenance is a priority.
+                    Quartz worktops combine the beauty of natural stone with the consistency and low maintenance of engineered materials. From <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> we supply and fit quartz that is non-porous, stain-resistant, and requires no sealing—perfect for modern kitchens where ease of maintenance is a priority.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">

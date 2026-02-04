@@ -20,6 +20,7 @@ const pages = [
   { path: '/blog/kitchen-prices-uk', priority: '0.7', changefreq: 'monthly' },
   { path: '/blog/affordable-kitchen-worktops-materials', priority: '0.7', changefreq: 'monthly' },
   { path: '/blog/aeg-offer', priority: '0.6', changefreq: 'monthly' },
+  { path: '/blog/aeg-cashback-offer', priority: '0.6', changefreq: 'monthly' },
   { path: '/blog/choosing-the-right-kitchen-worktop', priority: '0.7', changefreq: 'monthly' },
   { path: '/projects/botley-kitchen-project', priority: '0.8', changefreq: 'monthly' },
   { path: '/projects/southampton-kitchen-project', priority: '0.8', changefreq: 'monthly' },

@@ -11,22 +11,22 @@ const GraniteWorktops = () => {
   return (
     <>
       <Head>
-        <title>Granite Worktops Hampshire | Natural Stone Kitchen Worktops | Fareham Kitchens</title>
+        <title>Granite Worktops | Fareham Kitchens</title>
         <meta
           name="description"
-          content="Premium granite worktops in Hampshire. Natural stone kitchen worktops, heat-resistant, durable, and available in a wide range of colours. Expert installation by Fareham Kitchens."
+          content="Premium granite worktops from our Fareham showroom. Natural stone, heat-resistant, durable, wide range of colours. Design and installation."
         />
         <link rel="canonical" href="https://farehamkitchens.co.uk/worktops/granite-worktops" />
-        <meta property="og:title" content="Granite Worktops Hampshire | Natural Stone Kitchen Worktops | Fareham Kitchens" />
-        <meta property="og:description" content="Premium granite worktops in Hampshire. Natural stone kitchen worktops, heat-resistant, durable, and available in a wide range of colours." />
+        <meta property="og:title" content="Granite Worktops | Fareham Kitchens" />
+        <meta property="og:description" content="Premium granite worktops from our Fareham showroom. Natural stone, heat-resistant, durable." />
         <meta property="og:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <meta property="og:url" content="https://farehamkitchens.co.uk/worktops/granite-worktops" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Fareham Kitchens" />
         <meta property="og:locale" content="en_GB" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Granite Worktops Hampshire | Natural Stone Kitchen Worktops" />
-        <meta name="twitter:description" content="Premium granite worktops in Hampshire. Natural stone kitchen worktops, heat-resistant, durable, and available in a wide range of colours." />
+        <meta name="twitter:title" content="Granite Worktops | Fareham Kitchens" />
+        <meta name="twitter:description" content="Premium granite worktops from our Fareham showroom. Natural stone, heat-resistant, durable." />
         <meta name="twitter:image" content="https://farehamkitchens.co.uk/aok/AOK-showroom.jpg.webp" />
         <script
           type="application/ld+json"
@@ -65,7 +65,7 @@ const GraniteWorktops = () => {
                 </AnimatedSection>
                 <AnimatedSection delay={0.2}>
                   <p className="body-elegant text-muted-foreground leading-relaxed">
-                    Granite worktops bring the beauty of natural stone into your kitchen. Each slab is unique, with distinctive patterns and colours that create a one-of-a-kind surface. Heat-resistant, scratch-resistant, and incredibly durable, granite worktops are perfect for busy family kitchens and will last for decades with proper care.
+                    Granite worktops bring the beauty of natural stone into your kitchen. From <Link href="/" className="text-primary hover:underline">our Fareham showroom</Link> we supply and fit unique slabs with distinctive patterns and colours. Heat-resistant, scratch-resistant, and incredibly durable, granite worktops are perfect for busy family kitchens and will last for decades with proper care.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={0.3} className="flex flex-wrap gap-4">
