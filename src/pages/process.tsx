@@ -140,8 +140,8 @@ const Process = () => {
           </div>
         </section>
 
-        {/* Progress Indicator */}
-        <div className="hidden lg:block fixed left-12 top-[58%] -translate-y-1/2 z-40">
+        {/* Progress Indicator - first dot just above "01 1-2 hours" */}
+        <div className="hidden lg:block fixed left-12 top-[36rem] z-40">
           <div className="flex flex-col items-center gap-4">
             {processSteps.map((step, index) => (
               <button
