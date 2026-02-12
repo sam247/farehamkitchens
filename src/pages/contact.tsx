@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from "lucide-react";
+import { useRouter } from "next/router";
+import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -12,8 +13,8 @@ import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const { toast } = useToast();
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const recaptchaRef = useRef<ReCAPTCHA>(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -65,16 +66,9 @@ const Contact = () => {
         throw new Error(errorData.error || "Request failed");
       }
 
-      setIsSubmitted(true);
-      // Reset form
-      setFormData({ name: '', email: '', phone: '', message: '' });
-      // Reset reCAPTCHA
+      // Reset reCAPTCHA before redirect
       recaptchaRef.current?.reset();
-      
-      toast({
-        title: 'Message Sent',
-        description: 'Thank you for your enquiry. We\'ll be in touch within 24 hours.',
-      });
+      router.push("/thank-you");
     } catch (error) {
       console.error(error);
       toast({
@@ -168,17 +162,7 @@ const Contact = () => {
               {/* Contact Form */}
               <AnimatedSection>
                 <div className="bg-secondary p-8 lg:p-12 border border-border">
-                  {isSubmitted ? (
-                    <div className="text-center py-12">
-                      <CheckCircle size={64} className="text-primary mx-auto mb-6" />
-                      <h3 className="heading-medium text-foreground mb-4">Thank You</h3>
-                      <p className="body-elegant text-muted-foreground">
-                        Your message has been received. One of our design consultants
-                        will be in touch within 24 hours.
-                      </p>
-                    </div>
-                  ) : (
-                    <form onSubmit={handleSubmit} className="space-y-8">
+                  <form onSubmit={handleSubmit} className="space-y-8">
                       <div>
                         <label htmlFor="name" className="label-uppercase text-foreground text-xs block mb-3">
                           Full Name *
@@ -269,7 +253,6 @@ const Contact = () => {
                         )}
                       </button>
                     </form>
-                  )}
                 </div>
               </AnimatedSection>
 
