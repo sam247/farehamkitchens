@@ -10,6 +10,7 @@ import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import RevealText from "@/components/ui/RevealText";
 import { useToast } from "@/hooks/use-toast";
+import { track } from "@vercel/analytics";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -66,8 +67,8 @@ const Contact = () => {
         throw new Error(errorData.error || "Request failed");
       }
 
-      // Reset reCAPTCHA before redirect
       recaptchaRef.current?.reset();
+      track("contact form submission");
       router.push("/thank-you");
     } catch (error) {
       console.error(error);
