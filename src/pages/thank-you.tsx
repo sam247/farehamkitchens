@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+import { useEffect } from "react";
 import { CheckCircle } from "lucide-react";
+import { track } from "@vercel/analytics";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -12,6 +14,10 @@ import MagneticButton from "@/components/ui/MagneticButton";
  * https://farehamkitchens.co.uk/thank-you
  */
 const ThankYou = () => {
+  useEffect(() => {
+    track("thank you page view");
+  }, []);
+
   return (
     <>
       <Head>
