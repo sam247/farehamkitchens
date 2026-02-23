@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Resend } from "resend";
+import { track } from "@vercel/analytics/server";
 
 const resendApiKey = process.env.RESEND_API_KEY;
 const TO_EMAIL = "info@aokitchens.co.uk";
@@ -97,6 +98,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
 
     console.log("Email sent successfully:", JSON.stringify(result, null, 2));
+    // Track conversion server-side so it is not affected by client blockers/extensions.
+    await track("contact_form_submitted", {
+      route: "/api/contact",
+    });
 
     return res.status(200).json({ success: true });
   } catch (error: any) {
@@ -136,4 +141,3 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
   }
 }
-

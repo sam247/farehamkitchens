@@ -68,7 +68,7 @@ const Contact = () => {
       }
 
       recaptchaRef.current?.reset();
-      track("contact form submission");
+      track("contact_form_submission_client");
       router.push("/thank-you");
     } catch (error) {
       console.error(error);

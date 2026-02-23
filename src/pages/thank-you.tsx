@@ -15,7 +15,7 @@ import MagneticButton from "@/components/ui/MagneticButton";
  */
 const ThankYou = () => {
   useEffect(() => {
-    track("thank you page view");
+    track("thank_you_page_view");
   }, []);
 
   return (
